@@ -1,0 +1,187 @@
+format = """
+$os\
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$git_metrics\
+$gradle\
+$java\
+$nodejs\
+$rust\
+$python\
+$terraform\
+$package\
+$line_break\
+$character
+"""
+right_format = """
+"""
+
+add_newline = true
+
+[os]
+#style = "bg:#9A348E"
+disabled = false # Disabled by default
+
+[os.symbols]
+#Macos = "    󰀵"
+Macos = " "
+Windows = " "
+
+[directory]
+style = "blue"
+truncation_length = 10
+truncation_symbol = "…/"
+truncate_to_repo = false
+
+[directory.substitutions]
+"Documents" = "󰈙"
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
+vimcmd_symbol = "[❮](green)"
+
+[git_branch]
+symbol = ""
+format = '[$symbol$branch(:$remote_branch) ]($style)'
+style = "green"
+
+[git_status]
+up_to_date = ' '
+#up_to_date = '✓   '
+conflicted = "⚔️"
+ahead = " ×${count}"
+behind = " ×${count}"
+diverged = " ×${↑ahead_count}×${↓behind_count}"
+untracked = "×${count}"
+stashed = " "
+modified = " ×${count}"
+staged = " ×${count}"
+renamed = " ×${count}"
+deleted = " ×${count}"
+style = "yellow"
+format = '[$all_status$ahead_behind ]($style)'
+
+[git_state]
+rebase ="REBASING"
+merge = "MERGING"
+revert = "REVERTING"
+bisect = "BISECTING"
+am = "AM"
+am_or_rebase = "AM/REBASE"
+cherry_pick = '[ PICKING](bold red)'
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+style = "bright-black"
+
+[git_metrics]
+added_style = "yellow"
+deleted_style = "yellow"
+disabled = false
+format = '([+$added]($added_style))([,-$deleted]($deleted_style))'
+
+[java]
+symbol = ""
+detect_extensions = [ "java", "class", "jar", "gradle", "clj", "cljc" ]
+detect_files = ['pom.xml', 'build.gradle.kts', 'build.sbt', '.java-version', 'deps.edn', 'project.clj', 'build.boot', '.sdkmanrc']
+#style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[package]
+symbol = ""
+#symbol = ""
+#style = "bg:#86BBD8"
+format = '[$symbol $version]($style)'
+
+[nodejs]
+detect_extensions = ['js', 'mjs', 'cjs', 'ts', 'mts', 'cts']
+detect_files = ["package.json", ".node-version"]
+detect_folders = ["node_modules"]
+not_capable_style = 'bold red'
+symbol = ""
+# style = "bg:#86BBD8"
+format = '[ $symbol ($version) ($engines_version)]($style)'
+
+[rust]
+detect_extensions =[ "rs" ]
+detect_files =[ "Cargo.toml" ]
+symbol = ""
+# style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[terraform]
+symbol = ""
+# style = "bg:#86BBD8"
+format = '[$symbol $version$workspace]($style) '
+
+[python]
+python_binary = ['python', 'python3', 'python2']
+detect_extensions =[ "py" ]
+detect_files = [ "requirements.txt", ".python-version", "pyproject.toml", "Pipfile", "tox.ini", "setup.py", "__init__.py" ]
+symbol = ""
+# style = "bg:#86BBD8"
+format = '[${symbol} ${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+
+[gradle]
+symbol = ""
+# style = "bg:#86BBD8"
+format = '[ $symbol($version) ]($style)'
+
+[nim]
+symbol = "󰆥"
+# style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[scala]
+symbol = ""
+# style = "bg:#86BBD8"
+format = '[$symbol ($version) ]($style)'
+
+[c]
+symbol = " "
+# style = "bg:#86BBD8"
+format = '[ $symbol($version) ]($style)'
+
+[elixir]
+symbol = " "
+# style = "bg:#86BBD8"
+format = '[ $symbol($version) ]($style)'
+
+[elm]
+symbol = " "
+# style = "bg:#86BBD8"
+format = '[ $symbol($version) ]($style)'
+
+[golang]
+symbol = ""
+# style = "bg:#86BBD8"
+format = '[ $symbol ($version)]($style)'
+
+[haskell]
+symbol = ""
+# style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[julia]
+symbol = ""
+# style = "bg:#86BBD8"
+format = '[ $symbol ($version) ]($style)'
+
+[cmd_duration]
+min_time = 10
+show_milliseconds = true
+show_notifications = true
+format = "[$duration]($style)"
+style = "yellow"
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "white"
+format = '[󱑍 $time]($style)'
