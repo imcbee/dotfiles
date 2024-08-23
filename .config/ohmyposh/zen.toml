@@ -1,0 +1,168 @@
+#:schema https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json
+
+version = 2
+final_space = true
+console_title_template = '{{ .Shell }} in {{ .Folder }}'
+
+[[blocks]]
+  type = 'prompt'
+  alignment = 'left'
+  newline = true
+
+  [[blocks.segments]]
+    type = "os"
+    style = "plain"
+    foreground = "white"
+    background = "transparent"
+    template = "{{ if .WSL }}WSL at {{ end }}{{.Icon}} "
+
+    [properties]
+    macos = "mac"
+
+  [[blocks.segments]]
+    type = 'path'
+    style = 'plain'
+    background = 'transparent'
+    foreground = 'blue'
+    template = '{{ .Path }}'
+
+    [blocks.segments.properties]
+      style = 'full'
+
+  [[blocks.segments]]
+    type = 'git'
+    style = 'plain'
+    foreground = 'green'
+    background = 'transparent'
+    #template = ' {{ .HEAD }}{{ if or (.Working.Changed) (.Staging.Changed) }}*{{ end }} <cyan>{{ if gt .Behind 0 }}⇣{{ end }}{{ if gt .Ahead 0 }}⇡{{ end }}</>'
+    template = ' {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }} '
+
+    [blocks.segments.properties]
+      branch_icon = ''
+      commit_icon = '@'
+      fetch_status = true
+
+[[blocks]]
+  type = 'prompt'
+  alignment = 'right'
+  overflow = 'hide'
+
+  [[blocks.segments]]
+    type = 'executiontime'
+    style = 'plain'
+    foreground = 'yellow'
+    background = 'transparent'
+    template = '{{ .FormattedMs }}'
+
+    [blocks.segments.properties]
+      threshold = 1000
+  
+  [[blocks.segments]]
+    type = "node"
+    style = 'plain'
+    foreground = "green"
+    background = "transparent"
+    template = "  {{ .Full }}"
+  
+  [[blocks.segments]]
+    type = "angular"
+    style = 'plain'
+    foreground = "red"
+    background = 'transparent'
+    template = "  {{ .Full }}"
+  
+  # [[blocks.segments]]
+  #   type = "react"
+  #   style = "plain"
+  #   foreground = "cyan"
+  #   background = 'transparent'
+  #   template = "  {{ .Full }} "
+  
+  [[blocks.segments]]
+    type = "java"
+    style = 'plain'
+    foreground = "blue"
+    background = 'transparent'
+    template = "  {{ .Full }}"
+
+  [[blocks.segments]]
+    type = "mvn"
+    style = 'plain'
+    foreground = "white"
+    background = 'transparent'
+    template = "  {{ .Full }}"
+  
+  [[blocks.segments]]
+    type = "rust"
+    style = 'plain'
+    foreground = "#FF7F00"
+    background = 'transparent'
+    template = "  {{ .Full }}"
+  
+  [[blocks.segments]]
+    style = 'plain'
+    type = "terraform"
+    foreground = "white"
+    background = "transparent"
+    template = "  {{.WorkspaceName}}"
+  
+  [[blocks.segments]]
+    type = "python"
+    style = "plain"
+    foreground = "yellow"
+    background = "transparent"
+    template = "  {{ .Full }}"
+  
+  [[blocks.segments]]
+    type = "ruby"
+    style = "plain"
+    foreground = "red"
+    background = "transparent"
+    template = "  {{ .Full }}"
+    
+  [[blocks]]
+  type = 'rprompt'
+  overflow = ' hidden'
+
+  # [[blocks.segments]]
+  #   type = 'git'
+  #   style = 'plain'
+  #   foreground = '#949494'
+  #   background = 'transparent'
+  #   template = " {{ .LatestTag }}"
+  
+  [[blocks.segments]]
+    type = "project"
+    style = "plain"
+    foreground = '#949494'
+    background = 'transparent'
+    template = " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Version }} {{.Version}}{{ end }}{{ end }}"
+
+[[blocks]]
+  type = 'prompt'
+  alignment = 'left'
+  newline = true
+
+  [[blocks.segments]]
+    type = 'text'
+    style = 'plain'
+    foreground_templates = [
+      "{{if gt .Code 0}}red{{end}}",
+      "{{if eq .Code 0}}green{{end}}",
+    ]
+    background = 'transparent'
+    template = '❯'
+
+[transient_prompt]
+  newline = true
+  foreground_templates = [
+    "{{if gt .Code 0}}red{{end}}",
+    "{{if eq .Code 0}}green{{end}}",
+  ]
+  background = 'transparent'
+  template = '❯ '
+
+[secondary_prompt]
+  foreground = 'green'
+  background = 'transparent'
+  template = '❯❯ '
