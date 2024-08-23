@@ -50,6 +50,8 @@ setopt hist_find_no_dups
 [[ -f ~/.config/zsh/aliases.zsh ]] && source ~/.config/zsh/aliases.zsh
 # Functions.zsh
 [[ -f ~/.config/zsh/functions.zsh ]] && source ~/.config/zsh/functions.zsh
+# dibnet_aliases.zsh
+[[ -f ~/.config/zsh/dibnet_aliases.zsh ]] && source ~/.config/zsh/dibnet_aliases.zsh
 
 # Homebrew
 export PATH="/opt/homebrew/bin:$PATH"
