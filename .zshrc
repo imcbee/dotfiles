@@ -105,3 +105,4 @@ if [[ "$TERM_PROGRAM" == "WarpTerminal" ]]; then
   [ -f ~/.transient-prompt.zsh ] && source ~/.transient-prompt.zsh
 fi
 
+fastfetch

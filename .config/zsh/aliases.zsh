@@ -76,3 +76,8 @@ alias ripgrep='batgrep'
 
 alias idea='open -na "/Applications/IntelliJ IDEA CE.app" --args "$@"'
 
+# -------------------------------------------------------------------
+# dotfiles
+# -------------------------------------------------------------------
+dotfiles='~/dotfiles'
+alias dotfiles='cd '$dotfiles''
