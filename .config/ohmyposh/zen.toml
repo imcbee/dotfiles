@@ -8,6 +8,7 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
   type = 'prompt'
   alignment = 'left'
   newline = true
+  overflow = 'break'
 
   [[blocks.segments]]
     type = "os"
@@ -122,7 +123,7 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
     
   [[blocks]]
   type = 'rprompt'
-  overflow = ' hidden'
+  overflow = 'hidden'
 
   # [[blocks.segments]]
   #   type = 'git'
