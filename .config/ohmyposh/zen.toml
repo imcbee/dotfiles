@@ -3,22 +3,23 @@
 version = 2
 final_space = true
 console_title_template = '{{ .Shell }} in {{ .Folder }}'
+auto_upgrade = true
 
 [[blocks]]
   type = 'prompt'
-  alignment = 'left'
   newline = true
-  overflow = 'break'
+  alignment = 'left'
+  overflow = 'hide'
 
-  [[blocks.segments]]
-    type = "os"
-    style = "plain"
-    foreground = "white"
-    background = "transparent"
-    template = "{{ if .WSL }}WSL at {{ end }}{{.Icon}} "
+  # [[blocks.segments]]
+  #   type = "os"
+  #   style = "plain"
+  #   foreground = "white"
+  #   background = "transparent"
+  #   template = "{{ if .WSL }}WSL at {{ end }}{{.Icon}} "
 
-    [properties]
-    macos = "mac"
+  #   [properties]
+  #   macos = "mac"
 
   [[blocks.segments]]
     type = 'path'
@@ -36,12 +37,19 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
     foreground = 'green'
     background = 'transparent'
     #template = ' {{ .HEAD }}{{ if or (.Working.Changed) (.Staging.Changed) }}*{{ end }} <cyan>{{ if gt .Behind 0 }}⇣{{ end }}{{ if gt .Ahead 0 }}⇡{{ end }}</>'
-    template = ' {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }} '
+    template = ' {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}  {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }} '
 
     [blocks.segments.properties]
       branch_icon = ''
       commit_icon = '@'
       fetch_status = true
+      branch_max_length = 63
+      truncate_symbol = "…"
+
+      # [blocks.segments.properties.mapped_branches]
+      # "feature/*" = "<u>f</u>:"
+      # "bug/*" = "<u>b</u>:"
+      # "improvement/*" = "<u>i</u>:"
 
 [[blocks]]
   type = 'prompt'
@@ -92,6 +100,7 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
     foreground = "white"
     background = 'transparent'
     template = "  {{ .Full }}"
+    # template = " m{{ .Full }}"
   
   [[blocks.segments]]
     type = "rust"
@@ -103,7 +112,7 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
   [[blocks.segments]]
     style = 'plain'
     type = "terraform"
-    foreground = "white"
+    foreground = "magenta"
     background = "transparent"
     template = "  {{.WorkspaceName}}"
   
@@ -123,7 +132,7 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
     
   [[blocks]]
   type = 'rprompt'
-  overflow = 'hidden'
+  overflow = 'hide'
 
   # [[blocks.segments]]
   #   type = 'git'
@@ -137,7 +146,8 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
     style = "plain"
     foreground = '#949494'
     background = 'transparent'
-    template = " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Version }} {{.Version}}{{ end }}{{ end }}"
+    # template = " {{ if .Error }}{{ .Error }}{{ else }}{{ if .Version }} {{.Version}}{{ end }}{{ end }}"
+    template = "  {{.Version}}"
 
 [[blocks]]
   type = 'prompt'
