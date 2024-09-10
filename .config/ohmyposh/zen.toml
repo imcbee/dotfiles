@@ -29,7 +29,8 @@ auto_upgrade = true
     template = '{{ .Path }}'
 
     [blocks.segments.properties]
-      style = 'full'
+      style = 'mixed'
+      mixed_threshold = 10
 
   [[blocks.segments]]
     type = 'git'
@@ -43,7 +44,7 @@ auto_upgrade = true
       branch_icon = ''
       commit_icon = '@'
       fetch_status = true
-      branch_max_length = 63
+      branch_max_length = 60
       truncate_symbol = "…"
 
       # [blocks.segments.properties.mapped_branches]
@@ -71,7 +72,7 @@ auto_upgrade = true
     style = 'plain'
     foreground = "green"
     background = "transparent"
-    template = "  {{ .Full }}"
+    template = '  {{ .Full }}'
   
   [[blocks.segments]]
     type = "angular"

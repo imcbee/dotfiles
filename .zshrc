@@ -31,7 +31,16 @@ zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit load zsh-users/zsh-history-substring-search
 zinit ice wait atload '_history_substring_search_config'
 zinit load agkozak/zsh-z
+zinit snippet OMZ::plugins/alias-finder
+zinit snippet OMZ::plugins/kitty
+zinit snippet OMZ::plugins/mvn
+zinit snippet OMZ::plugins/thefuck
 
+# zstyles
+zstyle ':omz:plugins:alias-finder' autoload no # disabled by default
+zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
+zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
+zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 
 # History
 HISTSIZE=5000
@@ -58,8 +67,6 @@ export PATH="/opt/homebrew/bin:$PATH"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # NVM
-#source $(brew --prefix nvm)/nvm.sh
-#export NVM_DIR=~/.nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
