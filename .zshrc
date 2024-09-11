@@ -34,10 +34,9 @@ zinit load agkozak/zsh-z
 zinit snippet OMZ::plugins/alias-finder
 zinit snippet OMZ::plugins/kitty
 zinit snippet OMZ::plugins/mvn
-zinit snippet OMZ::plugins/thefuck
 
 # zstyles
-zstyle ':omz:plugins:alias-finder' autoload no # disabled by default
+zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
 zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
 zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
 zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
@@ -86,7 +85,8 @@ source <(ng completion script)
 export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 
 # fuck command
-eval $(thefuck --alias)
+eval $(thefuck --alias fuck)
+zinit snippet OMZ::plugins/thefuck
 
 # fzf settings
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -101,8 +101,6 @@ source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
-fastfetch
-
 if [[ "$TERM_PROGRAM" != "Apple_Terminal" && "$TERM_PROGRAM" != "WarpTerminal" ]]; then
   eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
 fi
@@ -113,3 +111,5 @@ if [[ "$TERM_PROGRAM" == "WarpTerminal" ]]; then
 
   [ -f ~/.transient-prompt.zsh ] && source ~/.transient-prompt.zsh
 fi
+
+fastfetch
