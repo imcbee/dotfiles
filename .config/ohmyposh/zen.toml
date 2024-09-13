@@ -3,6 +3,7 @@
 version = 2
 final_space = true
 console_title_template = '{{ .Shell }} in {{ .Folder }}'
+disable_notice = true
 
 [[blocks]]
   type = 'prompt'
@@ -55,16 +56,6 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
   type = 'prompt'
   alignment = 'right'
   overflow = 'hide'
-
-  [[blocks.segments]]
-    type = 'executiontime'
-    style = 'plain'
-    foreground = 'yellow'
-    background = 'transparent'
-    template = '{{ .FormattedMs }}'
-
-    [blocks.segments.properties]
-      threshold = 1000
   
   [[blocks.segments]]
     type = "node"
@@ -94,13 +85,13 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
     background = 'transparent'
     template = "  {{ .Full }}"
 
-  [[blocks.segments]]
-    type = "mvn"
-    style = 'plain'
-    foreground = "white"
-    background = 'transparent'
-    template = "  {{ .Full }}"
-    # template = " m{{ .Full }}"
+  # [[blocks.segments]]
+  #   type = "mvn"
+  #   style = 'plain'
+  #   foreground = "white"
+  #   background = 'transparent'
+  #   template = "  {{ .Full }}"
+  #   # template = " m{{ .Full }}"
   
   [[blocks.segments]]
     type = "rust"
@@ -133,6 +124,16 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
   [[blocks]]
   type = 'rprompt'
   overflow = 'hide'
+
+  [[blocks.segments]]
+    type = 'executiontime'
+    style = 'plain'
+    foreground = 'yellow'
+    background = 'transparent'
+    template = '{{ .FormattedMs }}'
+
+    [blocks.segments.properties]
+      threshold = 1000
 
   # [[blocks.segments]]
   #   type = 'git'
