@@ -9,12 +9,16 @@ set-long-prompt() {
 
 export COLUMNS=$(($COLUMNS + ($COLUMNS*0.1)))
 set-short-prompt() {
-    # setting this doesn't seem to actually work
-    PROMPT=$'\n'"$(STARSHIP_KEYMAP=${KEYMAP:-viins} starship module character)"
-    #RPROMPT="$(STARSHIP_KEYMAP=${KEYMAP:-viins} starship module cmd_duration)"
-    RPROMPT=$'%{\e[999C%}\e[8D%F{8}%*%f ' # remove if you don't want right prompt
+    # # setting this doesn't seem to actually work
+    # PROMPT=$'\n'"$(STARSHIP_KEYMAP=${KEYMAP:-viins} starship module character)"
+    # #RPROMPT="$(STARSHIP_KEYMAP=${KEYMAP:-viins} starship module cmd_duration)"
+    # RPROMPT=$'%{\e[999C%}\e[8D%F{8}%*%f ' # remove if you don't want right prompt
 
-    zle .reset-prompt 2>/dev/null # hide the errors on ctrl+c
+    # zle .reset-prompt 2>/dev/null # hide the errors on ctrl+c
+    if [[ $PROMPT != '%# ' ]]; then
+        PROMPT="$(starship prompt --profile transient)"
+        zle .reset-prompt 2>/dev/null # hide the errors on ctrl+c
+    fi
 }
 
 zle-keymap-select() {
