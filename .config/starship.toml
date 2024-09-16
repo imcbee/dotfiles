@@ -24,7 +24,7 @@ add_newline = true
 
 [os]
 #style = "bg:#9A348E"
-disabled = false # Disabled by default
+disabled = true
 
 [os.symbols]
 #Macos = "    󰀵"
@@ -49,7 +49,8 @@ error_symbol = "[❯](red)"
 vimcmd_symbol = "[❮](green)"
 
 [git_branch]
-symbol = ""
+symbol = ""
+# symbol = ""
 format = '[$symbol$branch(:$remote_branch) ]($style)'
 style = "green"
 

@@ -16,7 +16,7 @@ set-short-prompt() {
 
     # zle .reset-prompt 2>/dev/null # hide the errors on ctrl+c
     if [[ $PROMPT != '%# ' ]]; then
-        PROMPT="$(starship prompt --profile transient)"
+        PS1="$(starship prompt --profile transient)"
         zle .reset-prompt 2>/dev/null # hide the errors on ctrl+c
     fi
 }

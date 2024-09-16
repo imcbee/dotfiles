@@ -81,3 +81,9 @@ alias idea='open -na "/Applications/IntelliJ IDEA CE.app" --args "$@"'
 # -------------------------------------------------------------------
 dotfiles='~/dotfiles'
 alias dotfiles='cd '$dotfiles''
+
+# -------------------------------------------------------------------
+# doom
+# -------------------------------------------------------------------
+doom='~/Documents/terminal-doom'
+alias doom='cd '$doom'; zig-out/bin/terminal-doom'
