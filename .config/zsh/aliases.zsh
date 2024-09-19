@@ -87,3 +87,8 @@ alias dotfiles='cd '$dotfiles''
 # -------------------------------------------------------------------
 doom='~/Documents/terminal-doom'
 alias doom='cd '$doom'; zig-out/bin/terminal-doom'
+
+# -------------------------------------------------------------------
+# air
+# -------------------------------------------------------------------
+alias air='$(go env GOPATH)/bin/air'

@@ -85,6 +85,13 @@ disable_notice = true
     background = 'transparent'
     template = "  {{ .Full }}"
 
+  [[blocks.segments]]
+    type = "go"
+    style = "plain"
+    foreground = "cyan"
+    background = "transparent"
+    template = "  {{ .Full }} "
+
   # [[blocks.segments]]
   #   type = "mvn"
   #   style = 'plain'
