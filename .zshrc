@@ -97,6 +97,13 @@ source <(fzf --zsh)
 # grc
 [[ -s "/etc/grc.zsh" ]] && source /etc/grc.zsh
 
+# bun completions
+[ -s "/Users/ianmcbee/.bun/_bun" ] && source "/Users/ianmcbee/.bun/_bun"
+
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
