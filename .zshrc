@@ -84,7 +84,7 @@ source <(ng completion script)
 
 # Java
 #export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH" # for openjdk download from brew
-export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+#export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 
 # fuck command
 eval $(thefuck --alias fuck)
@@ -99,6 +99,10 @@ source <(fzf --zsh)
 
 # bun completions
 [ -s "/Users/ianmcbee/.bun/_bun" ] && source "/Users/ianmcbee/.bun/_bun"
+
+# #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+# export SDKMAN_DIR="$HOME/.sdkman"
+# [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
