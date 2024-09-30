@@ -103,7 +103,7 @@ source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
-if [[ "$TERM_PROGRAM" != "Apple_Terminal" && "$TERM_PROGRAM" != "WarpTerminal" ]]; then
+if [[ "$TERM_PROGRAM" != "Apple_Terminal" || "$TERM_PROGRAM" != "WarpTerminal" ]]; then
   eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
 fi
 
