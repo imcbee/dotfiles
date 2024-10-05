@@ -1,3 +1,5 @@
+autoload -Uz compinit
+compinit
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
@@ -68,16 +70,16 @@ export PATH="/opt/homebrew/bin:$PATH"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # MVN
-export MVN_HOME=~/Tools/apache-maven-3.9.2
-export PATH=$MVN_HOME/bin:$PATH
+# export MVN_HOME=~/Tools/apache-maven-3.9.2
+# export PATH=$MVN_HOME/bin:$PATH
 
 # Rust
-export PATH="$HOME/.cargo/bin:$PATH"
+# export PATH="$HOME/.cargo/bin:$PATH"
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
@@ -85,6 +87,10 @@ source <(ng completion script)
 # Java
 #export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH" # for openjdk download from brew
 #export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+. ~/.asdf/plugins/java/set-java-home.zsh
+
+# Go 
+. ~/.asdf/plugins/golang/set-env.zsh
 
 # fuck command
 eval $(thefuck --alias fuck)
@@ -100,9 +106,10 @@ source <(fzf --zsh)
 # bun completions
 [ -s "/Users/ianmcbee/.bun/_bun" ] && source "/Users/ianmcbee/.bun/_bun"
 
-# #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-# export SDKMAN_DIR="$HOME/.sdkman"
-# [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export ASDF_DIR="${ASDF_DIR:-$HOME/.asdf}"
+source "${ASDF_DIR}/asdf.sh"
+zinit fpath -f "${ASDF_DIR}/completions"
+zicompinit
 
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
