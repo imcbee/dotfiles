@@ -41,6 +41,30 @@ alias gf='git reflog'
 # leverage an alias from the ~/.gitconfig
 alias gh='git hist'
 
+# -------------------------------------------------------------------
+# Dockercolorize
+# -------------------------------------------------------------------
+
+di() {
+  docker images "$@" | dockercolorize
+}
+
+dps() {
+  docker ps "$@" | dockercolorize
+}
+
+dcps() {
+  docker compose ps "$@" | dockercolorize
+}
+
+dpsa() {
+  docker ps -a "$@" | dockercolorize
+}
+
+dstats() {
+  docker stats --no-stream "$@" | dockercolorize
+}
+
 # alias ll='ls -lG'
 
 # -------------------------------------------------------------------
