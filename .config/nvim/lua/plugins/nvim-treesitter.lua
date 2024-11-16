@@ -22,6 +22,7 @@ return {
         "html",
         "markdown",
         "markdown_inline",
+        "sql",
       },
       sync_install = false,
       highlight = { enable = true },
