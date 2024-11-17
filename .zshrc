@@ -1,3 +1,14 @@
+if [[ "$TERM_PROGRAM" != "vscode" ]]; then
+  fastfetch
+fi
+
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 autoload -Uz compinit
 compinit
 
@@ -25,6 +36,7 @@ zinit light-mode for \
 ### End of Zinit's installer chunk
 
 # Add in zsh plugins
+zinit ice depth=1; zinit light romkatv/powerlevel10k
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
@@ -69,24 +81,12 @@ setopt hist_find_no_dups
 export PATH="/opt/homebrew/bin:$PATH"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# NVM
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# MVN
-# export MVN_HOME=~/Tools/apache-maven-3.9.2
-# export PATH=$MVN_HOME/bin:$PATH
-
-# Rust
-# export PATH="$HOME/.cargo/bin:$PATH"
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
+export ASDF_DIR="${ASDF_DIR:-$HOME/.asdf}"
+source "${ASDF_DIR}/asdf.sh"
+zinit fpath -f "${ASDF_DIR}/completions"
+zicompinit
 
 # Java
-#export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH" # for openjdk download from brew
-#export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 . ~/.asdf/plugins/java/set-java-home.zsh
 
 # Go 
@@ -106,32 +106,22 @@ source <(fzf --zsh)
 # bun completions
 [ -s "/Users/ianmcbee/.bun/_bun" ] && source "/Users/ianmcbee/.bun/_bun"
 
-export ASDF_DIR="${ASDF_DIR:-$HOME/.asdf}"
-source "${ASDF_DIR}/asdf.sh"
-zinit fpath -f "${ASDF_DIR}/completions"
-zicompinit
-
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
-if [[ "$TERM_PROGRAM" != "Apple_Terminal" && "$TERM_PROGRAM" != "WarpTerminal" ]]; then
-  eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
-fi
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Starship
+# if [[ "$TERM_PROGRAM" != "Apple_Terminal" && "$TERM_PROGRAM" != "WarpTerminal" ]]; then
+#   eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+# fi
+
+# # Starship
 if [[ "$TERM_PROGRAM" == "WarpTerminal" ]]; then
   eval "$(starship init zsh)"
 
   [ -f ~/.transient-prompt.zsh ] && source ~/.transient-prompt.zsh
-fi
-
-if [[ "$TERM_PROGRAM" != "vscode" ]]; then
-  fastfetch
 fi
