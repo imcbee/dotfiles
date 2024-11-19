@@ -1,8 +1,8 @@
 
 # this command tests your shell load time
 timezsh() {
-    shell=${1-$SHELL}
-    for i in $(seq 1 10); do /usr/bin/time $shell -i -c exit; done
+  shell=${1-$SHELL}
+  for i in $(seq 1 10); do /usr/bin/time $shell -i -c exit; done
 }
 
 # Shows the colormap for p10k
@@ -11,9 +11,16 @@ colormap() {
 }
 
 help() {
-    "$@" --help 2>&1 | bathelp
+  "$@" --help 2>&1 | bathelp
 }
 
 batdiff() {
-    git diff --name-only --relative --diff-filter=d | xargs bat --diff
+  git diff --name-only --relative --diff-filter=d | xargs bat --diff
+}
+
+updatep10k() {
+  cd ~/.local/share/zinit/plugins/romkatv---powerlevel10k;
+  git pull;
+  cd ~;
+
 }
