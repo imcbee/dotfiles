@@ -93,6 +93,11 @@ zicompinit
 
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+export MAVEN_HOME="~/.asdf/shims/mvn"
+export PATH="$MAVEN_HOME/bin:$PATH"
+
+# Docker Platform
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
 
 # fuck command
 eval $(thefuck --alias fuck)
