@@ -1,6 +1,7 @@
 return {
     "Mofiqul/vscode.nvim",
     name = "vscode",
+    lazy = false,
     opts = {
       style = "dark",
       transparent = true,

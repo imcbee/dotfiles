@@ -33,3 +33,5 @@ vim.keymap.set("n", "<C-S-N>", function() harpoon:list():next() end)
 -- Undotree
 vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 
+
+

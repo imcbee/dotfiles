@@ -3,10 +3,10 @@ return {
     build = ":TSUpdate",
     dependencies = {
         "nvim-treesitter/playground",
-	"nvim-treesitter/nvim-treesitter-textobjects",
-	"nvim-treesitter/nvim-treesitter-refactor",
+	    "nvim-treesitter/nvim-treesitter-textobjects",
+	    "nvim-treesitter/nvim-treesitter-refactor",
     },
-    config = function () 
+    config = function ()
       local configs = require("nvim-treesitter.configs")
 
       configs.setup({
@@ -14,7 +14,7 @@ return {
           sync_install = false,
           highlight = { enable = true },
           indent = { enable = true },
-	  auto_install = true
+	      auto_install = true
         })
     end
 }
