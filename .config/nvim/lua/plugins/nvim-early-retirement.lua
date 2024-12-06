@@ -3,6 +3,6 @@ return {
   config = true,
   event = "VeryLazy",
   opts = {
-    retirementAgeMins = 7,
+    retirementAgeMins = 15,
   },
 }
