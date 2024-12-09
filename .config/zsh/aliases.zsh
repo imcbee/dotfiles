@@ -1,3 +1,7 @@
+# Switching to arm64 to x86 quickly
+alias x86="$env /usr/bin/arch -x86_64 /bin/zsh ---login"
+alias arm="$env /usr/bin/arch -arm64 /bin/zsh ---login"
+
 # delete all docker images and volumes
 alias prune='docker system prune -a --volumes'
 

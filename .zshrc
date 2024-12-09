@@ -92,7 +92,8 @@ zicompinit
 # source <(ng completion script)
 
 # Java
-export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+# export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+. ~/.asdf/plugins/java/set-java-home.zsh
 export MAVEN_HOME="~/.asdf/shims/mvn"
 export PATH="$MAVEN_HOME/bin:$PATH"
 
