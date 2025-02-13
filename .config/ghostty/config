@@ -1,0 +1,9 @@
+shell-integration = zsh
+theme = Dark+
+background = 000000
+font-family = Source Code Pro
+background-opacity = 0.85
+background-blur = 32
+window-colorspace = display-p3
+macos-titlebar-style = tabs
+
