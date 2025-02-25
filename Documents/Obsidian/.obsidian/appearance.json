@@ -1,16 +1,1 @@
-{
-  "accentColor": "",
-  "cssTheme": "AnuPpuccin",
-  "theme": "obsidian",
-  "translucency": true,
-  "nativeMenus": true,
-  "showViewHeader": true,
-  "interfaceFontFamily": "",
-  "monospaceFontFamily": "Source Code Pro",
-  "textFontFamily": "",
-  "enabledCssSnippets": [
-    "extended-colorschemes",
-    "editor_translucency"
-  ],
-  "showRibbon": true
-}
+{}
