@@ -1,6 +1,6 @@
 ---
 type: person
-name: <% tp.file.title %>
+name: Abe Usher
 email: 
 phone: 
 company: [[Black Cape]]
@@ -9,4 +9,4 @@ location:
 tags:
   - person
 ---
-# <% tp.file.title %>
+# Abe Usher

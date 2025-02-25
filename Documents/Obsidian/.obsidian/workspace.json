@@ -34,13 +34,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backlinks/People/Derek Woodley.md",
+                "file": "Backlinks/Black Cape.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Derek Woodley"
+              "title": "Black Cape"
             }
           }
         ]
@@ -197,7 +197,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -219,9 +220,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6b9f1027f45ec77b",
+  "active": "b2a03330b53bc7ec",
   "lastOpenFiles": [
-    "Abe Usher.md",
+    "Backlinks/Black Cape.md",
+    "Backlinks/People/Abe Usher.md",
     "Daily Notes/2025-02-25.md",
     "Backlinks/People/Derek Woodley.md",
     "Daily Notes/2025-02-24.md",
@@ -229,7 +231,6 @@
     "Backlinks/People/Chris Matthews.md",
     "Backlinks/People/Ismael Montecel.md",
     "Backlinks/People/Bobbi Gilbert.md",
-    "Backlinks/Black Cape.md",
     "Backlinks/People/Brian Poe.md",
     "Templates/Person Template.md",
     "Templates/Daily Notes.md",
