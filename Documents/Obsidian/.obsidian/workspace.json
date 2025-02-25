@@ -8,18 +8,39 @@
         "type": "tabs",
         "children": [
           {
+            "id": "6b9f1027f45ec77b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2025-02-25.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-02-25"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b7f45b6986763fd2",
+        "type": "tabs",
+        "children": [
+          {
             "id": "37897883540426ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-01-31.md",
+                "file": "Backlinks/People/Derek Woodley.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-31"
+              "title": "Derek Woodley"
             }
           }
         ]
@@ -49,7 +70,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -90,8 +112,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -100,8 +122,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -146,16 +168,6 @@
             }
           },
           {
-            "id": "a02d33b1cc3c3fe6",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
             "id": "cf0d8aec1a3e94f6",
             "type": "leaf",
             "state": {
@@ -176,13 +188,13 @@
             }
           },
           {
-            "id": "c6595c40e235e52a",
+            "id": "8371b26b61801a71",
             "type": "leaf",
             "state": {
-              "type": "Strange New Worlds",
+              "type": "git-view",
               "state": {},
-              "icon": "file-digit",
-              "title": "Strange New Worlds"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ]
@@ -199,16 +211,37 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-read-it-later:ReadItLater: Create from clipboard": false
+      "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37897883540426ed",
+  "active": "6b9f1027f45ec77b",
   "lastOpenFiles": [
+    "Abe Usher.md",
+    "Daily Notes/2025-02-25.md",
+    "Backlinks/People/Derek Woodley.md",
+    "Daily Notes/2025-02-24.md",
+    "Backlinks/People/Sereno Dominguez.md",
+    "Backlinks/People/Chris Matthews.md",
+    "Backlinks/People/Ismael Montecel.md",
+    "Backlinks/People/Bobbi Gilbert.md",
+    "Backlinks/Black Cape.md",
+    "Backlinks/People/Brian Poe.md",
+    "Templates/Person Template.md",
+    "Templates/Daily Notes.md",
+    "Backlinks/People/Mike Santamaria.md",
+    "Backlinks",
+    "Backlinks/People",
+    "Backlinks/OMS-MARS/OMS-MARS.md",
+    "Backlinks/OMS-MARS",
+    "Daily Notes/2025-02-17.md",
+    "Untitled.md",
+    "Templates",
+    "Daily Notes",
     "Daily Notes/2025-01-30.md",
     "Daily Notes/2025-01-31.md",
     "ReadItLater Inbox/Simulate user traffic to test your API performance  Postman Learning Center.md",
@@ -219,21 +252,8 @@
     "Daily Notes/2025-01-22.md",
     "Daily Notes/2025-01-21.md",
     "Daily Notes/2025-01-17.md",
-    "Projects/DIBNet/Tickets/Bug/DIBNET-28785.md",
     "Attachments/Pasted image 20250117135100.png",
-    "Projects/J9 HaC/J9 HaC.md",
-    "Backlinks/Resume_Ian Choi McBee (Old).md",
-    "Untitled.md",
-    "DIBNET-29601.md",
-    "Backlinks/Booz Allen/Table of People.md",
-    "Backlinks/Booz Allen/Training/Journey to the Cloud.md",
-    "Backlinks/Booz Allen/Training/Git.md",
-    "Backlinks/Booz Allen/Training/DevOps.md",
-    "Backlinks/Booz Allen/Training/Udemy/Master SpringBoot & Spring Framework/Starting out.md",
-    "Backlinks/Booz Allen/Training/Udemy/Angular - The Complete Guide/Notes.md",
-    "Words of Encouragement.md",
     "Backlinks",
-    "Backlinks/Booz Allen/Training/Java Fullstack with Spring Boot and React/Course Content.md",
     "Attachments/Pasted image 20250117102611.png",
     "Attachments/Pasted image 20250117102311.png",
     "Attachments/Pasted image 20250117102215.png",
@@ -243,18 +263,10 @@
     "Attachments/Pasted image 20250117101525.png",
     "Attachments/Pasted image 20250117101400.png",
     "Attachments/Pasted image 20250117101101.png",
-    "Daily Notes/2025-01-16.md",
     "Projects",
-    "Projects/DIBNet/Tickets/Bug/DIBNET-28785 1.md",
-    "Projects/DIBNet/Tickets/Stories/DIBNET-29466.md",
     "Projects/J9 HaC",
     "Daily Notes/2025",
     "ReadItLater Inbox",
-    "Attachments/MIR-ICF-25007-001.pdf",
-    "Attachments/~$RLF Overview_TechX_20230512.pptx",
-    "Attachments/~$rsisting Form Data in DIBNet.docx",
-    "Attachments/assets/imgs",
-    "Attachments/assets",
     "Untitled.canvas"
   ]
 }

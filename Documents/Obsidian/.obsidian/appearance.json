@@ -11,5 +11,6 @@
   "enabledCssSnippets": [
     "extended-colorschemes",
     "editor_translucency"
-  ]
+  ],
+  "showRibbon": true
 }
