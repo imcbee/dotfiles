@@ -1,1 +1,12 @@
-{}
+{
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "spellcheck": true,
+  "attachmentFolderPath": "Attachments",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "showUnsupportedFiles": true,
+  "showLineNumber": false,
+  "vimMode": false,
+  "propertiesInDocument": "source"
+}

@@ -11,9 +11,7 @@ alias remove-node_modules='rm -rf node_modules; rm package-lock.json'
 # -------------------------------------------------------------------
 # Obsidian Aliases
 # -------------------------------------------------------------------
-#alias obsidian='cd ~/Documents/Work-Obsidian-Github-Repo'
-#alias obsidian-status='obsidian; gs'
-#alias obsidian-update='obsidian; ga .; gm "obsidian update"; gp origin main;'
+alias obsidian='cd ~/Documents/Obsidian'
 
 # -------------------------------------------------------------------
 # NPM Aliases

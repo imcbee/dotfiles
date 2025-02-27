@@ -1,6 +1,4 @@
-# if [[ "$TERM_PROGRAM" != "vscode" ]]; then
-#   fastfetch --pipe false
-# fi
+fastfetch
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -42,12 +40,13 @@ zinit light Aloxaf/fzf-tab
 zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit load zsh-users/zsh-history-substring-search
 zinit ice wait atload '_history_substring_search_config'
-zinit load agkozak/zsh-z
+# zinit load agkozak/zsh-z
 # zinit snippet OMZ::plugins/alias-finder
 zinit snippet OMZ::plugins/kitty
 zinit snippet OMZ::plugins/mvn
 zinit ice lucid as"program" pick"bin/git-dsf"
 zinit load so-fancy/diff-so-fancy
+zinit load asdf-vm/asdf
 
 # zstyles
 # zstyle ':omz:plugins:alias-finder' autoload no # disabled by default
@@ -72,33 +71,26 @@ setopt hist_find_no_dups
 [[ -f ~/.config/zsh/aliases.zsh ]] && source ~/.config/zsh/aliases.zsh
 # Functions.zsh
 [[ -f ~/.config/zsh/functions.zsh ]] && source ~/.config/zsh/functions.zsh
-# dibnet_aliases.zsh
-[[ -f ~/.config/zsh/dibnet_aliases.zsh ]] && source ~/.config/zsh/dibnet_aliases.zsh
+# blackcape_aliases.zsh
+[[ -f ~/.config/zsh/blackcape_aliases.zsh ]] && source ~/.config/zsh/blackcape_aliases.zsh
 
 # Homebrew
 export PATH="/opt/homebrew/bin:$PATH"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# NVM
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export ASDF_DIR="${ASDF_DIR:-$HOME/.asdf}"
-source "${ASDF_DIR}/asdf.sh"
-zinit fpath -f "${ASDF_DIR}/completions"
-zicompinit
+# ASDF
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
-# Load Angular CLI autocompletion.
-# source <(ng completion script)
+# poetry
+export PATH="/Users/ianmcbee/.asdf/installs/poetry/2.1.1/bin:$PATH"
 
 # Java
-# export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 . ~/.asdf/plugins/java/set-java-home.zsh
-export MAVEN_HOME="~/.asdf/shims/mvn"
-export PATH="$MAVEN_HOME/bin:$PATH"
 
-# Docker Platform
-export DOCKER_DEFAULT_PLATFORM=linux/amd64
+# Golang
+. ~/.asdf/plugins/golang/set-env.zsh
+
+
 
 # fuck command
 eval $(thefuck --alias fuck)
@@ -121,14 +113,3 @@ bindkey "^[[B" history-substring-search-down
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# if [[ "$TERM_PROGRAM" != "Apple_Terminal" || "$TERM_PROGRAM" != "WarpTerminal" ]]; then
-#   eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
-# fi
-
-# # Starship
-# if [[ "$TERM_PROGRAM" == "WarpTerminal" ]]; then
-#   eval "$(starship init zsh)"
-
-#   [ -f ~/.transient-prompt.zsh ] && source ~/.transient-prompt.zsh
-# fi

@@ -3,11 +3,10 @@
   "global-search": true,
   "switcher": true,
   "graph": true,
-  "backlink": true,
+  "backlink": false,
   "canvas": true,
   "outgoing-link": true,
   "tag-pane": true,
-  "properties": false,
   "page-preview": true,
   "daily-notes": true,
   "templates": true,
@@ -26,6 +25,7 @@
   "workspaces": false,
   "file-recovery": true,
   "publish": false,
-  "sync": true,
+  "sync": false,
+  "properties": true,
   "webviewer": false
 }
