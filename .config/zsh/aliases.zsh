@@ -48,46 +48,40 @@ alias gh='git hist'
 # -------------------------------------------------------------------
 
 di() {
-  docker images "$@" | dockercolorize
+  docker images "$@" | docker-color-output
 }
 
 dps() {
-  docker ps "$@" | dockercolorize
+  docker ps "$@" | docker-color-output
 }
 
 dcps() {
-  docker compose ps "$@" | dockercolorize
+  docker compose ps "$@" | docker-color-output
 }
 
 dpsa() {
-  docker ps -a "$@" | dockercolorize
+  docker ps -a "$@" | docker-color-output
 }
 
 dstats() {
-  docker stats --no-stream "$@" | dockercolorize
+  docker stats --no-stream "$@" | docker-color-output
 }
 
-# alias ll='ls -lG'
-
-# -------------------------------------------------------------------
-# p10K
-# -------------------------------------------------------------------
-# alias update-p10k='git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull'
 
 # -------------------------------------------------------------------
 # EZA Commands to replace ls
 # -------------------------------------------------------------------
-alias ld='eza -lD --header'
-alias lf='eza -lF --header --color=always | grep -v /'
-alias lh='eza -dl .* --group-directories-first'
-alias ll='eza -al --header --group-directories-first'
-alias ls='eza -alF --header --color=always --sort=size | grep -v /'
-alias lt='eza -al --header --sort=modified'
+alias ld='eza -lD --header --group-directories-first --icons=always'
+alias lf='eza -lF --header --color=always --group-directories-first --icons=always | grep -v /'
+alias lh='eza -dl .* --group-directories-first --icons=always'
+alias ll='eza -al --header --group-directories-first --icons=always'
+alias ls='eza -alF --header --color=always --sort=size --group-directories-first --icons=always | grep -v /'
+alias lt='eza -al --header --sort=modified --group-directories-first --icons=always'
 
-alias l='eza --git-ignore $eza_params'
-alias llm='eza --all --header --long --sort=modified $eza_params'
-alias la='eza -lbhHigUmuSa'
-alias lx='eza -lbhHigUmuSa@'
+alias l='eza --git-ignore --group-directories-first --icons=always $eza_params'
+alias llm='eza --all --header --long --sort=modified --group-directories-first --icons=always $eza_params'
+alias la='eza -lbhHigUmuSa --group-directories-first --icons=always'
+alias lx='eza -lbhHigUmuSa@ --group-directories-first --icons=always'
 alias tree='eza --tree $eza_params'
 
 # -------------------------------------------------------------------
@@ -109,12 +103,6 @@ dotfiles='~/dotfiles'
 alias dotfiles='cd '$dotfiles''
 
 # -------------------------------------------------------------------
-# doom
-# -------------------------------------------------------------------
-doom='~/Documents/terminal-doom'
-alias doom='cd '$doom'; zig-out/bin/terminal-doom'
-
-# -------------------------------------------------------------------
-# air
+# air (go)
 # -------------------------------------------------------------------
 alias air='$(go env GOPATH)/bin/air'
