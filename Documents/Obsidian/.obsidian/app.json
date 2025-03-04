@@ -6,7 +6,14 @@
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "showUnsupportedFiles": true,
-  "showLineNumber": false,
-  "vimMode": false,
-  "propertiesInDocument": "source"
+  "showLineNumber": true,
+  "vimMode": true,
+  "propertiesInDocument": "source",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

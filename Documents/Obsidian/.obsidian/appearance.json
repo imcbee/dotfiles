@@ -5,7 +5,7 @@
   "translucency": true,
   "nativeMenus": true,
   "showViewHeader": true,
-  "interfaceFontFamily": "",
+  "interfaceFontFamily": "Source Code Pro",
   "monospaceFontFamily": "Source Code Pro",
   "textFontFamily": "Source Code Pro",
   "enabledCssSnippets": [
