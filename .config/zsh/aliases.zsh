@@ -44,31 +44,6 @@ alias gf='git reflog'
 alias gh='git hist'
 
 # -------------------------------------------------------------------
-# Dockercolorize
-# -------------------------------------------------------------------
-
-di() {
-  docker images "$@" | docker-color-output
-}
-
-dps() {
-  docker ps "$@" | docker-color-output
-}
-
-dcps() {
-  docker compose ps "$@" | docker-color-output
-}
-
-dpsa() {
-  docker ps -a "$@" | docker-color-output
-}
-
-dstats() {
-  docker stats --no-stream "$@" | docker-color-output
-}
-
-
-# -------------------------------------------------------------------
 # EZA Commands to replace ls
 # -------------------------------------------------------------------
 alias ld='eza -lD --header --group-directories-first --icons=always'

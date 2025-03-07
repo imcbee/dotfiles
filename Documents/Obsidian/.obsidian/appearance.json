@@ -9,8 +9,8 @@
   "monospaceFontFamily": "Source Code Pro",
   "textFontFamily": "Source Code Pro",
   "enabledCssSnippets": [
-    "extended-colorschemes",
-    "editor_translucency"
+    "editor_translucency",
+    "extended-colorschemes"
   ],
   "showRibbon": true,
   "baseFontSizeAction": true
