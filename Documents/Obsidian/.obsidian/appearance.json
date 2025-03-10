@@ -10,7 +10,8 @@
   "textFontFamily": "Source Code Pro",
   "enabledCssSnippets": [
     "editor_translucency",
-    "extended-colorschemes"
+    "extended-colorschemes",
+    "horizontal-rule"
   ],
   "showRibbon": true,
   "baseFontSizeAction": true

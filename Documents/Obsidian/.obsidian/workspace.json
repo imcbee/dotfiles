@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-03-07.md",
+                "file": "Daily Notes/2025-03-10.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-07"
+              "title": "2025-03-10"
             }
           },
           {
@@ -222,8 +222,13 @@
   },
   "active": "e6e28b94c44f45c9",
   "lastOpenFiles": [
-    "oms-nlq.md",
     "Daily Notes/2025-03-07.md",
+    "Daily Notes/2025-03-10.md",
+    "Daily Notes/2025/02-Feb/2025-02-27.md",
+    "OMS/Repos/oms-nlq.md",
+    "Learnings/Vim Learnings.md",
+    "Daily Notes/2025-03-09.md",
+    "OMS/People/Mary Shultz.md",
     "Backlinks/Acronym Dictionary.md",
     "Attachments/Pasted image 20250307115552.png",
     "OMS/People/Melissa Masters.md",
@@ -242,7 +247,6 @@
     "Daily Notes/2025/02-Feb/2025-02-26.md",
     "OMS/People/CHRONICLE/Phillipe Mathis.md",
     "OMS/Meetings/OMS-MARS Integration Sprint Planning.md",
-    "Daily Notes/2025/02-Feb/2025-02-27.md",
     "Excalidraw/draft-ingest-data-graph.md",
     "OMS/Logs",
     "OMS/People/CORE/James Ferro.md",
@@ -250,10 +254,6 @@
     "OMS/People/CORE/Trey Young.md",
     "OMS/People/Sereno Dominguez.md",
     "OMS/People/Ismael Montecel.md",
-    "OMS/People/Justin Shelton.md",
-    "OMS/People/CORE/Travis Stocker.md",
-    "OMS/People/CORE/Justin Hahn.md",
-    "OMS/People/CORE/John Urban.md",
     "Attachments/Pictures/Pasted image 20250304153834.png",
     "Attachments/Pictures/Pasted image 20250305105524.png",
     "Attachments/Pictures/Pasted image 20250305105339.png",
