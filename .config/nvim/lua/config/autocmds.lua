@@ -25,3 +25,5 @@ end
 set_autoformat({ "typescript" }, false)
 set_autoformat({ "html" }, false)
 set_autoformat({ "java" }, false)
+set_autoformat({ "python" }, false)
+set_autoformat({ "markdown" }, false)
