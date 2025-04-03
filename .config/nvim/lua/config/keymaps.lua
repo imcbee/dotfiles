@@ -6,7 +6,14 @@
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
---
+-- Hide diagnostics and linting errors
 vim.keymap.set("n", "<leader>dh", function()
   vim.diagnostic.enable(not vim.diagnostic.is_enabled())
 end, { silent = true, noremap = true })
+
+-- Add a border to lsp.buf.hover
+vim.keymap.set("n", "K", function()
+  vim.lsp.buf.hover({
+    border = "single",
+  })
+end)

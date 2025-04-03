@@ -41,7 +41,7 @@ zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit load zsh-users/zsh-history-substring-search
 zinit ice wait atload '_history_substring_search_config'
 # zinit load agkozak/zsh-z
-# zinit snippet OMZ::plugins/alias-finder
+zinit snippet OMZ::plugins/alias-finder
 zinit snippet OMZ::plugins/kitty
 zinit snippet OMZ::plugins/mvn
 zinit ice lucid as"program" pick"bin/git-dsf"
@@ -49,10 +49,10 @@ zinit load so-fancy/diff-so-fancy
 zinit load asdf-vm/asdf
 
 # zstyles
-# zstyle ':omz:plugins:alias-finder' autoload no # disabled by default
-# zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
-# zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
-# zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
+zstyle ':omz:plugins:alias-finder' autoload no # disabled by default
+zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
+zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
+zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 
 # History
 HISTSIZE=10000

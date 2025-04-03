@@ -1,7 +1,7 @@
 shell-integration = zsh
 theme = Dark+
 background = 000000
-font-family = Source Code Pro
+font-family = SauceCodePro Nerd Font
 background-opacity = 0.85
 background-blur = 32
 window-colorspace = display-p3

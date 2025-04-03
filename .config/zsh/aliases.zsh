@@ -22,11 +22,6 @@ alias ns="npm start"
 alias nu="npm uninstall"
 
 # -------------------------------------------------------------------
-# Git
-# -------------------------------------------------------------------
-alias g='git '
-
-# -------------------------------------------------------------------
 # EZA Commands to replace ls
 # -------------------------------------------------------------------
 alias ld='eza -lD --header --group-directories-first --icons=always'
@@ -52,7 +47,7 @@ alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 alias man='batman'
 alias ripgrep='batgrep'
 
-alias idea='open -na "/Applications/IntelliJ IDEA CE.app" --args "$@"'
+alias idea='open -na "/Applications/IntelliJ IDEA.app" --args "$@"'
 
 # -------------------------------------------------------------------
 # dotfiles
