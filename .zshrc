@@ -32,7 +32,6 @@ zinit light-mode for \
 
 # Add in zsh plugins
 zinit ice depth=1; zinit light romkatv/powerlevel10k
-zinit light zsh-users/zsh-syntax-highlighting
 zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
@@ -40,8 +39,8 @@ zinit light Aloxaf/fzf-tab
 zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit load zsh-users/zsh-history-substring-search
 zinit ice wait atload '_history_substring_search_config'
-# zinit load agkozak/zsh-z
- zinit snippet OMZ::plugins/alias-finder
+zinit load agkozak/zsh-z
+zinit snippet OMZ::plugins/alias-finder
 zinit snippet OMZ::plugins/kitty
 zinit snippet OMZ::plugins/mvn
 zinit ice lucid as"program" pick"bin/git-dsf"
@@ -82,7 +81,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # poetry
-export PATH="/Users/ianmcbee/.asdf/installs/poetry/2.1.1/bin:$PATH"
+#export PATH="/Users/ianmcbee/.local/bin"
 
 # Java
 . ~/.asdf/plugins/java/set-java-home.zsh
@@ -103,7 +102,7 @@ source <(fzf --zsh)
 # grc
 [[ -s "/etc/grc.zsh" ]] && source /etc/grc.zsh
 
-source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 bindkey "^[[A" history-substring-search-up

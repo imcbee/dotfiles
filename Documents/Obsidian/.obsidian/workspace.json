@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4dc8459e253d2caa",
+        "id": "6209100b9affd9e2",
         "type": "tabs",
         "children": [
           {
@@ -13,25 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-04-03.md",
+                "file": "Daily Notes/2025-04-17.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-04-03"
-            }
-          },
-          {
-            "id": "b9cfdd9e98c84c85",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-04-02 15.47.54.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-04-02 15.47.54.excalidraw"
+              "title": "2025-04-17"
             }
           }
         ]
@@ -109,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#oms-devops",
+                "query": "data ingestor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -197,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,42 +206,44 @@
   },
   "active": "60d0d3dc7421889b",
   "lastOpenFiles": [
-    "OMS/People/DDIL/Kevin Dwyer.md",
-    "OMS/People/DDIL",
-    "OMS/People/Sereno Dominguez.md",
-    "OMS/People/Scott Barnes.md",
-    "OMS/People/Melissa Masters.md",
-    "OMS/People/Mary Shultz.md",
-    "OMS/People/Justin Shelton.md",
-    "OMS/People/Ismael Montecel.md",
-    "OMS/People/CORE/Trey Young.md",
-    "OMS/People/CORE/Travis Stocker.md",
-    "OMS/People/CORE/Justin Hahn.md",
-    "OMS/People/CORE/John Urban.md",
-    "OMS/People/CORE/James Ferro.md",
-    "OMS/People/CORE/Beyza Efe.md",
-    "OMS/People/CORE/Ben Sherriff.md",
-    "OMS/People/CHRONICLE/Zendelle Badiang.md",
-    "OMS/People/CHRONICLE/Phillipe Mathis.md",
-    "OMS/People/CHRONICLE/Kosei Matsuda.md",
-    "OMS/People/CHRONICLE/Brian Swedberg.md",
-    "OMS/People/CHRONICLE/Austin Barkdull.md",
-    "Untitled.md",
+    "OMS/Tasks/Run POI Zip with Data-Ingestor for Jackie Shrader.md",
+    "Daily Notes/2025-04-17.md",
+    "Templates/Daily Notes.md",
+    "Templates/Task Template.md",
+    "Daily Notes/2025/03-Mar/2025-03-07.md",
+    "OMS/Repos/oms-nlq.md",
+    "OMS/Tasks/Add ANY as option to Domain. Split SEA into SEA_SURFACE and SEA_SUBSURFACE..md",
+    "OMS/Tasks/Prototype Email Scheduler.md",
+    "Templates/Backlink Reference.md",
+    "Attachments/Pasted image 20250417123439.png",
+    "Attachments/Pasted image 20250417122916.png",
+    "Attachments/Pasted image 20250417122840.png",
+    "Attachments/Pasted image 20250417122506.png",
+    "Attachments/Pasted image 20250417122246.png",
+    "Attachments/Pasted image 20250417122022.png",
+    "Attachments/Pasted image 20250417121240.png",
+    "Attachments/Pasted image 20250417121145.png",
+    "Attachments/Pasted image 20250417120722.png",
+    "Attachments/Pasted image 20250417120504.png",
+    "OMS/Meetings/OMS \"Standup of Standups\".md",
+    "Daily Notes/2025/02-Feb/2025-02-27.md",
+    "Templates/Ticket Template.md",
     "Templates/Person Template.md",
-    "ReadItLater Inbox/ohmyzshpluginsgitREADME.md at master · ohmyzshohmyzsh.md",
-    "Daily Notes/2025-04-03.md",
-    "Attachments/Pasted image 20250403112234.png",
-    "Attachments/Pasted image 20250403112141.png",
-    "Daily Notes/2025-04-02.md",
-    "Excalidraw/Drawing 2025-04-02 15.47.54.excalidraw.md",
-    "Attachments/Pasted image 20250402134327.png",
-    "Attachments/Pasted image 20250402134217.png",
-    "Attachments/Pasted image 20250402134123.png",
-    "Attachments/Pasted image 20250402133628.png",
-    "Attachments/Pasted image 20250402101302.png",
-    "Attachments/Pasted image 20250402101211.png",
-    "Attachments/Pasted image 20250402101105.png",
-    "Attachments/Pasted image 20250402100936.png",
+    "Learnings/JobRunr.md",
+    "Add `ANY` as option to Domain. Split `SEA` into `SEA_SURFACE` and `SEA_SUBSURFACE`..md",
+    "OMS/Tasks",
+    "Daily Notes/2025-04-15.md",
+    "Daily Notes/2025-04-16.md",
+    "Daily Notes/2025-04-10.md",
+    "OMS/People/Justin Shelton.md",
+    "Daily Notes/2025-04-14.md",
+    "Daily Notes/2025-04-11.md",
+    "Daily Notes/2025-04-13.md",
+    "Daily Notes/2025/03-Mar/2025-03-03.md",
+    "OMS/Logs/Successful data-ingestor run 2025-03-05.md",
+    "Daily Notes/2025-04-09.md",
+    "new person.md",
+    "OMS/People/DDIL",
     "Daily Notes/2025/03-Mar",
     "ReadItLater Inbox/assets",
     "ReadItLater Inbox",
@@ -262,7 +252,6 @@
     "2025-03-03.pdf",
     "OMS/People/CHRONICLE",
     "OMS/People/CORE",
-    "Untitled.canvas",
-    "Daily Notes/2025/02-Feb"
+    "Untitled.canvas"
   ]
 }
