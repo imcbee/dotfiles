@@ -16,5 +16,9 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "newFileLocation": "root",
+  "newFileFolderPath": "pages",
+  "rightToLeft": false,
+  "showIndentGuide": false
 }

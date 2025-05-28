@@ -59,6 +59,7 @@ return {
       -- A map for custom variables, the key should be the variable and the value a function
       substitutions = {},
     },
+    disable_frontmatter = true,
     -- see below for full list of options 👇
   },
 }

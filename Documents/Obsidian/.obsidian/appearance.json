@@ -1,18 +1,20 @@
 {
   "accentColor": "#a85cf5",
   "cssTheme": "AnuPpuccin",
-  "theme": "obsidian",
+  "theme": "system",
   "translucency": true,
   "nativeMenus": true,
   "showViewHeader": true,
-  "interfaceFontFamily": "Source Code Pro",
-  "monospaceFontFamily": "Source Code Pro",
-  "textFontFamily": "Source Code Pro",
+  "interfaceFontFamily": "Inter,SauceCodePro Nerd Font",
+  "monospaceFontFamily": "SauceCodePro Nerd Font,Inter",
+  "textFontFamily": "Inter,SauceCodePro Nerd Font",
   "enabledCssSnippets": [
+    "dataview-block",
     "editor_translucency",
     "extended-colorschemes",
     "horizontal-rule"
   ],
   "showRibbon": true,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "baseFontSize": 16
 }
