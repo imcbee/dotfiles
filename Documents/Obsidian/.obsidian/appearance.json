@@ -10,8 +10,8 @@
   "textFontFamily": "Inter,SauceCodePro Nerd Font",
   "enabledCssSnippets": [
     "dataview-block",
-    "editor_translucency",
     "extended-colorschemes",
+    "editor_translucency",
     "horizontal-rule"
   ],
   "showRibbon": true,

@@ -25,8 +25,9 @@ return {
     -- Required.
     "nvim-lua/plenary.nvim",
     "hrsh7th/nvim-cmp",
-    "nvim-telescope/telescope.nvim",
+    -- "nvim-telescope/telescope.nvim",
     "nvim-treesitter/nvim-treesitter",
+    "ibhagwan/fzf-lua",
     -- see below for full list of optional dependencies 👇
   },
   opts = {
@@ -59,7 +60,25 @@ return {
       -- A map for custom variables, the key should be the variable and the value a function
       substitutions = {},
     },
-    disable_frontmatter = true,
     -- see below for full list of options 👇
+    disable_frontmatter = true,
+    picker = {
+      -- Set your preferred picker. Can be one of 'telescope.nvim', 'fzf-lua', or 'mini.pick'.
+      name = "fzf-lua",
+      -- Optional, configure key mappings for the picker. These are the defaults.
+      -- Not all pickers support all mappings.
+      note_mappings = {
+        -- Create a new note from your query.
+        new = "<C-x>",
+        -- Insert a link to the selected note.
+        insert_link = "<C-l>",
+      },
+      tag_mappings = {
+        -- Add tag(s) to current note.
+        tag_note = "<C-x>",
+        -- Insert a tag at the current location.
+        insert_tag = "<C-l>",
+      },
+    },
   },
 }
