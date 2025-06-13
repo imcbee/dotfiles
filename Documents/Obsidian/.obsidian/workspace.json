@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-06-09.md",
+                "file": "Daily Notes/2025-06-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-09"
+              "title": "2025-06-13"
             }
           }
         ]
@@ -62,13 +62,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2025-06-09.md",
+                "file": "Daily Notes/2025-06-13.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-06-09"
+              "title": "Outline of 2025-06-13"
             }
           },
           {
@@ -190,12 +190,24 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "170a77af238e88d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Daily Notes/2025-06-13.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for 2025-06-13"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 264.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,10 +230,18 @@
   },
   "active": "6e641da9c7ca3432",
   "lastOpenFiles": [
+    "ReadItLater Inbox/Vault QA (Basic).md",
+    "Daily Notes/2025-06-13.md",
+    "OMS/People/CORE/Ben Sherriff.md",
     "Daily Notes/2025-06-12.md",
+    "Templates/Markdown Table Template.md",
+    "Templates/Line Chart Template.md",
+    "Templates/fast color.md",
+    "Templates/Daily Notes.md",
+    "Daily Notes/2025-06-02.md",
+    "Daily Notes/2025-06-09.md",
     "Daily Notes/2025-06-11.md",
     "Daily Notes/2025-06-10.md",
-    "Daily Notes/2025-06-09.md",
     "OMS/Tasks/implement Prometheus and Grafana web dashboard.md",
     "OMS/Tasks/Run POI Zip with Data-Ingestor for Jackie Shrader.md",
     "OMS/Tasks/Add object list information to the wfs-node table.md",
@@ -243,10 +263,6 @@
     "Attachments/Pasted image 20250611100455.png",
     "Attachments/Pasted image 20250611100436.png",
     "Attachments/Pasted image 20250611100415.png",
-    "Templates/Person Template.md",
-    "OMS/People/CORE/Ben Sherriff.md",
-    "Ben Sheriff.md",
-    "Backlinks/Black Cape.md",
     "Attachments/Pasted image 20250610125504.png",
     "Attachments/Pasted image 20250610125415.png",
     "Attachments/Pasted image 20250610124231.png",
@@ -254,10 +270,6 @@
     "Attachments/Pasted image 20250610123648.png",
     "Attachments/Pasted image 20250610123556.png",
     "Attachments/Pasted image 20250610123458.png",
-    "Templates/Task Template.md",
-    "OMS/Tasks/Expand K6 tests to cover more test cases.md",
-    "Templates/Markdown Table Template.md",
-    "OMS/People/SENSEMAKING/Mary Shultz.md",
     "Daily Notes/2025/06-Jun",
     "OMS/People/MISSION",
     "Learnings/Epomaker_Tide65_manual.pdf",
