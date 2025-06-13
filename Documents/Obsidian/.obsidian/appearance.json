@@ -1,8 +1,8 @@
 {
   "accentColor": "#a85cf5",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Dark Moss",
   "theme": "system",
-  "translucency": false,
+  "translucency": true,
   "nativeMenus": true,
   "showViewHeader": true,
   "interfaceFontFamily": "Inter,SauceCodePro Nerd Font",
@@ -10,8 +10,9 @@
   "textFontFamily": "Inter,SauceCodePro Nerd Font",
   "enabledCssSnippets": [
     "dataview-block",
+    "dark-moss-bold-italic",
     "extended-colorschemes",
-    "horizontal-rule"
+    "editor_translucency"
   ],
   "showRibbon": true,
   "baseFontSizeAction": true,

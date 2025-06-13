@@ -207,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,13 +226,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-bible-reference:Bible Verse Lookup": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "whisper:Open recording controls": false
     }
   },
   "active": "6e641da9c7ca3432",
   "lastOpenFiles": [
-    "ReadItLater Inbox/Vault QA (Basic).md",
+    "2025-06-13T16-45-47-388Z.webm",
     "Daily Notes/2025-06-13.md",
+    "2025-06-13T16-42-56-244Z.webm",
+    "2025-06-13T16-42-23-698Z.webm",
+    "2025-06-13T16-42-32-321Z.webm",
+    "Audio/Transcriptions",
+    "Audio/Recordings",
+    "Audio",
+    "Daily Notes/2025-06-10.md",
+    "OMS/Tasks/Add object list information to the wfs-node table.md",
+    "ReadItLater Inbox/Vault QA (Basic).md",
     "OMS/People/CORE/Ben Sherriff.md",
     "Daily Notes/2025-06-12.md",
     "Templates/Markdown Table Template.md",
@@ -241,16 +252,13 @@
     "Daily Notes/2025-06-02.md",
     "Daily Notes/2025-06-09.md",
     "Daily Notes/2025-06-11.md",
-    "Daily Notes/2025-06-10.md",
     "OMS/Tasks/implement Prometheus and Grafana web dashboard.md",
     "OMS/Tasks/Run POI Zip with Data-Ingestor for Jackie Shrader.md",
-    "OMS/Tasks/Add object list information to the wfs-node table.md",
     "OMS/MARS-OMS Running Questions.md",
     "OMS/People/Other/Ismael Montecel.md",
     "OMS/People/SENSEMAKING",
     "OMS/People/EFFECTS",
     "OMS/People/DEVOPS",
-    "OMS/People/Other",
     "Daily Notes/2025/04-Apr/2025-04-30.md",
     "Daily Notes/2025-06-06.md",
     "Daily Notes/2025/03-Mar/2025-03-05.md",
@@ -259,7 +267,6 @@
     "Daily Notes/2025/03-Mar/2025-03-18.md",
     "Daily Notes/2025/03-Mar/2025-03-17.md",
     "Add object list information to the wfs-node table.md",
-    "OMS/People/Other/Justin Shelton.md",
     "Attachments/Pasted image 20250611100455.png",
     "Attachments/Pasted image 20250611100436.png",
     "Attachments/Pasted image 20250611100415.png",
@@ -270,12 +277,6 @@
     "Attachments/Pasted image 20250610123648.png",
     "Attachments/Pasted image 20250610123556.png",
     "Attachments/Pasted image 20250610123458.png",
-    "Daily Notes/2025/06-Jun",
-    "OMS/People/MISSION",
-    "Learnings/Epomaker_Tide65_manual.pdf",
-    "logseq/bak/OMS/People/CORE/Travis Stocker",
-    "logseq/bak/OMS/Tasks/Expand K6 tests to cover more test cases",
-    "logseq/bak/OMS/People/CORE",
     "Untitled.canvas"
   ]
 }
