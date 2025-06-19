@@ -187,10 +187,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Daily Notes/2025-06-13.md"
+                "file": "Daily Notes/2025-06-18.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2025-06-13"
+              "title": "File properties for 2025-06-18"
             }
           }
         ]
@@ -218,9 +218,13 @@
       "obsidian-bible-reference:Bible Verse Lookup": false
     }
   },
-  "active": "b2a03330b53bc7ec",
+  "active": "6e641da9c7ca3432",
   "lastOpenFiles": [
+    "Attachments/Pictures/Pasted image 20250611100455.png",
     "Daily Notes/2025-06-18.md",
+    "ReadItLater Inbox/Vault QA (Basic).md",
+    "OMS/MARS-OMS Running Questions.md",
+    "Learnings/JobRunr.md",
     "Daily Notes/2025-06-19.md",
     "Daily Notes/2025-06-16.md",
     "Daily Notes/2025-06-17.md",
@@ -235,7 +239,6 @@
     "Audio",
     "Daily Notes/2025-06-10.md",
     "OMS/Tasks/Add object list information to the wfs-node table.md",
-    "ReadItLater Inbox/Vault QA (Basic).md",
     "OMS/People/CORE/Ben Sherriff.md",
     "Daily Notes/2025-06-12.md",
     "Templates/Markdown Table Template.md",
@@ -246,7 +249,6 @@
     "Daily Notes/2025-06-11.md",
     "OMS/Tasks/implement Prometheus and Grafana web dashboard.md",
     "OMS/Tasks/Run POI Zip with Data-Ingestor for Jackie Shrader.md",
-    "OMS/MARS-OMS Running Questions.md",
     "OMS/People/Other/Ismael Montecel.md",
     "OMS/People/SENSEMAKING",
     "OMS/People/EFFECTS",
@@ -254,18 +256,15 @@
     "Daily Notes/2025/04-Apr/2025-04-30.md",
     "Daily Notes/2025-06-06.md",
     "Daily Notes/2025/03-Mar/2025-03-05.md",
-    "Daily Notes/2025/03-Mar/2025-03-19.md",
-    "Daily Notes/2025/04-Apr/2025-04-28.md",
-    "Attachments/Pasted image 20250611100455.png",
-    "Attachments/Pasted image 20250611100436.png",
-    "Attachments/Pasted image 20250611100415.png",
-    "Attachments/Pasted image 20250610125504.png",
-    "Attachments/Pasted image 20250610125415.png",
-    "Attachments/Pasted image 20250610124231.png",
-    "Attachments/Pasted image 20250610123833.png",
-    "Attachments/Pasted image 20250610123648.png",
-    "Attachments/Pasted image 20250610123556.png",
-    "Attachments/Pasted image 20250610123458.png",
+    "Attachments/Pictures/Pasted image 20250611100436.png",
+    "Attachments/Pictures/Pasted image 20250611100415.png",
+    "Attachments/Pictures/Pasted image 20250610125504.png",
+    "Attachments/Pictures/Pasted image 20250610125415.png",
+    "Attachments/Pictures/Pasted image 20250610124231.png",
+    "Attachments/Pictures/Pasted image 20250610123833.png",
+    "Attachments/Pictures/Pasted image 20250610123648.png",
+    "Attachments/Pictures/Pasted image 20250610123556.png",
+    "Attachments/Pictures/Pasted image 20250610123458.png",
     "Untitled.canvas"
   ]
 }
