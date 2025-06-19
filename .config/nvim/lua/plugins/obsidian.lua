@@ -1,5 +1,5 @@
 return {
-  "epwalsh/obsidian.nvim",
+  "obsidian-nvim/obsidian.nvim",
   version = "*", -- recommended, use latest release instead of latest commit
   lazy = true,
   cmd = {
@@ -28,6 +28,7 @@ return {
     -- "nvim-telescope/telescope.nvim",
     "nvim-treesitter/nvim-treesitter",
     "ibhagwan/fzf-lua",
+    "Saghen/blink.cmp",
     -- see below for full list of optional dependencies 👇
   },
   opts = {

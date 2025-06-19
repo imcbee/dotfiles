@@ -44,7 +44,7 @@ zinit snippet OMZ::plugins/alias-finder
 zinit snippet OMZ::plugins/kitty
 zinit snippet OMZ::plugins/mvn
 zinit ice lucid as"program" pick"bin/git-dsf"
-zinit load so-fancy/diff-so-fancy
+# zinit load so-fancy/diff-so-fancy
 zinit load asdf-vm/asdf
 
 # zstyles
