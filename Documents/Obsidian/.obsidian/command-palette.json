@@ -1,0 +1,13 @@
+{
+  "pinned": [
+    "daily-notes",
+    "insert-template",
+    "omnisearch:show-modal",
+    "obsidian-read-it-later:save-clipboard-to-notice",
+    "obsidian-git:pull",
+    "obsidian-git:push",
+    "open-with-default-app:show",
+    "app:open-vault",
+    "markdown:toggle-preview"
+  ]
+}

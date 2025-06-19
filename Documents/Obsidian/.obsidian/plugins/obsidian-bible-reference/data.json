@@ -1,0 +1,22 @@
+{
+  "bibleVersion": "esv",
+  "defaultBibleVersion": "esv",
+  "referenceLinkPosition": "Header",
+  "verseFormatting": "Paragraph",
+  "verseNumberFormatting": "*^1*",
+  "collapsibleVerses": true,
+  "enableHyperlinking": true,
+  "showVerseTranslation": true,
+  "bookTagging": true,
+  "chapterTagging": false,
+  "enableBibleVerseLookupRibbon": false,
+  "optOutToEvents": false,
+  "bookBacklinking": "Bottom",
+  "chapterBacklinking": "Header",
+  "bibleVersionStatusIndicator": "Hide",
+  "displayBibleIconPrefixAtHeader": true,
+  "internalLinkingFormat": "None",
+  "enableInternalLinking": "None",
+  "versionCodeBLB": "",
+  "advancedSettings": true
+}

@@ -1,0 +1,20 @@
+{
+  "accentColor": "#a85cf5",
+  "cssTheme": "AnuPpuccin",
+  "theme": "system",
+  "translucency": true,
+  "nativeMenus": true,
+  "showViewHeader": true,
+  "interfaceFontFamily": "Inter,SauceCodePro Nerd Font",
+  "monospaceFontFamily": "SauceCodePro Nerd Font,Inter",
+  "textFontFamily": "Inter,SauceCodePro Nerd Font",
+  "enabledCssSnippets": [
+    "dataview-block",
+    "dark-moss-bold-italic",
+    "extended-colorschemes",
+    "vim-powerline"
+  ],
+  "showRibbon": true,
+  "baseFontSizeAction": true,
+  "baseFontSize": 16
+}

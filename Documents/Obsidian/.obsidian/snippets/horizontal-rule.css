@@ -1,0 +1,11 @@
+.markdown-preview-view hr, hr {
+	border-color: #FAECE2;
+}
+
+td, th {
+  border-color: #FAECE2 !important;
+}
+
+.workspace-leaf-resize-handle {
+  border-color: #FAECE2;
+}
