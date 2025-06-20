@@ -5,7 +5,6 @@
   "oz-clear-unused-images",
   "copilot",
   "dataview",
-  "cm-editor-syntax-highlight-obsidian",
   "obsidian-excalidraw-plugin",
   "fast-text-color",
   "obsidian-git",
@@ -21,5 +20,6 @@
   "obsidian-underline",
   "obsidian-vimrc-support",
   "obsidian-bible-reference",
-  "obsidian-relative-line-numbers"
+  "obsidian-relative-line-numbers",
+  "cm-editor-syntax-highlight-obsidian"
 ]
