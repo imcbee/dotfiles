@@ -20,5 +20,6 @@
   "templater-obsidian",
   "obsidian-underline",
   "obsidian-vimrc-support",
-  "obsidian-bible-reference"
+  "obsidian-bible-reference",
+  "obsidian-relative-line-numbers"
 ]
