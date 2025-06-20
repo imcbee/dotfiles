@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-06-18.md",
+                "file": "Daily Notes/2025-06-20.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-18"
+              "title": "2025-06-20"
             }
           }
         ]
@@ -32,7 +32,7 @@
     "type": "split",
     "children": [],
     "direction": "horizontal",
-    "width": 301.5024719238281,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -102,23 +102,6 @@
             }
           },
           {
-            "id": "6e44bde2767170af",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
             "id": "262c634e018adf98",
             "type": "leaf",
             "state": {
@@ -134,44 +117,6 @@
             }
           },
           {
-            "id": "004d2135729ddbf6",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "5c1a1a68d0a9e5c0",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Learnings/Docker.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Docker"
-            }
-          },
-          {
-            "id": "cf0d8aec1a3e94f6",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
             "id": "f3002f605149ca4f",
             "type": "leaf",
             "state": {
@@ -180,72 +125,61 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
-          },
-          {
-            "id": "170a77af238e88d2",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "Daily Notes/2025-06-18.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for 2025-06-18"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "obsidian-git:Open Git source control": false,
       "command-palette:Open command palette": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "omnisearch:Omnisearch": false,
       "obsidian-bible-reference:Bible Verse Lookup": false
     }
   },
   "active": "6e641da9c7ca3432",
   "lastOpenFiles": [
-    "Learnings/Vim Learnings.md",
-    "Learnings/Makefile.md",
-    "Learnings/Liquibase.md",
-    "Learnings/k6.md",
-    "Learnings/GraphQL.md",
-    "Learnings/JobRunr.md",
-    "Daily Notes/2025/04-Apr/2025-04-14.md",
-    "Daily Notes/2025/04-Apr/2025-04-03.md",
-    "Daily Notes/2025/02-Feb/2025-02-24.md",
-    "Daily Notes/2025/04-Apr/2025-04-17.md",
-    "Learnings/Docker.md",
+    "Daily Notes/2025/03-Mar/2025-03-05.md",
+    "Daily Notes/2025-06-20.md",
+    "Justin Toman.md",
+    "OMS/Reminders.md",
     "Daily Notes/2025-06-18.md",
-    "Daily Notes/2025/03-Mar/2025-03-20.md",
-    "Daily Notes/2025/02-Feb/2025-02-27.md",
-    "Backlinks/Slack.md",
+    "OMS/Tasks/Implement Prometheus and Grafana web dashboard.md",
+    "Daily Notes/2025-06-12.md",
+    "Daily Notes/2025-06-09.md",
+    "OMS/People/CHRONICLE/Zendelle Badiang.md",
+    "OMS/People/CHRONICLE/Phillipe Mathis.md",
+    "Templates/Person Template.md",
+    "OMS/People/CHRONICLE/Kosei Matsuda.md",
+    "OMS/People/CHRONICLE/Brian Swedberg.md",
+    "OMS/People/CHRONICLE/Austin Barkdull.md",
+    "OMS/People/CORE/Ben Sherriff.md",
+    "Daily Notes/2025-06-11.md",
+    "OMS/People/Other/Justin Shelton.md",
+    "OMS/People/CORE/Robert Chen.md",
     "Templates/Task Template.md",
-    "Daily Notes/2025/05-May/2025-05-15.md",
-    "Backlinks/CAPE.md",
-    "Backlinks/Black Cape People/Mike Santamaria.md",
-    "Backlinks/Black Cape.md",
-    "Backlinks/AP&COI.md",
-    "Backlinks/Acronym Dictionary.md",
-    "Templates/Backlink Reference.md",
-    "Templates/Daily Notes.md",
-    "Templates/fast color.md",
+    "Templates/Table Line Chart Template.md",
+    "Templates/Project Template.md",
+    "Templates/Meeting Template.md",
+    "Templates/Markdown Table Template.md",
     "Templates/Line Chart Template.md",
+    "Templates/fast color.md",
+    "Templates/Daily Notes.md",
     "Attachments/Pictures/Pasted image 20250611100455.png",
     "2025-06-13T16-45-47-388Z.webm",
     "2025-06-13T16-42-56-244Z.webm",
