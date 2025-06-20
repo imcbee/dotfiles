@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMS/Tasks/Update Latest Known Location to exclude Sensemaking objects.md",
+                "file": "Daily Notes/2025-06-20.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Update Latest Known Location to exclude Sensemaking objects"
+              "title": "2025-06-20"
             }
           }
         ]
@@ -130,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -153,11 +154,14 @@
   },
   "active": "6e641da9c7ca3432",
   "lastOpenFiles": [
-    "Daily Notes/2025-06-20.md",
     "Templates/Task Template.md",
+    "OMS/Tasks/Update the helm charts to add the new Guide OAuth2 variables.md",
+    "Daily Notes/2025-06-20.md",
+    "OMS/People/CORE/Theo Lincke.md",
+    "OMS/Repos/omsb-helm-charts.md",
+    "OMS/Tasks/Replace RuntimeException with OmsRuntimeException.md",
     "OMS/Tasks/Update Latest Known Location to exclude Sensemaking objects.md",
     "Daily Notes/2025-06-18.md",
-    "OMS/Tasks/Update the helm charts to add the new Guide OAuth2 variables.md",
     "Daily Notes/2025/03-Mar/2025-03-05.md",
     "Justin Toman.md",
     "OMS/Reminders.md",
@@ -176,9 +180,6 @@
     "OMS/People/CORE/Robert Chen.md",
     "Templates/Table Line Chart Template.md",
     "Templates/Project Template.md",
-    "Templates/Meeting Template.md",
-    "Templates/Markdown Table Template.md",
-    "Templates/Line Chart Template.md",
     "Attachments/Pictures/Pasted image 20250611100455.png",
     "2025-06-13T16-45-47-388Z.webm",
     "2025-06-13T16-42-56-244Z.webm",

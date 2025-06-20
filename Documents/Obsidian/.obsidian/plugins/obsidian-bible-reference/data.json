@@ -3,7 +3,7 @@
   "defaultBibleVersion": "esv",
   "referenceLinkPosition": "Header",
   "verseFormatting": "Paragraph",
-  "verseNumberFormatting": "*^1*",
+  "verseNumberFormatting": "**^1**",
   "collapsibleVerses": true,
   "enableHyperlinking": true,
   "showVerseTranslation": true,
