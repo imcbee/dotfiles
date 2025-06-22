@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-06-20.md",
+                "file": "OMS/Tasks/Update the helm charts to add the new Guide OAuth2 variables.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-20"
+              "title": "Update the helm charts to add the new Guide OAuth2 variables"
             }
           }
         ]
@@ -30,7 +30,41 @@
   "left": {
     "id": "6a6daaebd2ae5989",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "760e80b6c5745c0f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98ba76a6bb5c8b66",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "31ea3c907574d4f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 200,
     "collapsed": true
@@ -125,13 +159,40 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "1c9c50b20eb3719b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Daily Notes/2025-06-20.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-06-20"
+            }
+          },
+          {
+            "id": "321e37d9c410fc15",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,9 +215,12 @@
   },
   "active": "6e641da9c7ca3432",
   "lastOpenFiles": [
+    "Daily Notes/2025-06-20.md",
+    "Backlinks/Black Cape People/Brian Poe.md",
+    "Daily Notes/2025-06-22.md",
+    "Daily Notes/2025-06-21.md",
     "Templates/Task Template.md",
     "OMS/Tasks/Update the helm charts to add the new Guide OAuth2 variables.md",
-    "Daily Notes/2025-06-20.md",
     "OMS/People/CORE/Theo Lincke.md",
     "OMS/Repos/omsb-helm-charts.md",
     "OMS/Tasks/Replace RuntimeException with OmsRuntimeException.md",
@@ -177,9 +241,6 @@
     "OMS/People/CORE/Ben Sherriff.md",
     "Daily Notes/2025-06-11.md",
     "OMS/People/Other/Justin Shelton.md",
-    "OMS/People/CORE/Robert Chen.md",
-    "Templates/Table Line Chart Template.md",
-    "Templates/Project Template.md",
     "Attachments/Pictures/Pasted image 20250611100455.png",
     "2025-06-13T16-45-47-388Z.webm",
     "2025-06-13T16-42-56-244Z.webm",
