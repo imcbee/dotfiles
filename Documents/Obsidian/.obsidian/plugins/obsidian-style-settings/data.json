@@ -76,8 +76,8 @@
   "anuppuccin-theme-settings@@h1-line-height": 1.2,
   "anuppuccin-theme-settings@@h3-line-height": 1.3,
   "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-light": false,
-  "anuppuccin-theme-settings@@anp-code-text-color@@dark": "#009CF8",
   "anuppuccin-theme-settings@@ctp-custom-peach@@light": "#FFA500",
   "anuppuccin-theme-settings@@ctp-custom-peach@@dark": "#FFA500",
-  "anuppuccin-theme-settings@@anp-h4-color-custom": "anp-h4-sapphire"
+  "anuppuccin-theme-settings@@anp-h4-color-custom": "anp-h4-sapphire",
+  "anuppuccin-theme-settings@@anp-code-text-color@@dark": "#FFFFFF"
 }

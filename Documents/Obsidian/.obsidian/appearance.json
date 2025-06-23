@@ -12,7 +12,11 @@
     "dataview-block",
     "dark-moss-bold-italic",
     "extended-colorschemes",
-    "vim-powerline"
+    "vim-powerline",
+    "banner",
+    "MCL-gallery-cards",
+    "MCL-multi-column",
+    "MCL-wide-view"
   ],
   "showRibbon": true,
   "baseFontSizeAction": true,

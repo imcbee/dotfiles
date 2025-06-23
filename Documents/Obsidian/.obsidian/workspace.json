@@ -4,25 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "64eff26fbaaaf556",
+        "id": "c69a1cd2fc22edd4",
         "type": "tabs",
         "children": [
           {
-            "id": "6e641da9c7ca3432",
+            "id": "0a591ae62a53b666",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backlinks/Home Page/Home Page.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Home Page"
+            }
+          },
+          {
+            "id": "8a3bc25251fc66e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMS/Tasks/Update the helm charts to add the new Guide OAuth2 variables.md",
+                "file": "Daily Notes/2025-06-20.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Update the helm charts to add the new Guide OAuth2 variables"
+              "title": "2025-06-20"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,6 +205,18 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "47bf928b631ae15d",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Daily Notes/2025-06-20.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for 2025-06-20"
+            }
           }
         ]
       }
@@ -210,37 +240,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-bible-reference:Bible Verse Lookup": false
+      "obsidian-bible-reference:Bible Verse Lookup": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "6e641da9c7ca3432",
+  "active": "8a3bc25251fc66e5",
   "lastOpenFiles": [
-    "Daily Notes/2025-06-20.md",
-    "Backlinks/Black Cape People/Brian Poe.md",
+    "Backlinks/Home Page/Home Page.md",
     "Daily Notes/2025-06-22.md",
-    "Daily Notes/2025-06-21.md",
-    "Templates/Task Template.md",
-    "OMS/Tasks/Update the helm charts to add the new Guide OAuth2 variables.md",
-    "OMS/People/CORE/Theo Lincke.md",
-    "OMS/Repos/omsb-helm-charts.md",
-    "OMS/Tasks/Replace RuntimeException with OmsRuntimeException.md",
-    "OMS/Tasks/Update Latest Known Location to exclude Sensemaking objects.md",
+    "Daily Notes/2025-06-20.md",
+    "Daily Notes/2025-06-16.md",
+    "Daily Notes/2025-06-03.md",
+    "Daily Notes/2025-06-06.md",
+    "Daily Notes/2025-06-17.md",
     "Daily Notes/2025-06-18.md",
-    "Daily Notes/2025/03-Mar/2025-03-05.md",
-    "Justin Toman.md",
+    "Daily Notes/2025-06-02.md",
+    "Daily Notes/2025-06-05.md",
+    "Backlinks/Acronym Dictionary.md",
+    "Templates/Daily Notes.md",
+    "Backlinks/Home Page/porco rosso_cliff.png",
+    "Backlinks/Home Page/karsten-winegeart-_m-Xjo9R_y4-unsplash.jpg",
+    "Backlinks/Home Page/pawel-czerwinski-Lki74Jj7H-U-unsplash.jpg",
+    "Backlinks/Home Page/geordanna-cordero-5NE6mX0WVfQ-unsplash.jpg",
+    "Backlinks/Home Page/cristofer-maximilian-V1YPvfNzvtw-unsplash.jpg",
+    "OMS/Tasks/Update the helm charts to add the new Guide OAuth2 variables.md",
+    "Countdown.md",
+    "Backlinks/Home Page",
+    "OMS/MARS-OMS Running Questions.md",
     "OMS/Reminders.md",
-    "OMS/Tasks/Implement Prometheus and Grafana web dashboard.md",
-    "Daily Notes/2025-06-12.md",
-    "Daily Notes/2025-06-09.md",
-    "OMS/People/CHRONICLE/Zendelle Badiang.md",
-    "OMS/People/CHRONICLE/Phillipe Mathis.md",
-    "Templates/Person Template.md",
-    "OMS/People/CHRONICLE/Kosei Matsuda.md",
-    "OMS/People/CHRONICLE/Brian Swedberg.md",
-    "OMS/People/CHRONICLE/Austin Barkdull.md",
+    "OMS/Projects/OMS-CORE.md",
     "OMS/People/CORE/Ben Sherriff.md",
-    "Daily Notes/2025-06-11.md",
-    "OMS/People/Other/Justin Shelton.md",
+    "OMS/People/CORE/Travis Stocker.md",
+    "OMS/People/CORE/Theo Lincke.md",
+    "OMS/People/CORE/Robert Chen.md",
+    "OMS/People/CORE/Nick Hawkins.md",
+    "OMS/People/CORE/Justin Hahn.md",
+    "OMS/People/CORE/Charlie Dobson.md",
+    "OMS/People/CORE/Beyza Efe.md",
+    "Daily Notes/2025-06-13.md",
     "Attachments/Pictures/Pasted image 20250611100455.png",
     "2025-06-13T16-45-47-388Z.webm",
     "2025-06-13T16-42-56-244Z.webm",
@@ -251,16 +288,10 @@
     "Audio",
     "OMS/People/SENSEMAKING",
     "OMS/People/EFFECTS",
-    "OMS/People/DEVOPS",
     "Attachments/Pictures/Pasted image 20250611100436.png",
     "Attachments/Pictures/Pasted image 20250611100415.png",
     "Attachments/Pictures/Pasted image 20250610125504.png",
     "Attachments/Pictures/Pasted image 20250610125415.png",
-    "Attachments/Pictures/Pasted image 20250610124231.png",
-    "Attachments/Pictures/Pasted image 20250610123833.png",
-    "Attachments/Pictures/Pasted image 20250610123648.png",
-    "Attachments/Pictures/Pasted image 20250610123556.png",
-    "Attachments/Pictures/Pasted image 20250610123458.png",
     "Untitled.canvas"
   ]
 }

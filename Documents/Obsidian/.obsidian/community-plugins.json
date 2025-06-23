@@ -21,5 +21,9 @@
   "obsidian-vimrc-support",
   "obsidian-bible-reference",
   "obsidian-relative-line-numbers",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "contribution-graph",
+  "buttons",
+  "homepage",
+  "obsidian-banners"
 ]
