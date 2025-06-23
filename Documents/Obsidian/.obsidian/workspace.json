@@ -16,7 +16,7 @@
               "state": {
                 "file": "Backlinks/Home Page/Home Page.md",
                 "mode": "preview",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "pinned": true,
@@ -25,7 +25,7 @@
             }
           },
           {
-            "id": "755b3fccf66516f5",
+            "id": "914945b0c220fdee",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -222,20 +222,21 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "755b3fccf66516f5",
+  "active": "914945b0c220fdee",
   "lastOpenFiles": [
     "OMS/How-tos/How to Deploy to Tex-latest.md",
+    "OMS/Tasks/Update the helm charts to add the new Guide OAuth2 variables.md",
     "Daily Notes/2025-06-23.md",
+    "OMS/Tasks/Update Latest Known Location to exclude Sensemaking objects.md",
+    "Backlinks/Home Page/Home Page.md",
+    "OMS/MARS-OMS Running Questions.md",
     "OMS/How-tos",
     "Attachments/Pasted image 20250623144511.png",
     "OMS/Projects/OMS-CORE.md",
     "Attachments/Pasted image 20250623142512.png",
     "Daily Notes/2025-06-20.md",
-    "OMS/Tasks/Update the helm charts to add the new Guide OAuth2 variables.md",
     "Attachments/Pasted image 20250623134923.png",
-    "OMS/Tasks/Update Latest Known Location to exclude Sensemaking objects.md",
     "Templates/Task Template.md",
-    "Backlinks/Home Page/Home Page.md",
     "Backlinks/Completed Tasks.md",
     "OMS/Tasks/Add ANY as option to Domain. Split SEA into SEA_SURFACE and SEA_SUBSURFACE..md",
     "OMS/Projects/OMS.md",
