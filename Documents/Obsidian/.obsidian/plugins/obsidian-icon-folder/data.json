@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiMail",
-      "LiCheckSquare",
-      "LiLogs",
-      "LiGithub",
-      "LiExcalidrawIcon"
+      "LiClipboardList",
+      "LiPersonStanding",
+      "🦸",
+      "LiHome",
+      "LiMail"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,9 +37,7 @@
   "Attachments": "LiPaperclip",
   "Backlinks": "LiBrackets",
   "Daily Notes": "LiNotebook",
-  "Learnings": "LiLeaf",
   "Templates": "LiBookTemplate",
-  "Backlinks/Black Cape.md": "🦸",
   "OMS/People": "LiPersonStanding",
   "OMS/Projects": "LiFolderKanban",
   "OMS": "LiSnapToObject",
@@ -49,5 +47,12 @@
   "OMS/Logs": "LiLogs",
   "OMS/Tasks": "LiCheckSquare",
   "logseq": "LiLogs",
-  "ReadItLater Inbox": "LiMail"
+  "ReadItLater Inbox": "LiMail",
+  "Backlinks/Learnings": "LiLeaf",
+  "Backlinks/Home Page": "LiHome",
+  "Backlinks/People": "LiPersonStanding",
+  "Backlinks/Black Cape/Black Cape People": "🦸",
+  "Backlinks/Black Cape/Black Cape.md": "🦸",
+  "Backlinks/Black Cape": "🦸",
+  "OMS/How-tos": "LiClipboardList"
 }

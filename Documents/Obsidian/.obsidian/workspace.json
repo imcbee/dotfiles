@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c69a1cd2fc22edd4",
+        "id": "6a9d5149c69b4272",
         "type": "tabs",
         "children": [
           {
-            "id": "0a591ae62a53b666",
+            "id": "e0fdee2c4f45fa8b",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -25,18 +25,18 @@
             }
           },
           {
-            "id": "8a3bc25251fc66e5",
+            "id": "755b3fccf66516f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-06-20.md",
+                "file": "Daily Notes/2025-06-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-20"
+              "title": "2025-06-23"
             }
           }
         ],
@@ -68,16 +68,6 @@
               },
               "icon": "lucide-search",
               "title": "Search"
-            }
-          },
-          {
-            "id": "31ea3c907574d4f6",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
             }
           }
         ]
@@ -179,20 +169,6 @@
             }
           },
           {
-            "id": "1c9c50b20eb3719b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Daily Notes/2025-06-20.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from 2025-06-20"
-            }
-          },
-          {
             "id": "321e37d9c410fc15",
             "type": "leaf",
             "state": {
@@ -207,22 +183,24 @@
             }
           },
           {
-            "id": "47bf928b631ae15d",
+            "id": "214095752d8b38ac",
             "type": "leaf",
             "state": {
-              "type": "file-properties",
+              "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2025-06-20.md"
+                "file": "Daily Notes/2025-06-23.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
               },
-              "icon": "lucide-info",
-              "title": "File properties for 2025-06-20"
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-06-23"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 271.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,40 +222,45 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "8a3bc25251fc66e5",
+  "active": "755b3fccf66516f5",
   "lastOpenFiles": [
-    "Backlinks/Home Page/Home Page.md",
-    "Daily Notes/2025-06-22.md",
+    "OMS/How-tos/How to Deploy to Tex-latest.md",
+    "Daily Notes/2025-06-23.md",
+    "OMS/How-tos",
+    "Attachments/Pasted image 20250623144511.png",
+    "OMS/Projects/OMS-CORE.md",
+    "Attachments/Pasted image 20250623142512.png",
     "Daily Notes/2025-06-20.md",
+    "OMS/Tasks/Update the helm charts to add the new Guide OAuth2 variables.md",
+    "Attachments/Pasted image 20250623134923.png",
+    "OMS/Tasks/Update Latest Known Location to exclude Sensemaking objects.md",
+    "Templates/Task Template.md",
+    "Backlinks/Home Page/Home Page.md",
+    "Backlinks/Completed Tasks.md",
+    "OMS/Tasks/Add ANY as option to Domain. Split SEA into SEA_SURFACE and SEA_SUBSURFACE..md",
+    "OMS/Projects/OMS.md",
+    "ReadItLater Inbox/Vault QA (Basic).md",
+    "Backlinks/Black Cape/Black Cape.md",
+    "Backlinks/Black Cape",
+    "Daily Notes/2025/02-Feb/2025-02-28.md",
+    "Cassie.md",
+    "Backlinks/Learnings/Liquibase.md",
+    "ReadItLater Inbox/Analyzing New Unique Identifier Formats (UUIDv6, UUIDv7, and UUIDv8).md",
+    "ReadItLater Inbox/How to use Java container awareness in OpenShift 4  Red Hat Developer.md",
+    "ReadItLater Inbox/assets/How to use Java container awareness in OpenShift 4  Red Hat Developer-oRk9iYXKYC.png",
+    "Daily Notes/2025/05-May/2025-05-28.md",
+    "Templates/Daily Notes.md",
+    "Daily Notes/2025-06-22.md",
     "Daily Notes/2025-06-16.md",
     "Daily Notes/2025-06-03.md",
     "Daily Notes/2025-06-06.md",
     "Daily Notes/2025-06-17.md",
-    "Daily Notes/2025-06-18.md",
-    "Daily Notes/2025-06-02.md",
-    "Daily Notes/2025-06-05.md",
-    "Backlinks/Acronym Dictionary.md",
-    "Templates/Daily Notes.md",
     "Backlinks/Home Page/porco rosso_cliff.png",
     "Backlinks/Home Page/karsten-winegeart-_m-Xjo9R_y4-unsplash.jpg",
     "Backlinks/Home Page/pawel-czerwinski-Lki74Jj7H-U-unsplash.jpg",
     "Backlinks/Home Page/geordanna-cordero-5NE6mX0WVfQ-unsplash.jpg",
     "Backlinks/Home Page/cristofer-maximilian-V1YPvfNzvtw-unsplash.jpg",
-    "OMS/Tasks/Update the helm charts to add the new Guide OAuth2 variables.md",
-    "Countdown.md",
     "Backlinks/Home Page",
-    "OMS/MARS-OMS Running Questions.md",
-    "OMS/Reminders.md",
-    "OMS/Projects/OMS-CORE.md",
-    "OMS/People/CORE/Ben Sherriff.md",
-    "OMS/People/CORE/Travis Stocker.md",
-    "OMS/People/CORE/Theo Lincke.md",
-    "OMS/People/CORE/Robert Chen.md",
-    "OMS/People/CORE/Nick Hawkins.md",
-    "OMS/People/CORE/Justin Hahn.md",
-    "OMS/People/CORE/Charlie Dobson.md",
-    "OMS/People/CORE/Beyza Efe.md",
-    "Daily Notes/2025-06-13.md",
     "Attachments/Pictures/Pasted image 20250611100455.png",
     "2025-06-13T16-45-47-388Z.webm",
     "2025-06-13T16-42-56-244Z.webm",
@@ -286,12 +269,6 @@
     "Audio/Transcriptions",
     "Audio/Recordings",
     "Audio",
-    "OMS/People/SENSEMAKING",
-    "OMS/People/EFFECTS",
-    "Attachments/Pictures/Pasted image 20250611100436.png",
-    "Attachments/Pictures/Pasted image 20250611100415.png",
-    "Attachments/Pictures/Pasted image 20250610125504.png",
-    "Attachments/Pictures/Pasted image 20250610125415.png",
     "Untitled.canvas"
   ]
 }

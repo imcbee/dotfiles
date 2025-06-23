@@ -1,51 +1,51 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
-  "showAttachments": true,
+  "showTags": false,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#daily-notes",
+      "query": "tag:#daily-notes  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:#person ",
       "color": {
         "a": 1,
         "rgb": 16755200
       }
     },
     {
-      "query": "tag:#excalidraw  ",
+      "query": "tag:#OMS-CORE",
       "color": {
         "a": 1,
-        "rgb": 65450
+        "rgb": 262399
       }
     },
     {
       "query": "tag:#person  ",
       "color": {
         "a": 1,
-        "rgb": 11206400
-      }
-    },
-    {
-      "query": "tag:#OMS-TASK  ",
-      "color": {
-        "a": 1,
-        "rgb": 7935
+        "rgb": 65280
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": 1.9,
-  "nodeSizeMultiplier": 3.67142223405199,
-  "lineSizeMultiplier": 0.594956081980303,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.14968772305496,
+  "lineSizeMultiplier": 0.746163454675232,
   "collapse-forces": false,
-  "centerStrength": 0,
+  "centerStrength": 0.413008565310493,
   "repelStrength": 20,
-  "linkStrength": 0,
+  "linkStrength": 0.483583154889365,
   "linkDistance": 500,
-  "scale": 0.01122854922700582,
-  "close": true
+  "scale": 0.11918754476495158,
+  "close": false
 }
