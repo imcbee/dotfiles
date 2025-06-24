@@ -33,7 +33,11 @@ return {
     workspaces = {
       {
         name = "work",
-        path = "~/Documents/Work-Obsidian-Github-Repo",
+        path = "~/Documents/Obsidian",
+      },
+      {
+        name = "personal",
+        path = "~/Documents/obsidian-notes",
       },
     },
     daily_notes = {

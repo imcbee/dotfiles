@@ -1,3 +1,7 @@
+# Switching to arm64 to x86 quickly
+alias x86="$env /usr/bin/arch -x86_64 /bin/zsh ---login"
+alias arm="$env /usr/bin/arch -arm64 /bin/zsh ---login"
+
 # delete all docker images and volumes
 alias prune='docker system prune -a --volumes'
 
@@ -7,9 +11,7 @@ alias remove-node_modules='rm -rf node_modules; rm package-lock.json'
 # -------------------------------------------------------------------
 # Obsidian Aliases
 # -------------------------------------------------------------------
-#alias obsidian='cd ~/Documents/Work-Obsidian-Github-Repo'
-#alias obsidian-status='obsidian; gs'
-#alias obsidian-update='obsidian; ga .; gm "obsidian update"; gp origin main;'
+alias obsidian='cd ~/Documents/Obsidian'
 
 # -------------------------------------------------------------------
 # NPM Aliases
@@ -20,48 +22,24 @@ alias ns="npm start"
 alias nu="npm uninstall"
 
 # -------------------------------------------------------------------
-# Git Aliases
+# Git
 # -------------------------------------------------------------------
-alias ga='git add'
-alias gp='git push'
-alias gl='git log'
-alias gs='git status'
-alias gd='git diff'
-alias gm='git commit -m'
-alias gma='git commit -am'
-alias gb='git branch'
-alias gc='git checkout'
-alias gra='git remote add'
-alias grr='git remote rm'
-alias gpu='git pull'
-alias gcl='git clone'
-alias gta='git tag -a -m'
-alias gf='git reflog'
-
-# leverage an alias from the ~/.gitconfig
-alias gh='git hist'
-
-# alias ll='ls -lG'
-
-# -------------------------------------------------------------------
-# p10K
-# -------------------------------------------------------------------
-# alias update-p10k='git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull'
+alias g='git '
 
 # -------------------------------------------------------------------
 # EZA Commands to replace ls
 # -------------------------------------------------------------------
-alias ld='eza -lD --header'
-alias lf='eza -lF --header --color=always | grep -v /'
-alias lh='eza -dl .* --group-directories-first'
-alias ll='eza -al --header --group-directories-first'
-alias ls='eza -alF --header --color=always --sort=size | grep -v /'
-alias lt='eza -al --header --sort=modified'
+alias ld='eza -lD --header --group-directories-first --icons=always'
+alias lf='eza -lF --header --color=always --group-directories-first --icons=always | grep -v /'
+alias lh='eza -dl .* --group-directories-first --icons=always'
+alias ll='eza -al --header --group-directories-first --icons=always'
+alias ls='eza -alF --header --color=always --sort=size --group-directories-first --icons=always | grep -v /'
+alias lt='eza -al --header --sort=modified --group-directories-first --icons=always'
 
-alias l='eza --git-ignore $eza_params'
-alias llm='eza --all --header --long --sort=modified $eza_params'
-alias la='eza -lbhHigUmuSa'
-alias lx='eza -lbhHigUmuSa@'
+alias l='eza --git-ignore --group-directories-first --icons=always $eza_params'
+alias llm='eza --all --header --long --sort=modified --group-directories-first --icons=always $eza_params'
+alias la='eza -lbhHigUmuSa --group-directories-first --icons=always'
+alias lx='eza -lbhHigUmuSa@ --group-directories-first --icons=always'
 alias tree='eza --tree $eza_params'
 
 # -------------------------------------------------------------------
@@ -83,12 +61,6 @@ dotfiles='~/dotfiles'
 alias dotfiles='cd '$dotfiles''
 
 # -------------------------------------------------------------------
-# doom
-# -------------------------------------------------------------------
-doom='~/Documents/terminal-doom'
-alias doom='cd '$doom'; zig-out/bin/terminal-doom'
-
-# -------------------------------------------------------------------
-# air
+# air (go)
 # -------------------------------------------------------------------
 alias air='$(go env GOPATH)/bin/air'

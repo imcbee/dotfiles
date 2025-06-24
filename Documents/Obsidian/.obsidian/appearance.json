@@ -1,0 +1,18 @@
+{
+  "accentColor": "#a85cf5",
+  "cssTheme": "AnuPpuccin",
+  "theme": "obsidian",
+  "translucency": true,
+  "nativeMenus": true,
+  "showViewHeader": true,
+  "interfaceFontFamily": "Source Code Pro",
+  "monospaceFontFamily": "Source Code Pro",
+  "textFontFamily": "Source Code Pro",
+  "enabledCssSnippets": [
+    "editor_translucency",
+    "extended-colorschemes",
+    "horizontal-rule"
+  ],
+  "showRibbon": true,
+  "baseFontSizeAction": true
+}
