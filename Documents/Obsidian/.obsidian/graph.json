@@ -22,17 +22,59 @@
       }
     },
     {
-      "query": "tag:#OMS-CORE",
+      "query": "tag:#meeting-daily  ",
       "color": {
         "a": 1,
-        "rgb": 262399
+        "rgb": 65450
       }
     },
     {
-      "query": "tag:#person  ",
+      "query": "tag:#excalidraw  ",
       "color": {
         "a": 1,
-        "rgb": 65280
+        "rgb": 43775
+      }
+    },
+    {
+      "query": "path:\"ReadItLater Inbox\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6083798
+      }
+    },
+    {
+      "query": "path:Backlinks/Learnings  ",
+      "color": {
+        "a": 1,
+        "rgb": 144375
+      }
+    },
+    {
+      "query": "path:\"Backlinks/Black Cape\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16774912
+      }
+    },
+    {
+      "query": "path:Templates ",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
+      }
+    },
+    {
+      "query": "tag:#OMS-TASK  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711888
+      }
+    },
+    {
+      "query": "tag:#OMS",
+      "color": {
+        "a": 1,
+        "rgb": 57855
       }
     }
   ],
@@ -46,6 +88,6 @@
   "repelStrength": 20,
   "linkStrength": 0.483583154889365,
   "linkDistance": 500,
-  "scale": 0.11918754476495158,
-  "close": false
+  "scale": 0.07011320954904192,
+  "close": true
 }
