@@ -60,17 +60,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ReadItLater Inbox/Postgres/CREATE VIEW.md",
+                "file": "Daily Notes/2025-06-26.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CREATE VIEW"
+              "title": "2025-06-26"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2025-06-25.md",
+                "file": "Daily Notes/2025-06-26.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-06-25"
+              "title": "Outline of 2025-06-26"
             }
           },
           {
@@ -197,12 +197,23 @@
               "icon": "lucide-file",
               "title": "Plugin no longer active"
             }
+          },
+          {
+            "id": "3a596f09f32a7368",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 411.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,12 +237,20 @@
       "smart-connections:Open: View Smart Connections": false
     }
   },
-  "active": "4fd0e786f6aa7171",
+  "active": "1ea4b667fa2b79cd",
   "lastOpenFiles": [
+    "ReadItLater Inbox/Kitty Keybinding CheatSheet.md",
     "Daily Notes/2025-06-26.md",
-    "Backlinks/Home Page/Home Page.md",
-    "Daily Notes/2025-06-25.md",
     "ReadItLater Inbox/Postgres/CREATE VIEW.md",
+    "Daily Notes/2025-06-25.md",
+    "Backlinks/Home Page/Home Page.md",
+    "OMS DevOps 101.md",
+    "Kristin Greenslit.md",
+    "OMS/Repos/oms-bridge/oms-data-ingestor.md",
+    "OMS/MARS-OMS Running Questions.md",
+    "OMS/Projects/OMS.md",
+    "OMS/People/CHRONICLE/Austin Barkdull.md",
+    "OMS/Reminders.md",
     "OMS/Tasks/Update Latest Known Location to exclude Sensemaking objects.md",
     "ReadItLater Inbox/Postgres",
     "View.md",
@@ -247,15 +266,8 @@
     "Daily Notes/2025-06-23.md",
     "OMS/Repos/omsb-helm-charts.md",
     "OMS/Tasks/Update the helm charts to add the new Guide OAuth2 variables.md",
-    "Daily Notes/2025-06-20.md",
-    "Daily Notes/2025/04-Apr/2025-04-01.md",
-    "OMS/People/EFFECTS/Sereno Dominguez.md",
     "assets/test.png",
     "assets",
-    "OMS/Meetings/OMS Core Daily Standup.md",
-    "OMS DevOps 101.md",
-    "Excalidraw/oms-data with data-ingestor.md",
-    "OMS-MOBILIZATION.md",
     "Backlinks/Learnings/Postgres",
     "Attachments/Pasted image 20250624114123.png",
     "Attachments/Pasted image 20250624114018.png",
