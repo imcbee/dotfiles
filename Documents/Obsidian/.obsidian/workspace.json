@@ -23,54 +23,8 @@
               "icon": "lucide-file",
               "title": "Home Page"
             }
-          },
-          {
-            "id": "366239ce259abc14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2025-06-26.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-06-26"
-            }
-          },
-          {
-            "id": "4fd0e786f6aa7171",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2025-06-25.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-06-25"
-            }
-          },
-          {
-            "id": "1ea4b667fa2b79cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2025-06-26.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-06-26"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,13 +88,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2025-06-26.md",
+                "file": "Backlinks/Home Page/Home Page.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-06-26"
+              "title": "Outline of Home Page"
             }
           },
           {
@@ -208,12 +162,12 @@
               "title": "Copilot"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 411.5
+    "width": 411.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,12 +191,23 @@
       "smart-connections:Open: View Smart Connections": false
     }
   },
-  "active": "1ea4b667fa2b79cd",
+  "active": "7e7a606eb4da67f3",
   "lastOpenFiles": [
-    "ReadItLater Inbox/Kitty Keybinding CheatSheet.md",
+    "OMS/Tasks/Update Latest Known Location to exclude Sensemaking objects.md",
+    "Excalidraw/understanding upsert solution for SM class_iri.md",
     "Daily Notes/2025-06-26.md",
-    "ReadItLater Inbox/Postgres/CREATE VIEW.md",
     "Daily Notes/2025-06-25.md",
+    "ReadItLater Inbox/Postgres/41.10. Trigger Functions.md",
+    "ReadItLater Inbox/Postgres/CREATE TRIGGER.md",
+    "Attachments/Pasted Image 20250626120852_471.png",
+    "Attachments/Pasted Image 20250626121448_759.png",
+    "Attachments/Pasted Image 20250626121400_230.png",
+    "Attachments/Pasted Image 20250626121200_417.png",
+    "Attachments/Pasted Image 20250626121157_189.png",
+    "Attachments/Pasted Image 20250626120813_329.png",
+    "ReadItLater Inbox/Basic Keycodes  QMK Firmware.md",
+    "ReadItLater Inbox/Kitty Keybinding CheatSheet.md",
+    "ReadItLater Inbox/Postgres/CREATE VIEW.md",
     "Backlinks/Home Page/Home Page.md",
     "OMS DevOps 101.md",
     "Kristin Greenslit.md",
@@ -251,21 +216,16 @@
     "OMS/Projects/OMS.md",
     "OMS/People/CHRONICLE/Austin Barkdull.md",
     "OMS/Reminders.md",
-    "OMS/Tasks/Update Latest Known Location to exclude Sensemaking objects.md",
     "ReadItLater Inbox/Postgres",
     "View.md",
     "Daily Notes/2025-06-24.md",
     "Backlinks/Learnings/CLI/PSQL.md",
-    "ReadItLater Inbox/Postgres/CREATE TRIGGER.md",
     "ReadItLater Inbox/Postgres/PostgreSQL View vs Materialized View A Guide.md",
     "ReadItLater Inbox/Cross-Origin Resource Sharing (CORS) - HTTP  MDN.md",
     "ReadItLater Inbox/Analyzing New Unique Identifier Formats (UUIDv6, UUIDv7, and UUIDv8).md",
     "Backlinks/Learnings/Postgres/current_setting.md",
     "Daily Notes/2025/04-Apr/2025-04-03.md",
     "OMS/How-tos/How to Deploy to Tex-latest.md",
-    "Daily Notes/2025-06-23.md",
-    "OMS/Repos/omsb-helm-charts.md",
-    "OMS/Tasks/Update the helm charts to add the new Guide OAuth2 variables.md",
     "assets/test.png",
     "assets",
     "Backlinks/Learnings/Postgres",
@@ -273,13 +233,7 @@
     "Attachments/Pasted image 20250624114018.png",
     "OMS/How-tos",
     "Attachments/Pasted image 20250623144511.png",
-    "Attachments/Pasted image 20250623142512.png",
-    "Attachments/Pasted image 20250623134923.png",
     "Backlinks/Black Cape",
-    "ReadItLater Inbox/assets/How to use Java container awareness in OpenShift 4  Red Hat Developer-oRk9iYXKYC.png",
-    "Backlinks/Home Page/porco rosso_cliff.png",
-    "Backlinks/Home Page/karsten-winegeart-_m-Xjo9R_y4-unsplash.jpg",
-    "Backlinks/Home Page/pawel-czerwinski-Lki74Jj7H-U-unsplash.jpg",
     "Backlinks/Home Page",
     "2025-06-13T16-45-47-388Z.webm",
     "2025-06-13T16-42-56-244Z.webm",
