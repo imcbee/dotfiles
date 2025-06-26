@@ -3,7 +3,6 @@
   "obsidian-better-command-palette",
   "calendar",
   "oz-clear-unused-images",
-  "copilot",
   "dataview",
   "obsidian-excalidraw-plugin",
   "fast-text-color",
@@ -26,5 +25,7 @@
   "buttons",
   "homepage",
   "obsidian-banners",
-  "highlightr-plugin"
+  "highlightr-plugin",
+  "copilot",
+  "smart-connections"
 ]
