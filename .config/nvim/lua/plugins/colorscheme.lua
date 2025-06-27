@@ -8,6 +8,7 @@ return {
     transparent = true,
     italic_comments = true,
     underline_links = true,
+    terminal_colors = true,
   },
   config = function()
     vim.cmd("colorscheme vscode")
