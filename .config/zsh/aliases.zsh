@@ -3,10 +3,18 @@ alias x86="$env /usr/bin/arch -x86_64 /bin/zsh ---login"
 alias arm="$env /usr/bin/arch -arm64 /bin/zsh ---login"
 
 # delete all docker images and volumes
-alias prune='docker system prune -a --volumes'
+#alias prune='docker system prune -a --volumes'
 
 # remove the node_modules folder and the package-lock.json file from the current directory
 alias remove-node_modules='rm -rf node_modules; rm package-lock.json'
+
+
+# -------------------------------------------------------------------
+# Kitty Aliases
+# -------------------------------------------------------------------
+alias d="kitten diff"
+alias icat="kitten icat"
+alias rg="rg --hyperlink-format=kitty"
 
 # -------------------------------------------------------------------
 # Obsidian Aliases
@@ -46,6 +54,8 @@ alias -g -- -h='-h 2>&1 | bat --language=help --style=plain'
 alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 alias man='batman'
 alias ripgrep='batgrep'
+alias rg='batgrep'
+BATDIFF_USE_DELTA=true
 
 alias idea='open -na "/Applications/IntelliJ IDEA.app" --args "$@"'
 
