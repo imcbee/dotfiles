@@ -6,28 +6,29 @@ banner_lock: true
 cssclasses:
   - wide-page
 ---
-> [!todo] **Tasks**
-> # <u>General Tasks</u>
-> ```tasks
->not done
->tags do not include #OMS-TASK
->path does not include OMS/
-> ```
-> <br>
-> 
-> # <u>OMS-Tasks</u>
-> ```dataview
->table state, start_date
->where type = "task" and file.name != "Task Template" and completed = false
-> ```
-> <br>
-> 
-> # <u>Reminders</u>
->```dataviewjs
->dv.pagePaths('"OMS/Reminders"').forEach(pagePath => {  
->	dv.paragraph("![["+pagePath+"]]")  
->})
->```
+> [!multi-column] Tasks
+>> [!todo] **Tasks**
+>> # <u>General Tasks</u>
+>> ```tasks
+>>not done
+>>tags do not include #OMS-TASK
+>>path does not include OMS/
+>> ```
+>> <br>
+>> 
+>> # <u>OMS-Tasks</u>
+>> ```dataview
+>>table state, start_date
+>>where type = "task" and file.name != "Task Template" and completed = false
+>> ```
+>> <br>
+>> 
+>> # <u>Reminders</u>
+>>```dataviewjs
+>>dv.pagePaths('"OMS/Reminders"').forEach(pagePath => {  
+>>	dv.paragraph("![["+pagePath+"]]")  
+>>})
+>>```
 
 > [!multi-column] Summary
 > > [!success |wide-4 min-0] **Contribution**

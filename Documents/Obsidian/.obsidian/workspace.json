@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 295.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,8 +197,10 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "b2a03330b53bc7ec",
+  "active": "7e7a606eb4da67f3",
   "lastOpenFiles": [
+    "Excalidraw/understanding upsert solution for SM class_iri.md",
+    "Backlinks/Home Page/Home Page.md",
     "Backlinks/porco rosso_cliff.png",
     "Backlinks/Home Page.md",
     "Home Page/porco rosso_cliff.png",
@@ -206,7 +209,6 @@
     "Daily Notes/2025-06-27.md",
     "Daily Notes/2025-06-28.md",
     "OMS/Tasks/Update Latest Known Location to exclude Sensemaking objects.md",
-    "Backlinks/Home Page/Home Page.md",
     "Chats/New Chat.md",
     "OMS/How-tos/How to Deploy to Tex-latest.md",
     "Attachments/Pasted image 20250627124534.png",
@@ -226,7 +228,6 @@
     "OMS/Projects/OMS-EFFECTS.md",
     "Templates/Meeting Template.md",
     "Daily Notes/2025-06-24.md",
-    "Excalidraw/understanding upsert solution for SM class_iri.md",
     "Daily Notes/2025-06-25.md",
     "ReadItLater Inbox/Postgres/41.10. Trigger Functions.md",
     "Attachments/Pasted Image 20250626120852_471.png",
@@ -239,7 +240,6 @@
     "assets/test.png",
     "assets",
     "Backlinks/Learnings/Postgres",
-    "Attachments/Pasted image 20250624114123.png",
     "OMS/How-tos",
     "Backlinks/Black Cape",
     "Backlinks/Home Page",
