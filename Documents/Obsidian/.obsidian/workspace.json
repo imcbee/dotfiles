@@ -174,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5,
-    "collapsed": true
+    "width": 358.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +196,13 @@
       "smart-second-brain:Open S2B Chat": false
     }
   },
-  "active": "7e7a606eb4da67f3",
+  "active": "b2a03330b53bc7ec",
   "lastOpenFiles": [
+    "Backlinks/porco rosso_cliff.png",
+    "Backlinks/Home Page.md",
+    "Home Page/porco rosso_cliff.png",
+    "Home Page/Home Page.md",
+    "Home Page",
     "Daily Notes/2025-06-27.md",
     "Daily Notes/2025-06-28.md",
     "OMS/Tasks/Update Latest Known Location to exclude Sensemaking objects.md",
@@ -225,26 +229,21 @@
     "Excalidraw/understanding upsert solution for SM class_iri.md",
     "Daily Notes/2025-06-25.md",
     "ReadItLater Inbox/Postgres/41.10. Trigger Functions.md",
-    "ReadItLater Inbox/Postgres/CREATE TRIGGER.md",
     "Attachments/Pasted Image 20250626120852_471.png",
     "Attachments/Pasted Image 20250626121448_759.png",
     "Attachments/Pasted Image 20250626121400_230.png",
     "Attachments/Pasted Image 20250626121200_417.png",
     "Attachments/Pasted Image 20250626121157_189.png",
     "Attachments/Pasted Image 20250626120813_329.png",
-    "ReadItLater Inbox/Basic Keycodes  QMK Firmware.md",
-    "ReadItLater Inbox/Kitty Keybinding CheatSheet.md",
     "ReadItLater Inbox/Postgres",
     "assets/test.png",
     "assets",
     "Backlinks/Learnings/Postgres",
     "Attachments/Pasted image 20250624114123.png",
-    "Attachments/Pasted image 20250624114018.png",
     "OMS/How-tos",
     "Backlinks/Black Cape",
     "Backlinks/Home Page",
     "2025-06-13T16-45-47-388Z.webm",
-    "2025-06-13T16-42-56-244Z.webm",
     "Untitled.canvas"
   ]
 }
