@@ -4,6 +4,7 @@ tags: [daily-notes]
 date: <% tp.file.title %>
 created: <% tp.date.now("YYYY-MM-DD") %>
 ---
+---
 # <% tp.file.title %>  Notes
  << [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
 

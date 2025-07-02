@@ -7,7 +7,6 @@
   "obsidian-excalidraw-plugin",
   "fast-text-color",
   "obsidian-git",
-  "hugo-codeblock-highlight",
   "obsidian-icon-folder",
   "obsidian-linter",
   "nldates-obsidian",
@@ -20,11 +19,12 @@
   "obsidian-vimrc-support",
   "obsidian-bible-reference",
   "obsidian-relative-line-numbers",
-  "cm-editor-syntax-highlight-obsidian",
   "contribution-graph",
   "buttons",
   "homepage",
   "obsidian-banners",
   "highlightr-plugin",
-  "copilot"
+  "copilot",
+  "code-styler",
+  "cm-editor-syntax-highlight-obsidian"
 ]

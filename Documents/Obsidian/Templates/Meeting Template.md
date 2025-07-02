@@ -8,6 +8,8 @@ optional:
 day:
 tags:
   - meeting-<% tp.frontmatter['occurrence'] %>
+  - <% tp.frontmatter['project'] %>
+---
 ---
 # <% tp.file.title %>
 ## Purpose

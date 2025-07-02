@@ -11,8 +11,8 @@ tags:
 completed: false
 state: NOT-STARTED
 priority: MEDIUM
-url: 
-issue: 
+url: https://tex.gerbil-cloud.ts.net:3000/oms/oms-bridge/pulls/
+issue: https://tex.gerbil-cloud.ts.net:3000/oms/oms-bridge/issues/
 ---
 ---
 # <% tp.file.title %>
