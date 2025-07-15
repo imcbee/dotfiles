@@ -1,6 +1,7 @@
 ---
 type: meeting
 created: <% tp.date.now() %>
+date: <% tp.date.now() %>
 name: <% tp.file.title %>
 project: OMS
 occurrence:
@@ -14,6 +15,7 @@ tags:
 # <% tp.file.title %>
 ## Purpose
 *Project:* [[<% tp.frontmatter['project'] %>]]
+*Date:* [[<% tp.date.now() %>]]
 
 ## Attendees
 ```dataview

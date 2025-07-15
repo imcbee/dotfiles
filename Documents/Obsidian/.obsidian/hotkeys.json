@@ -88,12 +88,21 @@
       "key": "Q"
     }
   ],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
   "insert-template": [
     {
       "modifiers": [
         "Ctrl"
       ],
-      "key": "I"
+      "key": "T"
     }
   ]
 }

@@ -14,33 +14,54 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 
 ---
 # Today's Task
-## <u>General Tasks</u>
+## General Tasks
 ```tasks
 not done
 tags do not include #OMS-TASK
 path does not include OMS/
 ```
-## <u>OMS-Tasks</u>
+## OMS-Tasks
 ```dataview
 table state, priority, start_date, url
 where type = "task" and file.name != "Task Template" and completed = false
 ```
 ## [[Reminders]]
 ```dataviewjs
-dv.pagePaths('"OMS/Reminders"').forEach(pagePath => {  
-	dv.paragraph("![["+pagePath+"]]")  
+dv.pagePaths('"OMS/Reminders"').forEach( line => {  
+	dv.paragraph("![["+line+"]]")  
 })
 ```
 ## [[MARS-OMS Running Questions]]
 ```dataviewjs
-dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach(pagePath => {  
-	dv.paragraph("![["+pagePath+"]]")  
+dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {  
+	dv.paragraph("![["+line+"]]")  
 })
 ```
 ---
 # Standups
 ## [[OMS Core Daily Standup]]
+- [[Travis Stocker]] - 
+- [[James Ferro]] - 
+- [[Justin Hahn]] - 
+- [[Theo Lincke]] - 
+- [[Beyza Efe]] - 
+- [[Charlie Dobson]] - 
+- [[Ian McBee]] - 
+
+### Round 2s
+- 
 
 ## [[OMS "Standup of Standups"]]
+- [[OMS-CORE]] - 
+- [[OMS-CHRONICLE]] - 
+- [[OMS-SENSEMAKING]] - 
+- [[OMS-SEMANTICS]] - 
+- [[OMS-EFFECTS]] -
+- [[OMS-DDIL]] - 
+- [[OMS-MISSION]] - 
+- [[OMS-DEVOPS]] - 
 
+### [[Melissa Masters]] Second Rounds
+
+### [[Ariana Hong]] Program Updates
 ---

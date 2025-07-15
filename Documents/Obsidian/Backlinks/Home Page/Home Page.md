@@ -8,7 +8,7 @@ cssclasses:
 ---
 > [!multi-column] Tasks
 > > [!todo] **Tasks**
-> > # <u>General Tasks</u>
+> > # General Tasks
 >> ```tasks
 >>not done
 >>tags do not include #OMS-TASK
@@ -16,19 +16,20 @@ cssclasses:
 >> ```
 > > <br>
 > > 
-> > # <u>OMS-Tasks</u>
+> > # OMS-Tasks
 >> ```dataview
 >>table state, start_date
 >>where type = "task" and file.name != "Task Template" and completed = false
 >> ```
 > > <br>
 > > 
-> > # <u>Reminders</u>
+> > # Reminders
 >>```dataviewjs
 >>dv.pagePaths('"OMS/Reminders"').forEach(pagePath => {  
 >>	dv.paragraph("![["+pagePath+"]]")  
 >>})
 >>```
+
 
 > [!multi-column] Summary
 > > [!success |wide-4 min-0] **Contribution**
