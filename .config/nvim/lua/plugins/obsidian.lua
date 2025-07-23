@@ -31,6 +31,8 @@ return {
     "Saghen/blink.cmp",
     -- see below for full list of optional dependencies 👇
   },
+  ---@module 'obsidian'
+  ---@type obsidian.config
   opts = {
     workspaces = {
       {
@@ -80,6 +82,14 @@ return {
         -- Insert a tag at the current location.
         insert_tag = "<C-l>",
       },
+    },
+    footer = {
+      enabled = true, -- turn it off
+      separator = true, -- turn it off
+      -- separator = "", -- insert a blank line
+      format = "{{backlinks}} backlinks  {{properties}} properties  {{words}} words  {{chars}} chars", -- works like the template system
+      -- format = "({{backlinks}} backlinks)", -- limit to backlinks
+      hl_group = "@property", -- Use another hl group
     },
   },
 }

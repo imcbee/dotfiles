@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🤖",
+      "LiCalendar",
       "LiClipboardList",
       "LiPersonStanding",
-      "🦸",
-      "LiHome",
-      "LiMail"
+      "🦸"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -54,5 +54,7 @@
   "Backlinks/Black Cape/Black Cape People": "🦸",
   "Backlinks/Black Cape/Black Cape.md": "🦸",
   "Backlinks/Black Cape": "🦸",
-  "OMS/How-tos": "LiClipboardList"
+  "OMS/How-tos": "LiClipboardList",
+  "OMS/Events": "LiCalendar",
+  "Backlinks/copilot-custom-prompts": "🤖"
 }

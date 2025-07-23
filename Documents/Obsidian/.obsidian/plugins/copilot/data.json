@@ -27,7 +27,7 @@
   "openAIProxyBaseUrl": "",
   "openAIEmbeddingProxyBaseUrl": "",
   "stream": true,
-  "defaultSaveFolder": "copilot-conversations",
+  "defaultSaveFolder": "Backlinks/copilot-conversations",
   "defaultConversationTag": "copilot-conversation",
   "autosaveChat": false,
   "includeActiveNoteAsContext": true,

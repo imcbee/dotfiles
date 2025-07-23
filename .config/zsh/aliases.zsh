@@ -15,6 +15,7 @@ alias remove-node_modules='rm -rf node_modules; rm package-lock.json'
 alias d="kitten diff"
 alias icat="kitten icat"
 alias rg="rg --hyperlink-format=kitty"
+alias awrit="cd ~/awrit; ./awrit"
 
 # -------------------------------------------------------------------
 # Obsidian Aliases

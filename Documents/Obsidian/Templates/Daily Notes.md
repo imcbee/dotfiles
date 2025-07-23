@@ -25,6 +25,11 @@ path does not include OMS/
 table state, priority, start_date, url
 where type = "task" and file.name != "Task Template" and completed = false
 ```
+## Articles to Read
+```dataview
+table read
+where type="read" and read=false
+```
 ## [[Reminders]]
 ```dataviewjs
 dv.pagePaths('"OMS/Reminders"').forEach( line => {  

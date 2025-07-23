@@ -80,6 +80,9 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # ASDF
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
+# awrit 
+# export PATH="~/awrit/.bun" #todo broken need to figure out
+
 # poetry
 #export PATH="/Users/ianmcbee/.local/bin"
 
@@ -112,4 +115,3 @@ bindkey "^[[B" history-substring-search-down
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-

@@ -3,6 +3,7 @@ type: meeting
 created: <% tp.date.now() %>
 date: <% tp.date.now() %>
 name: <% tp.file.title %>
+alias: []
 project: OMS
 occurrence:
 optional:

@@ -25,18 +25,18 @@
             }
           },
           {
-            "id": "937d58f6ee95b5cd",
+            "id": "bbe5662f3608aee7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-07-15.md",
+                "file": "Daily Notes/2025-07-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-15"
+              "title": "2025-07-23"
             }
           }
         ],
@@ -81,13 +81,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2025-07-11.md",
+                "file": "Daily Notes/2025-07-23.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-07-11"
+              "title": "Outline of 2025-07-23"
             }
           },
           {
@@ -163,7 +163,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2025-07-15.md",
+                "file": "Daily Notes/2025-07-23.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -243,19 +243,19 @@
                   "repelStrength": 0,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.2318451254955662,
+                  "scale": 0.21120682231579946,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2025-07-15"
+              "title": "Graph of 2025-07-23"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 266.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -275,54 +275,54 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "937d58f6ee95b5cd",
+  "active": "bbe5662f3608aee7",
   "lastOpenFiles": [
-    "OMS/(test) Questions.md",
-    "Daily Notes/2025-07-15.md",
-    "OMS/Meetings/OMS LS Deployment.md",
-    "Attachments/Pasted image 20250715131938.png",
-    "Attachments/Pasted image 20250715131915.png",
-    "Attachments/Pasted image 20250715130855.png",
-    "Attachments/Pasted image 20250715130816.png",
-    "Attachments/Pasted image 20250715130552.png",
-    "Backlinks/Words of Encouragement.md",
-    "Backlinks/Acronym Dictionary.md",
-    "Daily Notes/2025-07-14.md",
-    "Templates/Daily Notes.md",
-    "Templates/Line Chart Template.md",
-    "Backlinks/Home Page/Home Page.md",
-    "OMS/Trade Winds Exercise.md",
-    "OMS/Meetings/OMS Helm Charts 103.md",
-    "OMS/Tasks/Remove the min&max heap size settings from all deployments and allow Java to use default container awareness for resource allocation.md",
-    "Daily Notes/2025-07-01.md",
-    "Daily Notes/2025/04-Apr/2025-04-01.md",
-    "OMS/Tasks/Update Latest Known Location to exclude Sensemaking objects.md",
-    "Attachments/Pasted image 20250714133403.png",
-    "Attachments/Pasted image 20250714133339.png",
-    "Attachments/Pasted image 20250714133140.png",
-    "Attachments/Pasted image 20250714133053.png",
-    "Attachments/Pasted image 20250714132811.png",
-    "Untitled.md",
-    "Daily Notes/2025-07-11.md",
-    "Templates/Task Template.md",
-    "Templates/Table Line Chart Template.md",
-    "Templates/Project Template.md",
-    "Templates/Person Template.md",
-    "Templates/Markdown Table Template.md",
+    "Daily Notes/2025-07-23.md",
     "Templates/Meeting Template.md",
-    "Templates/fast color.md",
-    "Templates/Backlink Reference.md",
-    "Templates/home page temp.md",
+    "Daily Notes/2025/05-May/2025-05-28.md",
+    "OMS/Meetings/OMS 2-day PI Planning.md",
+    "Daily Notes/2025/05-May/2025-05-29.md",
+    "Backlinks/Home Page/Home Page.md",
+    "PI Planning Retrospective.md",
+    "ReadItLater Inbox/Spring Boot/Request Execution  Spring GraphQL.md",
+    "ReadItLater Inbox/Spring Boot/Using @Transactional  Spring Framework.md",
+    "Attachments/Pasted image 20250723114331.png",
+    "Attachments/Pasted image 20250723113500.png",
+    "Attachments/Pasted image 20250723110900.png",
+    "Attachments/Pasted image 20250723110755.png",
+    "ReadItLater Inbox/Optional (Java Platform SE 8 ).md",
+    "ReadItLater Inbox/What are microservices.md",
+    "Daily Notes/2025-07-22.md",
+    "OMS/Tasks/Harden OMS requests by adding managers and transactions.md",
+    "Daily Notes/2025-07-18.md",
+    "OMS/Tasks/Remove the min&max heap size settings from all deployments and allow Java to use default container awareness for resource allocation.md",
+    "ReadItLater Inbox/Postgres/CREATE VIEW.md",
+    "ReadItLater Inbox/What is Scalability and How to achieve it.md",
+    "ReadItLater Inbox/Java/Design Pattern Catalog.md",
+    "ReadItLater Inbox/Note 2025-07-23 09-01-44.md",
+    "ReadItLater Inbox/assets/What is Scalability and How to achieve it-f7qmarIHWb.webp",
+    "ReadItLater Inbox/assets/What is Scalability and How to achieve it-gj1sLB93Sw.webp",
+    "ReadItLater Inbox/YAML Syntax — Ansible Community Documentation.md",
+    "OMS/How-tos/How to Deploy to Tex-latest.md",
+    "ReadItLater Inbox/Spring Boot/Spring for GraphQL  Spring GraphQL.md",
+    "ReadItLater Inbox/assets/What are microservices-oSsfSXNxpw.jpeg",
+    "ReadItLater Inbox/assets/What are microservices-qNuNAiA6mQ.png",
+    "ReadItLater Inbox/assets/What are microservices-MAmq78Z9fx.png",
+    "ReadItLater Inbox/assets/What are microservices-6yaTCKaPpz.gif",
+    "ReadItLater Inbox/Postgres/41.10. Trigger Functions.md",
+    "ReadItLater Inbox/Postgres/PostgreSQL View vs Materialized View A Guide.md",
+    "ReadItLater Inbox/Java/Fork Options and Parallel Test Execution – Maven Failsafe Plugin.md",
+    "ReadItLater Inbox/Java/How to use Java container awareness in OpenShift 4  Red Hat Developer.md",
+    "ReadItLater Inbox/terminal",
+    "ReadItLater Inbox/Spring Boot",
+    "OMS/Events",
     "Untitled.canvas",
     "ReadItLater Inbox/Liquibase",
-    "copilot-custom-prompts",
+    "Backlinks/copilot-custom-prompts",
     "mdHelpers.js",
     "Backlinks/Black Cape/Learnit",
     "Remove the min",
     "ReadItLater Inbox/Java",
-    "ReadItLater Inbox/Python",
-    "Home Page",
-    "Chats",
-    "Attachments/Epomaker_Tide65_manual.pdf"
+    "ReadItLater Inbox/Python"
   ]
 }

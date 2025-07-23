@@ -1,11 +1,12 @@
 shell-integration = zsh
-theme = dark:Dark+ ,light:iTerm2 Light Background
+theme = dark:Apple System Colors ,light:Apple System Colors Light
 #background = 000000
 font-family = SauceCodePro Nerd Font
 background-opacity = 0.85
 background-blur = 32
 window-colorspace = display-p3
-macos-titlebar-style = tabs
+macos-titlebar-style = hidden 
+quick-terminal-animation-duration = 0.08
 
 # Key Bindings
 keybind = global:ctrl+grave_accent=toggle_quick_terminal

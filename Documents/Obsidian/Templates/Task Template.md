@@ -4,6 +4,7 @@ name: <% tp.file.title %>
 start_date: <% tp.date.now("YYYY-MM-DD")  %>
 created: <% tp.date.now("YYYY-MM-DD") %>
 project: OMS
+branch:
 tags:
   - OMS-TASK
   - <% tp.frontmatter['project'] %>
@@ -11,8 +12,10 @@ tags:
 completed: false
 state: NOT-STARTED
 priority: MEDIUM
-url: https://tex.gerbil-cloud.ts.net:3000/oms/oms-bridge/pulls/
-issue: https://tex.gerbil-cloud.ts.net:3000/oms/oms-bridge/issues/
+pr_id:
+issue_id:
+url: https://tex.gerbil-cloud.ts.net:3000/oms/oms-bridge/pulls/<% tp.frontmatter['pr_id'] %>
+issue: https://tex.gerbil-cloud.ts.net:3000/oms/oms-bridge/issues/<% tp.frontmatter['issue_id'] %>
 ---
 ---
 # <% tp.file.title %>
@@ -22,6 +25,12 @@ issue: https://tex.gerbil-cloud.ts.net:3000/oms/oms-bridge/issues/
 [Pull Request URL](<% tp.frontmatter["url"] %>)
 
 - [//] **TODO:** Add ticket description below
+
+### Branch Name
+```
+<% .  <% tp.frontmatter['branch'] %>
+```
+
 ### Sub-tasks
 - [//]
 
