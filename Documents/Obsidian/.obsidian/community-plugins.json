@@ -14,9 +14,7 @@
   "obsidian-read-it-later",
   "obsidian-style-settings",
   "obsidian-tasks-plugin",
-  "templater-obsidian",
   "obsidian-vimrc-support",
-  "obsidian-bible-reference",
   "obsidian-relative-line-numbers",
   "contribution-graph",
   "buttons",
@@ -25,5 +23,8 @@
   "highlightr-plugin",
   "copilot",
   "code-styler",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-advanced-uri",
+  "templater-obsidian",
+  "obsidian-bible-reference"
 ]

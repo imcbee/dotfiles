@@ -6,6 +6,7 @@ company: Black Cape
 project: OMS
 team: <% tp.frontmatter['project'] %>-
 location:
+alias: []
 tags:
   - person
   - <% tp.frontmatter['project'] %>

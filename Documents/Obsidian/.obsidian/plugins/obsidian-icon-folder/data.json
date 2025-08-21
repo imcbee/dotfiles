@@ -41,13 +41,10 @@
   "OMS/People": "LiPersonStanding",
   "OMS/Projects": "LiFolderKanban",
   "OMS": "LiSnapToObject",
-  "Excalidraw": "LiExcalidrawIcon",
   "OMS/Repos": "LiGithub",
   "OMS/Meetings": "LiTimerReset",
   "OMS/Logs": "LiLogs",
   "OMS/Tasks": "LiCheckSquare",
-  "logseq": "LiLogs",
-  "ReadItLater Inbox": "LiMail",
   "Backlinks/Learnings": "LiLeaf",
   "Backlinks/Home Page": "LiHome",
   "Backlinks/People": "LiPersonStanding",
@@ -56,5 +53,7 @@
   "Backlinks/Black Cape": "🦸",
   "OMS/How-tos": "LiClipboardList",
   "OMS/Events": "LiCalendar",
-  "Backlinks/copilot-custom-prompts": "🤖"
+  "Backlinks/copilot-custom-prompts": "🤖",
+  "Backlinks/ReadItLater Inbox": "LiMail",
+  "Backlinks/Excalidraw": "LiExcalidrawIcon"
 }

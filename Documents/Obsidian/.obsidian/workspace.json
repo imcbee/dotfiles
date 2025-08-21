@@ -25,22 +25,52 @@
             }
           },
           {
-            "id": "bbe5662f3608aee7",
+            "id": "b4788eb3a4edeb34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-07-23.md",
+                "file": "Daily Notes/2025-08-20.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-23"
+              "title": "2025-08-20"
+            }
+          },
+          {
+            "id": "a4c18246999b43b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2025-08-21.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-21"
+            }
+          },
+          {
+            "id": "48c40aac5a8d9a3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backlinks/ReadItLater Inbox/Vector vs Raster in GIS What's the Difference - GIS Geography.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Vector vs Raster in GIS What's the Difference - GIS Geography"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -60,7 +90,7 @@
       {
         "id": "0de13ff508a63e6d",
         "type": "tabs",
-        "dimension": 81.09640831758034,
+        "dimension": 80.95238095238095,
         "children": [
           {
             "id": "b2a03330b53bc7ec",
@@ -81,13 +111,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2025-07-23.md",
+                "file": "Daily Notes/2025-07-25.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-07-23"
+              "title": "Outline of 2025-07-25"
             }
           },
           {
@@ -155,7 +185,7 @@
       {
         "id": "7ff7dc35f15af593",
         "type": "tabs",
-        "dimension": 18.90359168241966,
+        "dimension": 19.047619047619047,
         "children": [
           {
             "id": "8ebe39d5de7ecc4c",
@@ -163,7 +193,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2025-07-23.md",
+                "file": "Daily Notes/2025-08-21.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -243,22 +273,23 @@
                   "repelStrength": 0,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.21120682231579946,
+                  "scale": 0.19018337931421742,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2025-07-23"
+              "title": "Graph of 2025-08-21"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "homepage:Open homepage": false,
@@ -275,54 +306,54 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "bbe5662f3608aee7",
+  "active": "a4c18246999b43b2",
   "lastOpenFiles": [
-    "Daily Notes/2025-07-23.md",
-    "Templates/Meeting Template.md",
-    "Daily Notes/2025/05-May/2025-05-28.md",
-    "OMS/Meetings/OMS 2-day PI Planning.md",
-    "Daily Notes/2025/05-May/2025-05-29.md",
+    "Questions?.md",
+    "Daily Notes/2025-08-21.md",
+    "Daily Notes/2025-08-20.md",
+    "Backlinks/ReadItLater Inbox/Vector vs Raster in GIS What's the Difference - GIS Geography.md",
+    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-T9WPNc4aUs.png",
+    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-3ZajY49atw.png",
+    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-zLHWyNu60y.png",
+    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-NBrwnSV2iP.jpeg",
+    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-VL5cwsR9VE.png",
+    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-kv184x0pN1.png",
+    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-6aAZvJB0I4.png",
+    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-ydm3Auh1c8.png",
+    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-GsQya1iGYU.png",
+    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-e4pVOUt5Mx.jpeg",
+    "Daily Notes/2025-08-19.md",
+    "OMS/Events/JTIC Test Planning.md",
     "Backlinks/Home Page/Home Page.md",
-    "PI Planning Retrospective.md",
-    "ReadItLater Inbox/Spring Boot/Request Execution  Spring GraphQL.md",
-    "ReadItLater Inbox/Spring Boot/Using @Transactional  Spring Framework.md",
-    "Attachments/Pasted image 20250723114331.png",
-    "Attachments/Pasted image 20250723113500.png",
-    "Attachments/Pasted image 20250723110900.png",
-    "Attachments/Pasted image 20250723110755.png",
-    "ReadItLater Inbox/Optional (Java Platform SE 8 ).md",
-    "ReadItLater Inbox/What are microservices.md",
-    "Daily Notes/2025-07-22.md",
-    "OMS/Tasks/Harden OMS requests by adding managers and transactions.md",
-    "Daily Notes/2025-07-18.md",
-    "OMS/Tasks/Remove the min&max heap size settings from all deployments and allow Java to use default container awareness for resource allocation.md",
-    "ReadItLater Inbox/Postgres/CREATE VIEW.md",
-    "ReadItLater Inbox/What is Scalability and How to achieve it.md",
-    "ReadItLater Inbox/Java/Design Pattern Catalog.md",
-    "ReadItLater Inbox/Note 2025-07-23 09-01-44.md",
-    "ReadItLater Inbox/assets/What is Scalability and How to achieve it-f7qmarIHWb.webp",
-    "ReadItLater Inbox/assets/What is Scalability and How to achieve it-gj1sLB93Sw.webp",
-    "ReadItLater Inbox/YAML Syntax — Ansible Community Documentation.md",
-    "OMS/How-tos/How to Deploy to Tex-latest.md",
-    "ReadItLater Inbox/Spring Boot/Spring for GraphQL  Spring GraphQL.md",
-    "ReadItLater Inbox/assets/What are microservices-oSsfSXNxpw.jpeg",
-    "ReadItLater Inbox/assets/What are microservices-qNuNAiA6mQ.png",
-    "ReadItLater Inbox/assets/What are microservices-MAmq78Z9fx.png",
-    "ReadItLater Inbox/assets/What are microservices-6yaTCKaPpz.gif",
-    "ReadItLater Inbox/Postgres/41.10. Trigger Functions.md",
-    "ReadItLater Inbox/Postgres/PostgreSQL View vs Materialized View A Guide.md",
-    "ReadItLater Inbox/Java/Fork Options and Parallel Test Execution – Maven Failsafe Plugin.md",
-    "ReadItLater Inbox/Java/How to use Java container awareness in OpenShift 4  Red Hat Developer.md",
-    "ReadItLater Inbox/terminal",
-    "ReadItLater Inbox/Spring Boot",
+    "OMS/People/CORE/Beyza Efe.md",
+    "OMS/People/CORE/Charlie Dobson.md",
+    "OMS/People/CORE/James Ferro.md",
+    "OMS/People/MISSION/Robert Chen.md",
+    "OMS/People/CORE/Theo Lincke.md",
+    "OMS/People/CORE/Travis Stocker.md",
+    "OMS/Projects/OMS-SENSEMAKING.md",
+    "OMS/Projects/OMS-SEMANTICS.md",
+    "OMS/Projects/OMS-MISSION.md",
+    "OMS/Projects/OMS-EFFECTS.md",
+    "OMS/Projects/OMS-DEVOPS.md",
+    "OMS/Projects/OMS-DDIL.md",
+    "OMS/Projects/OMS-CORE.md",
+    "OMS/Projects/OMS-CHRONICLE.md",
+    "OMS/Projects/OMS.md",
+    "OMS/Tasks/Geoserver Crash loops due to Possible memory leak.md",
+    "OMS/Meetings/MARS OMS Integration - Sprint Review.md",
+    "OMS/Logs/geoserver_without_workspace_directory_2.md",
+    "OMS/Meetings/OMS Core Daily Standup.md",
+    "Attachments/A Principled Approach to GraphQL Query Cost Analysis.pdf",
+    "Daily Notes/2025/08-Aug",
+    "Daily Notes/2025/07-Jul",
+    "Backlinks/ReadItLater Inbox/terminal",
+    "Backlinks/ReadItLater Inbox/Spring Boot",
     "OMS/Events",
     "Untitled.canvas",
-    "ReadItLater Inbox/Liquibase",
+    "Backlinks/ReadItLater Inbox/Liquibase",
     "Backlinks/copilot-custom-prompts",
     "mdHelpers.js",
-    "Backlinks/Black Cape/Learnit",
-    "Remove the min",
-    "ReadItLater Inbox/Java",
-    "ReadItLater Inbox/Python"
+    "Backlinks/Black Cape/Learnit"
   ]
 }

@@ -1,8 +1,8 @@
 ---
 type: task
 name: <% tp.file.title %>
-start_date: <% tp.date.now("YYYY-MM-DD")  %>
-created: <% tp.date.now("YYYY-MM-DD") %>
+start_date: <% tp.date.now() %>
+created: <% tp.date.now() %>
 project: OMS
 branch:
 tags:
@@ -28,7 +28,6 @@ issue: https://tex.gerbil-cloud.ts.net:3000/oms/oms-bridge/issues/<% tp.frontmat
 
 ### Branch Name
 ```
-<% .  <% tp.frontmatter['branch'] %>
 ```
 
 ### Sub-tasks

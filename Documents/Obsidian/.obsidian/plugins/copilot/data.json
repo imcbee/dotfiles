@@ -32,7 +32,7 @@
   "autosaveChat": false,
   "includeActiveNoteAsContext": true,
   "defaultOpenArea": "view",
-  "customPromptsFolder": "copilot-custom-prompts",
+  "customPromptsFolder": "Backlinks/copilot-custom-prompts",
   "indexVaultToVectorStore": "ON STARTUP",
   "qaExclusions": "",
   "qaInclusions": "",
@@ -85,6 +85,36 @@
       "isBuiltIn": true,
       "core": true,
       "projectEnabled": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gpt-5",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gpt-5-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gpt-5-nano",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
       "capabilities": [
         "vision"
       ]
@@ -224,5 +254,6 @@
   "enableWordCompletion": false,
   "lastDismissedVersion": "2.9.4",
   "passMarkdownImages": true,
-  "enableCustomPromptTemplating": true
+  "enableCustomPromptTemplating": true,
+  "suggestedDefaultCommands": true
 }
