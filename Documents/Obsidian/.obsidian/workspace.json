@@ -25,37 +25,7 @@
             }
           },
           {
-            "id": "b4788eb3a4edeb34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2025-08-20.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-08-20"
-            }
-          },
-          {
-            "id": "a4c18246999b43b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2025-08-21.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-08-21"
-            }
-          },
-          {
-            "id": "48c40aac5a8d9a3b",
+            "id": "ef37869bc8a7e63c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -67,6 +37,21 @@
               },
               "icon": "lucide-file",
               "title": "Vector vs Raster in GIS What's the Difference - GIS Geography"
+            }
+          },
+          {
+            "id": "42b55c5826c3ca90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Create a plan for offloading user metric data in the Hydrogen release.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Create a plan for offloading user metric data in the Hydrogen release"
             }
           }
         ],
@@ -193,7 +178,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2025-08-21.md",
+                "file": "Create a plan for offloading user metric data in the Hydrogen release.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -273,19 +258,20 @@
                   "repelStrength": 0,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.19018337931421742,
+                  "scale": 0.19901086258068032,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2025-08-21"
+              "title": "Graph of Create a plan for offloading user metric data in the Hydrogen release"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -306,44 +292,44 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a4c18246999b43b2",
+  "active": "42b55c5826c3ca90",
   "lastOpenFiles": [
-    "Questions?.md",
-    "Daily Notes/2025-08-21.md",
-    "Daily Notes/2025-08-20.md",
+    "Daily Notes/2025-09-15.md",
     "Backlinks/ReadItLater Inbox/Vector vs Raster in GIS What's the Difference - GIS Geography.md",
-    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-T9WPNc4aUs.png",
-    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-3ZajY49atw.png",
-    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-zLHWyNu60y.png",
-    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-NBrwnSV2iP.jpeg",
-    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-VL5cwsR9VE.png",
-    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-kv184x0pN1.png",
-    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-6aAZvJB0I4.png",
-    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-ydm3Auh1c8.png",
-    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-GsQya1iGYU.png",
-    "Attachments/assets/Vector vs Raster in GIS What's the Difference - GIS Geography-e4pVOUt5Mx.jpeg",
-    "Daily Notes/2025-08-19.md",
-    "OMS/Events/JTIC Test Planning.md",
+    "Templates/Daily Notes.md",
+    "Create a plan for offloading user metric data in the Hydrogen release.md",
+    "Daily Notes/2025-09-10.md",
+    "Daily Notes/2025/08-Aug/2025-08-29.md",
+    "Backlinks/Black Cape/Black Cape.md",
+    "OMS/Tasks/Move user metrics to ES.md",
     "Backlinks/Home Page/Home Page.md",
-    "OMS/People/CORE/Beyza Efe.md",
-    "OMS/People/CORE/Charlie Dobson.md",
-    "OMS/People/CORE/James Ferro.md",
-    "OMS/People/MISSION/Robert Chen.md",
-    "OMS/People/CORE/Theo Lincke.md",
-    "OMS/People/CORE/Travis Stocker.md",
-    "OMS/Projects/OMS-SENSEMAKING.md",
-    "OMS/Projects/OMS-SEMANTICS.md",
-    "OMS/Projects/OMS-MISSION.md",
-    "OMS/Projects/OMS-EFFECTS.md",
-    "OMS/Projects/OMS-DEVOPS.md",
-    "OMS/Projects/OMS-DDIL.md",
-    "OMS/Projects/OMS-CORE.md",
-    "OMS/Projects/OMS-CHRONICLE.md",
-    "OMS/Projects/OMS.md",
+    "Backlinks/Learnings/elasticsearch.md",
+    "Daily Notes/2025-09-09.md",
+    "OMS/Reminders.md",
+    "Daily Notes/2025/08-Aug/2025-08-27.md",
+    "Backlinks/ReadItLater Inbox/SIGINT And Other Termination Signals in Linux  Baeldung on Linux.md",
+    "Daily Notes/2025-09-08.md",
+    "Daily Notes/2025-09-05.md",
+    "Daily Notes/2025-09-04.md",
+    "Attachments/Pasted image 20250904141837.png",
+    "Daily Notes/2025-09-03.md",
+    "OMS/Meetings/Core Team Breakout.md",
+    "Attachments/Pasted image 20250903105112.png",
+    "Attachments/Pasted image 20250903105055.png",
+    "Attachments/Pasted image 20250903105042.png",
+    "Attachments/Pasted image 20250903104405.png",
+    "Attachments/Pasted image 20250903104313.png",
+    "Attachments/Pasted image 20250903104042.png",
+    "Attachments/Pasted image 20250903104007.png",
+    "Attachments/Pasted image 20250903103904.png",
+    "Attachments/Pasted image 20250903103855.png",
+    "OMS/People/Other/Melissa Masters.md",
+    "Daily Notes/2025/08-Aug/2025-08-04.md",
     "OMS/Tasks/Geoserver Crash loops due to Possible memory leak.md",
-    "OMS/Meetings/MARS OMS Integration - Sprint Review.md",
-    "OMS/Logs/geoserver_without_workspace_directory_2.md",
-    "OMS/Meetings/OMS Core Daily Standup.md",
+    "Daily Notes/2025-09-02.md",
+    "Backlinks/ReadItLater Inbox/Stale Read.md",
+    "Templates/Task Template.md",
+    "Templates/Table Line Chart Template.md",
     "Attachments/A Principled Approach to GraphQL Query Cost Analysis.pdf",
     "Daily Notes/2025/08-Aug",
     "Daily Notes/2025/07-Jul",

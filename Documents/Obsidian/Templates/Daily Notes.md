@@ -3,6 +3,9 @@ type: daily-notes
 tags: [daily-notes]
 date: <% tp.file.title %>
 created: <% tp.date.now("YYYY-MM-DD") %>
+quarter: <%tp.date.now("YYYY")%>-quarter-<%tp.date.now("Q")%>
+aliases:
+  - <%tp.date.now("dddd Do MMMM YYYY")%>
 ---
 ---
 # <% tp.file.title %>  Notes
@@ -20,7 +23,7 @@ not done
 tags do not include #OMS-TASK
 path does not include OMS/
 ```
-## OMS-Tasks
+## ATOMS-Tasks
 ```dataview
 table state, priority, start_date, url
 where type = "task" and file.name != "Task Template" and completed = false
@@ -56,7 +59,7 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 ### Round 2s
 - 
 
-## [[OMS "Standup of Standups"]]
+## [[ATOMS "Standup of Standups"]]
 - [[OMS-CORE]] - 
 - [[OMS-CHRONICLE]] - 
 - [[OMS-SENSEMAKING]] - 
@@ -67,6 +70,9 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 - [[OMS-DEVOPS]] - 
 
 ### [[Melissa Masters]] Second Rounds
+- 
 
 ### [[Ariana Hong]] Program Updates
+- 
+
 ---

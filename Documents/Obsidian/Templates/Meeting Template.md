@@ -3,7 +3,7 @@ type: meeting
 created: <% tp.date.now() %>
 date: <% tp.date.now() %>
 name: <% tp.file.title %>
-alias: []
+aliases: []
 project: OMS
 occurrence:
 optional:
@@ -28,4 +28,5 @@ where type="person"
 ```dataview
 table without id file.inlinks
 where file.name = this.file.name
+sort file.name ASC
 ```

@@ -187,8 +187,8 @@ return {
         -- You can also add more custom ones...
       },
       -- Use bullet marks for non-checkbox lists.
-      bullets = { char = "•", hl_group = "ObsidianBullet" },
-      external_link_icon = { char = "", hl_group = "ObsidianExtLinkIcon" },
+      bullets = { char = "• ", hl_group = "ObsidianBullet" },
+      external_link_icon = { char = " ", hl_group = "ObsidianExtLinkIcon" },
       -- Replace the above with this if you don't have a patched font:
       -- external_link_icon = { char = "", hl_group = "ObsidianExtLinkIcon" },
       reference_text = { hl_group = "ObsidianRefText" },
@@ -232,11 +232,11 @@ return {
       confirm_img_paste = true,
     },
 
-    ---@deprecated in favor of the footer option below
-    statusline = {
-      enabled = true,
-      format = "{{properties}} properties {{backlinks}} backlinks {{words}} words {{chars}} chars",
-    },
+    -- ---@deprecated in favor of the footer option below
+    -- statusline = {
+    --   enabled = true,
+    --   format = "{{properties}} properties {{backlinks}} backlinks {{words}} words {{chars}} chars",
+    -- },
 
     ---@class obsidian.config.FooterOpts
     ---

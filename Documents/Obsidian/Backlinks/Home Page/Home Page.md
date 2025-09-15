@@ -30,7 +30,6 @@ cssclasses:
 >>})
 >>```
 
-
 > [!multi-column] Summary
 > > [!success |wide-4 min-0] **Contribution**
 >>```contributionGraph

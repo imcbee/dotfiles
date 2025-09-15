@@ -6,7 +6,7 @@ company: Black Cape
 project: OMS
 team: <% tp.frontmatter['project'] %>-
 location:
-alias: []
+aliases: []
 tags:
   - person
   - <% tp.frontmatter['project'] %>
@@ -25,4 +25,5 @@ Team: [[<% tp.frontmatter['team'] %>]]
 ```dataview
 table without id file.inlinks
 where file.name = this.file.name
+sort file.name ASC
 ```

@@ -44,4 +44,5 @@ issue: https://tex.gerbil-cloud.ts.net:3000/oms/oms-bridge/issues/<% tp.frontmat
 ```dataview
 table without id file.inlinks
 where file.name = this.file.name
+sort file.name ASC
 ```
