@@ -1,6 +1,7 @@
 ---
 type: task
 name: <% tp.file.title %>
+aliases: []
 start_date: <% tp.date.now() %>
 created: <% tp.date.now() %>
 project: OMS

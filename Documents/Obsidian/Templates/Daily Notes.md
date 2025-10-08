@@ -1,11 +1,11 @@
 ---
 type: daily-notes
-tags: [daily-notes]
+tags: [daily-notes, <%tp.date.now("YYYY")%>-quarter-<%tp.date.now("Q")%>]
 date: <% tp.file.title %>
 created: <% tp.date.now("YYYY-MM-DD") %>
-quarter: <%tp.date.now("YYYY")%>-quarter-<%tp.date.now("Q")%>
 aliases:
   - <%tp.date.now("dddd Do MMMM YYYY")%>
+  - <%tp.date.now("ddd Do MMM YYYY")%>
 ---
 ---
 # <% tp.file.title %>  Notes

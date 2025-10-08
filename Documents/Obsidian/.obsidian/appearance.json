@@ -16,7 +16,8 @@
     "banner",
     "MCL-gallery-cards",
     "MCL-multi-column",
-    "MCL-wide-view"
+    "MCL-wide-view",
+    "editor_translucency"
   ],
   "showRibbon": true,
   "baseFontSizeAction": true,
