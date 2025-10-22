@@ -11,6 +11,10 @@ div.status-bar-item.plugin-obsidian-vimrc-support {
   --background-color-replace: red;
 }
 
+div.status-bar {
+  height: 2.7em;
+}
+
 div.status-bar-item.plugin-obsidian-vimrc-support {
   /* 
     Move to bottom left corner and discard top/left/bottom space

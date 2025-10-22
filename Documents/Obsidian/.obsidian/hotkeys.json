@@ -33,16 +33,6 @@
       "key": "ArrowUp"
     }
   ],
-  "omnisearch:show-modal": [
-    {
-      "modifiers": [
-        "Ctrl",
-        "Mod",
-        "Shift"
-      ],
-      "key": "F"
-    }
-  ],
   "templater-obsidian:replace-in-file-templater": [
     {
       "modifiers": [
@@ -103,6 +93,23 @@
         "Ctrl"
       ],
       "key": "T"
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "obsidian-read-it-later:save-clipboard-to-notice": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "R"
     }
   ]
 }

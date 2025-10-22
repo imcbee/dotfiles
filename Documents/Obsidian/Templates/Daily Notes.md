@@ -11,8 +11,6 @@ aliases:
 # <% tp.file.title %>  Notes
  << [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
 
-<% tp.web.daily_quote() %>
-
 --vod 
 
 ---

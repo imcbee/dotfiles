@@ -32,7 +32,7 @@
   "anuppuccin-theme-settings@@anp-layout-select": "none",
   "anuppuccin-theme-settings@@anp-h1-color-custom": "anp-h1-blue",
   "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-nord-light",
-  "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": true,
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": false,
   "anuppuccin-theme-settings@@anp-pdf-blend-toggle-dark": true,
   "anuppuccin-theme-settings@@anp-colorful-frame-opacity": 1,
   "anuppuccin-theme-settings@@anp-rainbow-folder-bg-opacity": 0.8,
@@ -79,5 +79,9 @@
   "anuppuccin-theme-settings@@ctp-custom-peach@@light": "#FFA500",
   "anuppuccin-theme-settings@@ctp-custom-peach@@dark": "#FFA500",
   "anuppuccin-theme-settings@@anp-h4-color-custom": "anp-h4-sapphire",
-  "anuppuccin-theme-settings@@anp-code-text-color@@dark": "#FFFFFF"
+  "anuppuccin-theme-settings@@anp-code-text-color@@dark": "#FFFFFF",
+  "glass-theme-settings@@disable_fonts_settings": false,
+  "glass-theme-settings@@disable_stars_settings": false,
+  "glass-theme-settings@@themes-setting": "oneDark",
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-light": false
 }

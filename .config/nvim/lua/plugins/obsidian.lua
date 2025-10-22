@@ -27,7 +27,8 @@ return {
     "hrsh7th/nvim-cmp",
     -- "nvim-telescope/telescope.nvim",
     "nvim-treesitter/nvim-treesitter",
-    "ibhagwan/fzf-lua",
+    -- "ibhagwan/fzf-lua",
+    "folke/snacks.nvim",
     "Saghen/blink.cmp",
     -- see below for full list of optional dependencies 👇
   },
@@ -99,7 +100,7 @@ return {
     disable_frontmatter = true,
     picker = {
       -- Set your preferred picker. Can be one of 'telescope.nvim', 'fzf-lua', or 'mini.pick'.
-      name = "fzf-lua",
+      name = "snacks.pick",
       -- Optional, configure key mappings for the picker. These are the defaults.
       -- Not all pickers support all mappings.
       note_mappings = {
