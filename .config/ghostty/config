@@ -1,5 +1,5 @@
 shell-integration = zsh
-theme = dark:Apple System Colors ,light:Apple System Colors Light
+theme = dark:iTerm2 Dark Background,light:Apple System Colors Light
 #background = 000000
 font-family = SauceCodePro Nerd Font
 background-opacity = 0.85

@@ -49,7 +49,6 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 - [[Travis Stocker]] - 
 - [[James Ferro]] - 
 - [[Justin Hahn]] - 
-- [[Theo Lincke]] - 
 - [[Beyza Efe]] - 
 - [[Charlie Dobson]] - 
 - [[Ian McBee]] - 
@@ -66,11 +65,9 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 - [[OMS-DDIL]] - 
 - [[OMS-MISSION]] - 
 - [[OMS-DEVOPS]] - 
+- [[ATOMS-AI]]
 
-### [[Melissa Masters]] Second Rounds
-- 
-
-### [[Ariana Hong]] Program Updates
+### Second Rounds & Program Updates
 - 
 
 ---
