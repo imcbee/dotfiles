@@ -1,4 +1,7 @@
-fastfetch
+if [ -z "$FASTFETCH_RUN" ]; then
+    export FASTFETCH_RUN=1
+    fastfetch
+fi
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -30,6 +33,8 @@ zinit light-mode for \
 
 ### End of Zinit's installer chunk
 
+autoload -Uz compinit; compinit
+
 # Add in zsh plugins
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 zinit light zdharma-continuum/fast-syntax-highlighting
@@ -43,15 +48,40 @@ zinit load agkozak/zsh-z
 zinit snippet OMZ::plugins/alias-finder
 zinit snippet OMZ::plugins/kitty
 zinit snippet OMZ::plugins/mvn
-zinit ice lucid as"program" pick"bin/git-dsf"
-# zinit load so-fancy/diff-so-fancy
+zinit light 22peacemaker/zsh-make-complete
 zinit load asdf-vm/asdf
+
 
 # zstyles
 zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
 zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
 zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
 zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
+zstyle ':completion:*:make:*:targets' call-command true
+# zstyle ':completion:*:*:make:*' tag-order 'targets'
+
+# disable sort when completing `git checkout`
+zstyle ':completion:*:git-checkout:*' sort false
+# set descriptions format to enable group support
+# NOTE: don't use escape sequences (like '%F{red}%d%f') here, fzf-tab will ignore them
+zstyle ':completion:*:descriptions' format '[%d]'
+# set list-colors to enable filename colorizing
+# zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+# force zsh not to show completion menu, which allows fzf-tab to capture the unambiguous prefix
+zstyle ':completion:*' menu no
+# preview directory's content with eza when completing cd
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always --group-directories-first --icons=always $realpath'
+zstyle ':fzf-tab:complete:make:*' fzf-preview 'make help'
+zstyle ':fzf-tab:complete:git:*' fzf-preview 'git --help'
+
+# custom fzf flags
+# NOTE: fzf-tab does not follow FZF_DEFAULT_OPTS by default
+# zstyle ':fzf-tab:*' fzf-flags --color=fg:1,fg+:2 --bind=tab:accept
+# To make fzf-tab follow FZF_DEFAULT_OPTS.
+# NOTE: This may lead to unexpected behavior since some flags break this plugin. See Aloxaf/fzf-tab#455.
+zstyle ':fzf-tab:*' use-fzf-default-opts yes
+# switch group using `<` and `>`
+zstyle ':fzf-tab:*' switch-group '<' '>'
 
 # History
 HISTSIZE=10000
@@ -107,7 +137,7 @@ source <(fzf --zsh)
 [[ -s "/etc/grc.zsh" ]] && source /etc/grc.zsh
 
 # source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+# source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
