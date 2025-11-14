@@ -57,8 +57,6 @@ zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
 zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
 zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
 zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
-zstyle ':completion:*:make:*:targets' call-command true
-# zstyle ':completion:*:*:make:*' tag-order 'targets'
 
 # disable sort when completing `git checkout`
 zstyle ':completion:*:git-checkout:*' sort false
