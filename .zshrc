@@ -81,8 +81,9 @@ setopt hist_find_no_dups
 export PATH="/opt/homebrew/bin:$PATH"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-export ASDF_DIR="${ASDF_DIR:-$HOME/.asdf}"
-source "${ASDF_DIR}/asdf.sh"
+# ASDF
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+
 zinit fpath -f "${ASDF_DIR}/completions"
 zicompinit
 
