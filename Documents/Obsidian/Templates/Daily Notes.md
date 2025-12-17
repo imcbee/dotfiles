@@ -51,6 +51,7 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 - [[Justin Hahn]] - 
 - [[Beyza Efe]] - 
 - [[Charlie Dobson]] - 
+- [[Kareem Salem]] - 
 - [[Ian McBee]] - 
 
 ### Round 2s
@@ -65,7 +66,8 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 - [[OMS-DDIL]] - 
 - [[OMS-MISSION]] - 
 - [[OMS-DEVOPS]] - 
-- [[ATOMS-AI]]
+- [[ATOMS-AI]] -
+- [[ATOMS-AGGERSSOR]] - 
 
 ### Second Rounds & Program Updates
 - 
