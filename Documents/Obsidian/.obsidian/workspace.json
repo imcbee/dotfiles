@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-12-17.md",
+                "file": "Daily Notes/2025-12-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-17"
+              "title": "2025-12-23"
             }
           }
         ],
@@ -139,7 +139,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2025-12-16.md",
+                "file": "Daily Notes/2025-12-23.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -219,20 +219,19 @@
                   "repelStrength": 0,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.24253355480693053,
+                  "scale": 0.16750325216434814,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2025-12-16"
+              "title": "Graph of 2025-12-23"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 260.5,
-    "collapsed": true
+    "width": 352.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,20 +252,33 @@
       "obsidian-bible-reference:Bible Verse Lookup": true
     }
   },
-  "active": "0f1a82fb74cc7800",
+  "active": "8ebe39d5de7ecc4c",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20251217090649.png",
-    "Attachments/Pasted image 20251217090604.png",
-    "Attachments/Pasted image 20251217090552.png",
-    "Attachments/Pasted image 20251217090408.png",
-    "Attachments/Pasted image 20251217090253.png",
-    "Attachments/Pasted image 20251217090103.png",
+    "Daily Notes/2025-12-22.md",
+    "Daily Notes/2025-12-23.md",
+    "Daily Notes/2025-12-19.md",
+    "Daily Notes/2025-12-18.md",
+    "Daily Notes/2025/12 - Dec",
+    "Daily Notes/2025/12 - De.md",
+    "Attachments/Pasted image 20251218095959.png",
+    "Attachments/Pasted image 20251218095603.png",
+    "Attachments/Pasted image 20251218093302.png",
+    "Attachments/Pasted image 20251218093159.png",
+    "Attachments/Pasted image 20251218092948.png",
+    "Attachments/Pasted image 20251218092252.png",
+    "Attachments/Pasted image 20251218091504.png",
+    "Attachments/Pasted image 20251218090647.png",
+    "Attachments/Pasted image 20251218090605.png",
+    "Attachments/Pasted image 20251218090248.png",
+    "Backlinks/Completed Tasks.md",
+    "Backlinks/Acronym Dictionary.md",
+    "Backlinks/Black Cape/Black Cape.md",
+    "Backlinks/Black Cape/AP&COI.md",
+    "Backlinks/ReadItLater Inbox/Handling the N+1 Problem.md",
+    "Backlinks/ReadItLater Inbox/Java/Virtual Threads.md",
+    "Daily Notes/2025-12-01.md",
+    "Templates/Daily Notes.md",
     "Daily Notes/2025-12-17.md",
-    "Attachments/Pasted image 20251217085518.png",
-    "Attachments/Pasted image 20251217085441.png",
-    "Attachments/Pasted image 20251217085249.png",
-    "Attachments/Pasted image 20251217085116.png",
-    "Attachments/Pasted image 20251217084939.png",
     "Daily Notes/2025-12-16.md",
     "Backlinks/ReadItLater Inbox/Avoid UUID Version 4 Primary Keys (for Postgres).md",
     "Daily Notes/2025-12-15.md",
@@ -276,21 +288,9 @@
     "OMS/Projects/OMS-CORE.md",
     "OMS/People/CORE/Theo Lincke.md",
     "OMS/People/Kareem Salem.md",
-    "Templates/Daily Notes.md",
     "Backlinks/ReadItLater Inbox/terminal/Vim Cheat Sheet.md",
     "2025-12-13.md",
     "Daily Notes/2025-12-11.md",
-    "Daily Notes/2025-12-10.md",
-    "Daily Notes/2025-12-09.md",
-    "Daily Notes/2025-12-08.md",
-    "Daily Notes/2025-12-04.md",
-    "Daily Notes/2025-12-03.md",
-    "Daily Notes/2025-12-02.md",
-    "Backlinks/Excalidraw/Drawing 2025-12-02 13.06.45.excalidraw.md",
-    "Daily Notes/2025/11 - Nov/2025-11-03.md",
-    "Backlinks/ReadItLater Inbox/Basic Keycodes  QMK Firmware.md",
-    "Daily Notes/2025-12-01.md",
-    "OMS/Meetings/OMS-CORE Sprint Planning.md",
     "Daily Notes/2025/11 - Nov",
     "Attachments/assets 1",
     "Daily Notes/2025/10 - Oct",
@@ -300,7 +300,6 @@
     "Daily Notes/2025/07-Jul",
     "Backlinks/ReadItLater Inbox/terminal",
     "Backlinks/ReadItLater Inbox/Spring Boot",
-    "OMS/Events",
     "Untitled.canvas"
   ]
 }

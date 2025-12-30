@@ -1,5 +1,6 @@
 return {
   "hisbaan/dataview.nvim",
+  enabled = false,
   -- only load dataview.nvim for files in your obsidian vault
   event = {
     "BufEnter " .. vim.fn.expand("~") .. "~/Documents/Obsidian**",

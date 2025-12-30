@@ -1,1 +1,1 @@
-return { "echasnovski/mini.trailspace", version = false }
+return { "nvim-mini/mini.trailspace", version = false }
