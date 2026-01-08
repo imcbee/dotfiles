@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-12-23.md",
+                "file": "Daily Notes/2026-01-08.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-23"
+              "title": "2026-01-08"
             }
           }
         ],
@@ -139,7 +139,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2025-12-23.md",
+                "file": "Daily Notes/2026-01-08.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -219,19 +219,20 @@
                   "repelStrength": 0,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.16750325216434814,
+                  "scale": 0.4401260357761368,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2025-12-23"
+              "title": "Graph of 2026-01-08"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 352.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,12 +253,22 @@
       "obsidian-bible-reference:Bible Verse Lookup": true
     }
   },
-  "active": "8ebe39d5de7ecc4c",
+  "active": "0f1a82fb74cc7800",
   "lastOpenFiles": [
-    "Daily Notes/2025-12-22.md",
-    "Daily Notes/2025-12-23.md",
-    "Daily Notes/2025-12-19.md",
-    "Daily Notes/2025-12-18.md",
+    "Daily Notes/2025/12 - Dec/2025-12-01.md",
+    "Daily Notes/2026/01 - Jan",
+    "Daily Notes/2026",
+    "Daily Notes/2026-01-08.md",
+    "Daily Notes/2026-01-07.md",
+    "Daily Notes/2026-01-06.md",
+    "Backlinks/ReadItLater Inbox/Postgres/Analyzing New Unique Identifier Formats (UUIDv6, UUIDv7, and UUIDv8).md",
+    "Daily Notes/2026-01-05.md",
+    "Daily Notes/2026-01-02.md",
+    "Attachments/2026-01-02 2026-01-02 13.22.48.excalidraw.md",
+    "Daily Notes/2025/12 - Dec/2025-12-23.md",
+    "Daily Notes/2025/12 - Dec/2025-12-22.md",
+    "Daily Notes/2025/12 - Dec/2025-12-19.md",
+    "Daily Notes/2025/12 - Dec/2025-12-18.md",
     "Daily Notes/2025/12 - Dec",
     "Daily Notes/2025/12 - De.md",
     "Attachments/Pasted image 20251218095959.png",
@@ -276,21 +287,12 @@
     "Backlinks/Black Cape/AP&COI.md",
     "Backlinks/ReadItLater Inbox/Handling the N+1 Problem.md",
     "Backlinks/ReadItLater Inbox/Java/Virtual Threads.md",
-    "Daily Notes/2025-12-01.md",
     "Templates/Daily Notes.md",
-    "Daily Notes/2025-12-17.md",
-    "Daily Notes/2025-12-16.md",
+    "Daily Notes/2025/12 - Dec/2025-12-17.md",
+    "Daily Notes/2025/12 - Dec/2025-12-16.md",
     "Backlinks/ReadItLater Inbox/Avoid UUID Version 4 Primary Keys (for Postgres).md",
-    "Daily Notes/2025-12-15.md",
-    "Daily Notes/2025-12-12.md",
-    "Backlinks/Home Page/Home Page.md",
-    "Backlinks/ReadItLater Inbox/Is Postgres Read Heavy or Write Heavy (And Why You Should Care)  Crunchy Data Blog.md",
-    "OMS/Projects/OMS-CORE.md",
-    "OMS/People/CORE/Theo Lincke.md",
-    "OMS/People/Kareem Salem.md",
-    "Backlinks/ReadItLater Inbox/terminal/Vim Cheat Sheet.md",
-    "2025-12-13.md",
-    "Daily Notes/2025-12-11.md",
+    "Daily Notes/2025/12 - Dec/2025-12-15.md",
+    "Daily Notes/2025/12 - Dec/2025-12-12.md",
     "Daily Notes/2025/11 - Nov",
     "Attachments/assets 1",
     "Daily Notes/2025/10 - Oct",
@@ -298,8 +300,6 @@
     "Attachments/A Principled Approach to GraphQL Query Cost Analysis.pdf",
     "Daily Notes/2025/08-Aug",
     "Daily Notes/2025/07-Jul",
-    "Backlinks/ReadItLater Inbox/terminal",
-    "Backlinks/ReadItLater Inbox/Spring Boot",
     "Untitled.canvas"
   ]
 }

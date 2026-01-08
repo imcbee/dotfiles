@@ -54,7 +54,6 @@ alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 alias man='batman'
 alias ripgrep='batgrep'
 alias rg='batgrep'
-BATDIFF_USE_DELTA=true
 
 # -------------------------------------------------------------------
 # IDEA
