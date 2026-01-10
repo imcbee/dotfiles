@@ -1,6 +1,4 @@
-if [[ "$TERM_PROGRAM" != "vscode" ]]; then
-  fastfetch
-fi
+fastfetch
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -8,9 +6,6 @@ fi
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-
-autoload -Uz compinit
-compinit
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
@@ -49,7 +44,8 @@ zinit snippet OMZ::plugins/alias-finder
 zinit snippet OMZ::plugins/kitty
 zinit snippet OMZ::plugins/mvn
 zinit ice lucid as"program" pick"bin/git-dsf"
-zinit load so-fancy/diff-so-fancy
+# zinit load so-fancy/diff-so-fancy
+zinit load asdf-vm/asdf
 
 # zstyles
 zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
@@ -74,8 +70,8 @@ setopt hist_find_no_dups
 [[ -f ~/.config/zsh/aliases.zsh ]] && source ~/.config/zsh/aliases.zsh
 # Functions.zsh
 [[ -f ~/.config/zsh/functions.zsh ]] && source ~/.config/zsh/functions.zsh
-# dibnet_aliases.zsh
-[[ -f ~/.config/zsh/dibnet_aliases.zsh ]] && source ~/.config/zsh/dibnet_aliases.zsh
+# blackcape_aliases.zsh
+[[ -f ~/.config/zsh/blackcape_aliases.zsh ]] && source ~/.config/zsh/blackcape_aliases.zsh
 
 # Homebrew
 export PATH="/opt/homebrew/bin:$PATH"
@@ -84,14 +80,19 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # ASDF
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
-zinit fpath -f "${ASDF_DIR}/completions"
-zicompinit
+# awrit 
+# export PATH="~/awrit/.bun" #todo broken need to figure out
+
+# poetry
+#export PATH="/Users/ianmcbee/.local/bin"
 
 # Java
 . ~/.asdf/plugins/java/set-java-home.zsh
 
-# Go 
+# Golang
 . ~/.asdf/plugins/golang/set-env.zsh
+
+
 
 # fuck command
 eval $(thefuck --alias fuck)
@@ -104,25 +105,13 @@ source <(fzf --zsh)
 # grc
 [[ -s "/etc/grc.zsh" ]] && source /etc/grc.zsh
 
-# bun completions
-[ -s "/Users/ianmcbee/.bun/_bun" ] && source "/Users/ianmcbee/.bun/_bun"
-
 # source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
+
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# if [[ "$TERM_PROGRAM" != "Apple_Terminal" && "$TERM_PROGRAM" != "WarpTerminal" ]]; then
-#   eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
-# fi
-
-# # Starship
-if [[ "$TERM_PROGRAM" == "WarpTerminal" ]]; then
-  eval "$(starship init zsh)"
-
-  [ -f ~/.transient-prompt.zsh ] && source ~/.transient-prompt.zsh
-fi
