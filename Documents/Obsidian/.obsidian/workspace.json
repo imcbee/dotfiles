@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "5ca27935d711982a",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "ad7568381963b101",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "0a955e18ed1404f9",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -25,18 +25,18 @@
             }
           },
           {
-            "id": "0f1a82fb74cc7800",
+            "id": "5531cf4d344abe50",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-01-08.md",
+                "file": "Daily Notes/2026-02-04.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-08"
+              "title": "2026-02-04"
             }
           }
         ],
@@ -139,7 +139,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2026-01-08.md",
+                "file": "Daily Notes/2026-02-04.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -219,19 +219,19 @@
                   "repelStrength": 0,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.4401260357761368,
+                  "scale": 0.2164177272641341,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2026-01-08"
+              "title": "Graph of 2026-02-04"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 352.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -242,7 +242,6 @@
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
       "omnisearch:Omnisearch": false,
-      "bases:Create new base": false,
       "graph:Open graph view": true,
       "switcher:Open quick switcher": false,
       "homepage:Open homepage": false,
@@ -253,53 +252,54 @@
       "obsidian-bible-reference:Bible Verse Lookup": true
     }
   },
-  "active": "0f1a82fb74cc7800",
+  "active": "5531cf4d344abe50",
   "lastOpenFiles": [
-    "Daily Notes/2025/12 - Dec/2025-12-01.md",
+    "Daily Notes/2026-02-03.md",
+    "Daily Notes/2026-02-04.md",
+    "Attachments/Pasted image 20260203135837.png",
+    "Daily Notes/2026-02-02.md",
+    "Daily Notes/2026/01 - Jan/2026-01-30.md",
+    "Backlinks/Home Page/Home Page.md",
+    "Backlinks/Black Cape/CAPE.md",
+    "OMS/Projects/OMS.md",
+    "Daily Notes/2026/01 - Jan/2026-01-29.md",
+    "Daily Notes/2026/01 - Jan/2026-01-27.md",
+    "Daily Notes/2026/01 - Jan/2026-01-28.md",
+    "Daily Notes/2026/01 - Jan/2026-01-22.md",
+    "Daily Notes/2026/01 - Jan/2026-01-21.md",
+    "Daily Notes/2026/01 - Jan/2026-01-20.md",
+    "Daily Notes/2026/01 - Jan/2026-01-19.md",
+    "Daily Notes/2026/01 - Jan/2026-01-16.md",
+    "Attachments/Pasted image 20260116122718.png",
+    "Attachments/Pasted image 20260116122428.png",
+    "Attachments/Pasted image 20260116122016.png",
+    "Attachments/Pasted image 20260116121153.png",
+    "Attachments/Pasted image 20260116121003.png",
+    "Attachments/Pasted image 20260116120300.png",
+    "Attachments/Pasted image 20260116120241.png",
+    "Daily Notes/2026/01 - Jan/2026-01-15.md",
+    "Daily Notes/2026/01 - Jan/2026-01-14.md",
+    "Attachments/Pasted image 20260114110613.png",
+    "Attachments/Pasted image 20260114104352.png",
+    "Backlinks/Resources/Epomaker_Tide65_manual.pdf",
+    "Backlinks/Black Cape/Black Cape.md",
+    "OMS/Completed OMS Tasks.md",
+    "Backlinks/Resources",
+    "OMS/MARS-OMS Running Questions.md",
+    "OMS/Reminders.md",
+    "Backlinks/Resources/A Principled Approach to GraphQL Query Cost Analysis.pdf",
+    "Attachments/2026-01-02 2026-01-02 13.22.48.excalidraw.md",
+    "Attachments/2025-10-16 2025-10-16 09.55.02.excalidraw.md",
+    "Attachments/2025-10-09 2025-10-09 09.21.44.excalidraw.md",
+    "Daily Notes/2026/01 - Jan/2026-01-13.md",
+    "Daily Notes/2026/01 - Jan/2026-01-12.md",
     "Daily Notes/2026/01 - Jan",
     "Daily Notes/2026",
-    "Daily Notes/2026-01-08.md",
-    "Daily Notes/2026-01-07.md",
-    "Daily Notes/2026-01-06.md",
-    "Backlinks/ReadItLater Inbox/Postgres/Analyzing New Unique Identifier Formats (UUIDv6, UUIDv7, and UUIDv8).md",
-    "Daily Notes/2026-01-05.md",
-    "Daily Notes/2026-01-02.md",
-    "Attachments/2026-01-02 2026-01-02 13.22.48.excalidraw.md",
-    "Daily Notes/2025/12 - Dec/2025-12-23.md",
-    "Daily Notes/2025/12 - Dec/2025-12-22.md",
-    "Daily Notes/2025/12 - Dec/2025-12-19.md",
-    "Daily Notes/2025/12 - Dec/2025-12-18.md",
     "Daily Notes/2025/12 - Dec",
-    "Daily Notes/2025/12 - De.md",
-    "Attachments/Pasted image 20251218095959.png",
-    "Attachments/Pasted image 20251218095603.png",
-    "Attachments/Pasted image 20251218093302.png",
-    "Attachments/Pasted image 20251218093159.png",
-    "Attachments/Pasted image 20251218092948.png",
-    "Attachments/Pasted image 20251218092252.png",
-    "Attachments/Pasted image 20251218091504.png",
-    "Attachments/Pasted image 20251218090647.png",
-    "Attachments/Pasted image 20251218090605.png",
-    "Attachments/Pasted image 20251218090248.png",
-    "Backlinks/Completed Tasks.md",
-    "Backlinks/Acronym Dictionary.md",
-    "Backlinks/Black Cape/Black Cape.md",
-    "Backlinks/Black Cape/AP&COI.md",
-    "Backlinks/ReadItLater Inbox/Handling the N+1 Problem.md",
-    "Backlinks/ReadItLater Inbox/Java/Virtual Threads.md",
-    "Templates/Daily Notes.md",
-    "Daily Notes/2025/12 - Dec/2025-12-17.md",
-    "Daily Notes/2025/12 - Dec/2025-12-16.md",
-    "Backlinks/ReadItLater Inbox/Avoid UUID Version 4 Primary Keys (for Postgres).md",
-    "Daily Notes/2025/12 - Dec/2025-12-15.md",
-    "Daily Notes/2025/12 - Dec/2025-12-12.md",
     "Daily Notes/2025/11 - Nov",
     "Attachments/assets 1",
     "Daily Notes/2025/10 - Oct",
     "Daily Notes/2025/09-Sep",
-    "Attachments/A Principled Approach to GraphQL Query Cost Analysis.pdf",
-    "Daily Notes/2025/08-Aug",
-    "Daily Notes/2025/07-Jul",
     "Untitled.canvas"
   ]
 }

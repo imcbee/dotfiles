@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBrain",
       "LiPencilRuler",
       "🤖",
       "LiCalendar",
-      "LiClipboardList",
-      "LiPersonStanding"
+      "LiClipboardList"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -55,5 +55,6 @@
   "OMS/Events": "LiCalendar",
   "Backlinks/copilot-custom-prompts": "🤖",
   "Backlinks/ReadItLater Inbox": "LiMail",
-  "Backlinks/Excalidraw": "LiPencilRuler"
+  "Backlinks/Excalidraw": "LiPencilRuler",
+  "Backlinks/Resources": "LiBrain"
 }

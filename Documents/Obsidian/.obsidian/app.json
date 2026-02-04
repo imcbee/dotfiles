@@ -20,5 +20,6 @@
   "newFileLocation": "root",
   "newFileFolderPath": "pages",
   "rightToLeft": false,
-  "showIndentGuide": true
+  "showIndentGuide": true,
+  "openBehavior": "daily"
 }
