@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-02-04.md",
+                "file": "Daily Notes/2026-02-06.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-04"
+              "title": "2026-02-06"
             }
           }
         ],
@@ -139,7 +139,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2026-02-04.md",
+                "file": "Daily Notes/2026-02-06.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -219,20 +219,19 @@
                   "repelStrength": 0,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.2164177272641341,
+                  "scale": 0.15461666814905495,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2026-02-04"
+              "title": "Graph of 2026-02-06"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,12 +253,22 @@
   },
   "active": "5531cf4d344abe50",
   "lastOpenFiles": [
-    "Daily Notes/2026-02-03.md",
+    "Templates/Daily Notes.md",
+    "OMS/People/CORE/Kareem Salem.md",
+    "Daily Notes/2026-02-06.md",
+    "OMS/People/CORE/Theo Lincke.md",
+    "OMS/People/CORE/Dillion McLaughlin.md",
+    "Daily Notes/2026-02-05.md",
+    "Backlinks/Excalidraw/Drawing 2026-02-05 10.44.58.excalidraw.md",
+    "Backlinks/Home Page/Home Page.md",
     "Daily Notes/2026-02-04.md",
+    "Attachments/Pasted image 20260205081400.png",
+    "Attachments/Pasted image 20260205081313.png",
+    "Daily Notes/2026-02-03.md",
+    "Daily Notes/2026/02 - Feb",
     "Attachments/Pasted image 20260203135837.png",
     "Daily Notes/2026-02-02.md",
     "Daily Notes/2026/01 - Jan/2026-01-30.md",
-    "Backlinks/Home Page/Home Page.md",
     "Backlinks/Black Cape/CAPE.md",
     "OMS/Projects/OMS.md",
     "Daily Notes/2026/01 - Jan/2026-01-29.md",
@@ -279,27 +288,17 @@
     "Attachments/Pasted image 20260116120241.png",
     "Daily Notes/2026/01 - Jan/2026-01-15.md",
     "Daily Notes/2026/01 - Jan/2026-01-14.md",
-    "Attachments/Pasted image 20260114110613.png",
-    "Attachments/Pasted image 20260114104352.png",
     "Backlinks/Resources/Epomaker_Tide65_manual.pdf",
     "Backlinks/Black Cape/Black Cape.md",
     "OMS/Completed OMS Tasks.md",
     "Backlinks/Resources",
-    "OMS/MARS-OMS Running Questions.md",
-    "OMS/Reminders.md",
     "Backlinks/Resources/A Principled Approach to GraphQL Query Cost Analysis.pdf",
-    "Attachments/2026-01-02 2026-01-02 13.22.48.excalidraw.md",
-    "Attachments/2025-10-16 2025-10-16 09.55.02.excalidraw.md",
-    "Attachments/2025-10-09 2025-10-09 09.21.44.excalidraw.md",
-    "Daily Notes/2026/01 - Jan/2026-01-13.md",
-    "Daily Notes/2026/01 - Jan/2026-01-12.md",
     "Daily Notes/2026/01 - Jan",
     "Daily Notes/2026",
     "Daily Notes/2025/12 - Dec",
     "Daily Notes/2025/11 - Nov",
     "Attachments/assets 1",
     "Daily Notes/2025/10 - Oct",
-    "Daily Notes/2025/09-Sep",
     "Untitled.canvas"
   ]
 }

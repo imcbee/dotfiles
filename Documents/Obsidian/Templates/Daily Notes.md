@@ -52,6 +52,7 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 - [[Beyza Efe]] - 
 - [[Charlie Dobson]] - 
 - [[Kareem Salem]] - 
+- [[Dillion McLaughlin]] - 
 - [[Ian McBee]] - 
 
 ### Round 2s
@@ -60,14 +61,14 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 ## [[ATOMS "Standup of Standups"]]
 - [[OMS-CORE]] - 
 - [[OMS-CHRONICLE]] - 
+- [[OMS-EFFECTS]] -
 - [[OMS-SENSEMAKING]] - 
 - [[OMS-SEMANTICS]] - 
-- [[OMS-EFFECTS]] -
 - [[OMS-DDIL]] - 
-- [[OMS-MISSION]] - 
 - [[OMS-DEVOPS]] - 
-- [[ATOMS-AI]] -
 - [[ATOMS-AGGERSSOR]] - 
+- [[ATOMS-AI]] -
+- [[OMS-MISSION]] - 
 
 ### Second Rounds & Program Updates
 - 
