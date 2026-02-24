@@ -58,19 +58,33 @@ zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
 zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
 zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 
+zstyle ':fzf-tab:complete:*:*' fzf-preview '
+  if [ -d $realpath ]; then
+    eza -1 --color=always --group-directories-first --icons=always $realpath
+  else
+    bat --color=always --style=numbers --line-range=:500 $realpath
+  fi'
 # disable sort when completing `git checkout`
 zstyle ':completion:*:git-checkout:*' sort false
 # set descriptions format to enable group support
 # NOTE: don't use escape sequences (like '%F{red}%d%f') here, fzf-tab will ignore them
 zstyle ':completion:*:descriptions' format '[%d]'
 # set list-colors to enable filename colorizing
-# zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 # force zsh not to show completion menu, which allows fzf-tab to capture the unambiguous prefix
 zstyle ':completion:*' menu no
 # preview directory's content with eza when completing cd
-zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always --group-directories-first --icons=always $realpath'
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza --tree --level=2 --color=always --icons=always $realpath'
 zstyle ':fzf-tab:complete:make:*' fzf-preview 'make help'
-zstyle ':fzf-tab:complete:git:*' fzf-preview 'git --help'
+zstyle ':fzf-tab:complete:git-checkout:*' fzf-preview 'git diff --color=always HEAD..$word | head -200'
+zstyle ':fzf-tab:complete:git-switch:*' fzf-preview 'git log --oneline --graph --decorate --color=always $word | head -200'
+zstyle ':fzf-tab:complete:docker:*' fzf-preview 'docker inspect $word'
+zstyle ':fzf-tab:complete:docker-rmi:*' fzf-preview 'docker image inspect $word'
+zstyle ':fzf-tab:complete:export:*' fzf-preview 'printenv $word'
+zstyle ':fzf-tab:complete:mvn:*' fzf-preview 'mvn help:describe -Dcmd=$word'
+
+# When completing Maven artifacts, show groupId/artifactId info
+zstyle ':fzf-tab:complete:mvn-dependency:*' fzf-preview '
+  grep -A2 "<$word" pom.xml | bat --color=always --style=plain'
 
 # custom fzf flags
 # NOTE: fzf-tab does not follow FZF_DEFAULT_OPTS by default
@@ -115,7 +129,10 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 #export PATH="/Users/ianmcbee/.local/bin"
 
 # Java
-. ~/.asdf/plugins/java/set-java-home.zsh
+# . ~/.asdf/plugins/java/set-java-home.zsh
+
+# Maven
+export PATH=/Users/ianmcbee/.sdkman/candidates/maven/current/bin:$PATH
 
 # Golang
 . ~/.asdf/plugins/golang/set-env.zsh
@@ -140,7 +157,9 @@ source <(fzf --zsh)
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
-
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -25,18 +25,18 @@
             }
           },
           {
-            "id": "5531cf4d344abe50",
+            "id": "98a6263bb6052ef3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-02-06.md",
+                "file": "Daily Notes/2026-02-24.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-06"
+              "title": "2026-02-24"
             }
           }
         ],
@@ -139,7 +139,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2026-02-06.md",
+                "file": "Daily Notes/2026-02-24.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -219,19 +219,19 @@
                   "repelStrength": 0,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.15461666814905495,
+                  "scale": 0.24240398079462203,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2026-02-06"
+              "title": "Graph of 2026-02-24"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 251.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,46 +251,46 @@
       "obsidian-bible-reference:Bible Verse Lookup": true
     }
   },
-  "active": "5531cf4d344abe50",
+  "active": "8ebe39d5de7ecc4c",
   "lastOpenFiles": [
-    "Templates/Daily Notes.md",
-    "OMS/People/CORE/Kareem Salem.md",
-    "Daily Notes/2026-02-06.md",
-    "OMS/People/CORE/Theo Lincke.md",
-    "OMS/People/CORE/Dillion McLaughlin.md",
-    "Daily Notes/2026-02-05.md",
-    "Backlinks/Excalidraw/Drawing 2026-02-05 10.44.58.excalidraw.md",
+    "Daily Notes/2026-02-23.md",
+    "Daily Notes/2026-02-24.md",
+    "Daily Notes/2026-02-20.md",
     "Backlinks/Home Page/Home Page.md",
-    "Daily Notes/2026-02-04.md",
-    "Attachments/Pasted image 20260205081400.png",
-    "Attachments/Pasted image 20260205081313.png",
-    "Daily Notes/2026-02-03.md",
+    "Attachments/Pasted image 20260220105214.png",
+    "Attachments/Pasted image 20260220104942.png",
+    "Attachments/Pasted image 20260220104608.png",
+    "Attachments/Pasted image 20260220104513.png",
+    "Attachments/Pasted image 20260220103901.png",
+    "Attachments/Pasted image 20260220103825.png",
+    "Attachments/Pasted image 20260220103800.png",
+    "Attachments/Pasted image 20260220103639.png",
+    "Attachments/Pasted image 20260220103556.png",
+    "Attachments/Pasted image 20260220103440.png",
+    "Daily Notes/2026-02-19.md",
+    "Daily Notes/2026-02-18.md",
+    "Daily Notes/2026-02-17.md",
+    "Daily Notes/2026-02-12.md",
+    "Daily Notes/2026-02-13.md",
+    "Daily Notes/2025/08-Aug/2025-08-07.md",
+    "Templates/Daily Notes.md",
+    "Backlinks/ReadItLater Inbox/Java/Virtual Threads.md",
+    "Backlinks/ReadItLater Inbox/Spring Boot/Navigating HikariCP Connection Pool Issues When Your Database Says “No More Connections!”.md",
+    "Backlinks/ReadItLater Inbox/Avoid UUID Version 4 Primary Keys (for Postgres).md",
+    "OMS/People/CORE/Travis Stocker.md",
+    "Templates/Project Template.md",
+    "Templates/Person Template.md",
+    "Templates/Meeting Template.md",
+    "Backlinks/Excalidraw/Drawing 2026-02-12 13.43.02.excalidraw.md",
+    "Attachments/2026-02-12 2026-02-12 08.44.22.excalidraw.md",
+    "Backlinks/Excalidraw/Drawing 2026-02-12 13.47.49.excalidraw.md",
+    "OMS/Events/Trade Winds Exercise.md",
+    "Daily Notes/2026-02-11.md",
+    "Backlinks/ReadItLater Inbox/Slack.md",
+    "Daily Notes/2026-02-10.md",
+    "Daily Notes/2026-02-09.md",
     "Daily Notes/2026/02 - Feb",
-    "Attachments/Pasted image 20260203135837.png",
-    "Daily Notes/2026-02-02.md",
-    "Daily Notes/2026/01 - Jan/2026-01-30.md",
-    "Backlinks/Black Cape/CAPE.md",
-    "OMS/Projects/OMS.md",
-    "Daily Notes/2026/01 - Jan/2026-01-29.md",
-    "Daily Notes/2026/01 - Jan/2026-01-27.md",
-    "Daily Notes/2026/01 - Jan/2026-01-28.md",
-    "Daily Notes/2026/01 - Jan/2026-01-22.md",
-    "Daily Notes/2026/01 - Jan/2026-01-21.md",
-    "Daily Notes/2026/01 - Jan/2026-01-20.md",
-    "Daily Notes/2026/01 - Jan/2026-01-19.md",
-    "Daily Notes/2026/01 - Jan/2026-01-16.md",
-    "Attachments/Pasted image 20260116122718.png",
-    "Attachments/Pasted image 20260116122428.png",
-    "Attachments/Pasted image 20260116122016.png",
-    "Attachments/Pasted image 20260116121153.png",
-    "Attachments/Pasted image 20260116121003.png",
-    "Attachments/Pasted image 20260116120300.png",
-    "Attachments/Pasted image 20260116120241.png",
-    "Daily Notes/2026/01 - Jan/2026-01-15.md",
-    "Daily Notes/2026/01 - Jan/2026-01-14.md",
     "Backlinks/Resources/Epomaker_Tide65_manual.pdf",
-    "Backlinks/Black Cape/Black Cape.md",
-    "OMS/Completed OMS Tasks.md",
     "Backlinks/Resources",
     "Backlinks/Resources/A Principled Approach to GraphQL Query Cost Analysis.pdf",
     "Daily Notes/2026/01 - Jan",

@@ -2,10 +2,6 @@
 alias x86="$env /usr/bin/arch -x86_64 /bin/zsh ---login"
 alias arm="$env /usr/bin/arch -arm64 /bin/zsh ---login"
 
-# remove the node_modules folder and the package-lock.json file from the current directory
-alias remove-node_modules='rm -rf node_modules; rm package-lock.json'
-
-
 # -------------------------------------------------------------------
 # Kitty Aliases
 # -------------------------------------------------------------------
@@ -27,6 +23,9 @@ alias nr="npm run"
 alias ni="npm install"
 alias ns="npm start"
 alias nu="npm uninstall"
+
+# remove the node_modules folder and the package-lock.json file from the current directory
+alias remove-node_modules='rm -rf node_modules; rm package-lock.json'
 
 # -------------------------------------------------------------------
 # EZA Commands to replace ls
@@ -59,6 +58,8 @@ alias rg='batgrep'
 # IDEA
 # -------------------------------------------------------------------
 alias idea='open -na "/Applications/IntelliJ IDEA.app" --args "$@"'
+# idea='open -na "/Applications/IntelliJ IDEA.app" --args "$@"'
+# alias idea='$idea $(kitten choose-file)'
 
 # -------------------------------------------------------------------
 # dotfiles
