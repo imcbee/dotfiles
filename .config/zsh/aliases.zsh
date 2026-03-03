@@ -14,7 +14,7 @@ alias gd="git difftool --no-symlinks --dir-diff"
 # -------------------------------------------------------------------
 # Obsidian Aliases
 # -------------------------------------------------------------------
-alias obsidian='cd ~/Documents/Obsidian'
+alias notes='cd ~/Documents/Obsidian'
 
 # -------------------------------------------------------------------
 # NPM Aliases
