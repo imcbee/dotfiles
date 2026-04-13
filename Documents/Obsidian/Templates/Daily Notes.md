@@ -46,29 +46,26 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 ---
 # Standups
 ## [[OMS Core Daily Standup]]
-- [[Travis Stocker]] - 
-- [[James Ferro]] - 
-- [[Justin Hahn]] - 
-- [[Beyza Efe]] - 
-- [[Charlie Dobson]] - 
-- [[Kareem Salem]] - 
-- [[Dillion McLaughlin]] - 
-- [[Ian McBee]] - 
+
+| Person                          | Status |
+| ------------------------------- | :----- |
+| [[Travis Stocker\|Travis]]      |        |
+| [[Charlie Dobson\|Charlie]]     |        |
+| [[John Urban]]                  |        |
+| [[Justin Hahn]]                 |        |
+| [[James Ferro\|James]]          |        |
+| [[Ian McBee]]                   |        |
+| [[Kareem Salem\|Kareem]]        |        |
+| [[Issac Peterson]]              |        |
+| [[Arielle Griffin]]             |        |
+| [[Patton Nelson]]               |        |
+| [[Dillion McLaughlin\|Dillion]] |        |
 
 ### Round 2s
 - 
 
 ## [[ATOMS "Standup of Standups"]]
-- [[OMS-CORE]] - 
-- [[OMS-CHRONICLE]] - 
-- [[OMS-EFFECTS]] -
-- [[OMS-SENSEMAKING]] - 
-- [[OMS-SEMANTICS]] - 
-- [[OMS-DDIL]] - 
-- [[OMS-DEVOPS]] - 
-- [[ATOMS-AGGERSSOR]] - 
-- [[ATOMS-AI]] -
-- [[OMS-MISSION]] - 
+- 
 
 ### Second Rounds & Program Updates
 - 

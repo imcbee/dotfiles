@@ -1,12 +1,21 @@
 shell-integration = zsh
-theme = dark:iTerm2 Dark Background,light:Apple System Colors Light
+theme = dark:Kitty Default,light:Apple System Colors Light
 #background = 000000
 font-family = SauceCodePro Nerd Font
 background-opacity = 0.85
 background-blur = 32
 window-colorspace = display-p3
-macos-titlebar-style = hidden 
+# macos-titlebar-style = hidden 
 quick-terminal-animation-duration = 0.08
+
+# Shaders
+# custom-shader = ~/.config/ghostty/shaders/bettercrt.glsl
+# custom-shader = ~/.config/ghostty/shaders/crt.glsl
+# custom-shader = ~/.config/ghostty/shaders/in-game-crt.glsl
+custom-shader = ~/.config/ghostty/shaders/bloom.glsl
+custom-shader = ~/.config/ghostty/shaders/tft.glsl
+# custom-shader = ~/.config/ghostty/shaders/water.glsl
+custom-shader-animation = always
 
 # Key Bindings
 keybind = global:ctrl+grave_accent=toggle_quick_terminal

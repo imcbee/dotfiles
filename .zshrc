@@ -38,6 +38,8 @@ autoload -Uz compinit; compinit
 # Add in zsh plugins
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 zinit light zdharma-continuum/fast-syntax-highlighting
+# zinit ice as"program" from"gh-r" pick"zsh-patina-*/zsh-patina" atload'eval "$(zsh-patina activate)"'
+# zinit light michel-kraemer/zsh-patina
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
@@ -150,9 +152,6 @@ source <(fzf --zsh)
 
 # grc
 [[ -s "/etc/grc.zsh" ]] && source /etc/grc.zsh
-
-# source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down

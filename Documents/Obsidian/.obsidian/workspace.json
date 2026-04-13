@@ -25,18 +25,18 @@
             }
           },
           {
-            "id": "9b23c926e466ab70",
+            "id": "27500e078ec02fc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-03-02.md",
+                "file": "Daily Notes/2026-04-13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-02"
+              "title": "2026-04-13"
             }
           }
         ],
@@ -81,13 +81,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2025-11-13.md",
+                "file": "Daily Notes/2026-03-06.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-11-13"
+              "title": "Outline of 2026-03-06"
             }
           },
           {
@@ -139,7 +139,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2026-03-02.md",
+                "file": "Daily Notes/2026-04-13.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -219,26 +219,24 @@
                   "repelStrength": 0,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.24240398079462203,
+                  "scale": 0.24288029685763105,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2026-03-02"
+              "title": "Graph of 2026-04-13"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 251.5,
-    "collapsed": true
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "copilot:Open Copilot Chat": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
       "omnisearch:Omnisearch": false,
@@ -252,44 +250,47 @@
       "obsidian-bible-reference:Bible Verse Lookup": true
     }
   },
-  "active": "9b23c926e466ab70",
+  "active": "27500e078ec02fc0",
   "lastOpenFiles": [
-    "Daily Notes/2026-03-02.md",
     "Backlinks/Home Page/Home Page.md",
-    "Daily Notes/2026-02-27.md",
-    "Daily Notes/2026-02-26.md",
-    "Daily Notes/2026-02-25.md",
-    "Attachments/Pasted image 20260225111648.png",
-    "Attachments/Pasted image 20260225111624.png",
-    "Attachments/Pasted image 20260225111441.png",
-    "Attachments/Pasted image 20260225111122.png",
-    "Attachments/Pasted image 20260225111107.png",
-    "Attachments/Pasted image 20260225110936.png",
-    "Attachments/Pasted image 20260225110723.png",
-    "Attachments/Pasted image 20260225110513.png",
-    "Attachments/Pasted image 20260225105511.png",
-    "Attachments/Pasted image 20260225105035.png",
-    "Daily Notes/2026-02-24.md",
-    "Daily Notes/2026-02-23.md",
-    "Daily Notes/2026-02-20.md",
-    "Daily Notes/2026-02-19.md",
-    "Daily Notes/2026-02-18.md",
-    "Daily Notes/2026-02-17.md",
-    "Daily Notes/2026-02-12.md",
-    "Daily Notes/2026-02-13.md",
-    "Daily Notes/2025/08-Aug/2025-08-07.md",
-    "Templates/Daily Notes.md",
-    "Backlinks/ReadItLater Inbox/Java/Virtual Threads.md",
-    "Backlinks/ReadItLater Inbox/Spring Boot/Navigating HikariCP Connection Pool Issues When Your Database Says “No More Connections!”.md",
-    "Backlinks/ReadItLater Inbox/Avoid UUID Version 4 Primary Keys (for Postgres).md",
-    "OMS/People/CORE/Travis Stocker.md",
-    "Templates/Project Template.md",
-    "Templates/Person Template.md",
-    "Templates/Meeting Template.md",
-    "Backlinks/Excalidraw/Drawing 2026-02-12 13.43.02.excalidraw.md",
-    "Attachments/2026-02-12 2026-02-12 08.44.22.excalidraw.md",
-    "Backlinks/Excalidraw/Drawing 2026-02-12 13.47.49.excalidraw.md",
-    "OMS/Events/Trade Winds Exercise.md",
+    "Daily Notes/2026-04-13.md",
+    "Daily Notes/2026-04-03.md",
+    "Daily Notes/2026-04-10.md",
+    "Daily Notes/2026-04-09.md",
+    "Daily Notes/2026/03 - Mar/2026-03-02.md",
+    "Daily Notes/2025/09-Sep/2025-09-10.md",
+    "OMS/Tasks/Move user metrics to ES.md",
+    "Daily Notes/2025/08-Aug/2025-08-29.md",
+    "Daily Notes/2025/08-Aug/2025-08-27.md",
+    "Daily Notes/2025/08-Aug/2025-08-25.md",
+    "Daily Notes/2025/08-Aug/2025-08-18.md",
+    "Daily Notes/2025/08-Aug/2025-08-12.md",
+    "Backlinks/Learnings/elasticsearch.md",
+    "OMS/Logs/2025-07-02_indexAllNodes()_log_results_PR_1001.md",
+    "Templates/Task Template.md",
+    "Daily Notes/2026-04-08.md",
+    "Daily Notes/2026-04-07.md",
+    "Attachments/Pasted image 20260408104748.png",
+    "Attachments/Pasted image 20260408104740.png",
+    "Attachments/Pasted image 20260408104619.png",
+    "Attachments/Pasted image 20260408104252.png",
+    "Attachments/Pasted image 20260408104047.png",
+    "Attachments/Pasted image 20260408103933.png",
+    "Attachments/Pasted image 20260408103543.png",
+    "Attachments/Pasted image 20260408103530.png",
+    "Attachments/Pasted image 20260408103522.png",
+    "Attachments/Pasted image 20260408103205.png",
+    "Backlinks/Learnings/Grafana.md",
+    "OMS/Meetings/ATOMS \"Standup of Standups\".md",
+    "grafan.md",
+    "Backlinks/Learnings/Prometheus.md",
+    "Daily Notes/2025/06-Jun/2025-06-09.md",
+    "OMS/Tasks/Implement Prometheus and Grafana web dashboard.md",
+    "Daily Notes/2025/06-Jun/2025-06-12.md",
+    "OMS/Tasks/Add object list information to the wfs-node table.md",
+    "Daily Notes/2026/04 - Apr",
+    "Daily Notes/2026/03 - Mar",
+    "User Metrics Aggregation Query Planning.pdf",
     "Daily Notes/2026/02 - Feb",
     "Backlinks/Resources/Epomaker_Tide65_manual.pdf",
     "Backlinks/Resources",
@@ -297,9 +298,6 @@
     "Daily Notes/2026/01 - Jan",
     "Daily Notes/2026",
     "Daily Notes/2025/12 - Dec",
-    "Daily Notes/2025/11 - Nov",
-    "Attachments/assets 1",
-    "Daily Notes/2025/10 - Oct",
     "Untitled.canvas"
   ]
 }

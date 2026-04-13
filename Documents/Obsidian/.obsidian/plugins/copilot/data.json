@@ -68,7 +68,7 @@
       ]
     },
     {
-      "name": "gpt-5.2",
+      "name": "gpt-5.4",
       "provider": "openai",
       "enabled": true,
       "isBuiltIn": true,
@@ -79,6 +79,16 @@
     },
     {
       "name": "gpt-5-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gpt-5.2",
       "provider": "openai",
       "enabled": true,
       "isBuiltIn": true,
@@ -262,6 +272,14 @@
       "core": true
     },
     {
+      "name": "gemini-embedding-2-preview",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true
+    },
+    {
       "name": "Qwen/Qwen3-Embedding-0.6B",
       "provider": "siliconflow",
       "enabled": true,
@@ -311,8 +329,8 @@
     "webSearch",
     "pomodoro",
     "youtubeTranscription",
-    "writeToFile",
-    "replaceInFile"
+    "writeFile",
+    "editFile"
   ],
   "memoryFolderName": "copilot/memory",
   "enableRecentConversations": true,
@@ -329,5 +347,6 @@
   "autoAcceptEdits": false,
   "chatHistorySortStrategy": "recent",
   "projectListSortStrategy": "recent",
-  "userSystemPromptsFolder": "copilot/system-prompts"
+  "userSystemPromptsFolder": "copilot/system-prompts",
+  "miyoVaultName": ""
 }

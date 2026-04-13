@@ -22,10 +22,10 @@
   "table-editor-obsidian",
   "obsidian-excalidraw-plugin",
   "dataview",
-  "copilot",
   "obsidian-charts",
   "oz-clear-unused-images",
   "obsidian-read-it-later",
   "omnisearch",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-plugin-update-tracker"
 ]

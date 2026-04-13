@@ -114,7 +114,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.19.0",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.21.2",
     "libraryItems": [
       {
         "id": "OSwn9bhWj6lNrNJ7wN8mS",
@@ -140,9 +140,7 @@
             "width": 65,
             "height": 25,
             "seed": 98922628,
-            "groupIds": [
-              "-eB7SMYtxC0o1OXXKZSmB"
-            ],
+            "groupIds": [],
             "frameId": null,
             "roundness": null,
             "boundElements": [],
@@ -174,7 +172,7 @@
   "mdBorderColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "previousRelease": "2.20.6",
+  "previousRelease": "2.22.0",
   "showReleaseNotes": true,
   "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
