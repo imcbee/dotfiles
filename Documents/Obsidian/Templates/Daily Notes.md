@@ -60,6 +60,7 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 | [[Arielle Griffin]]             |        |
 | [[Patton Nelson]]               |        |
 | [[Dillion McLaughlin\|Dillion]] |        |
+| [[Tarek Shah]]                  |        |
 
 ### Round 2s
 - 
