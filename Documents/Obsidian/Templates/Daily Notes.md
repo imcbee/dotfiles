@@ -1,14 +1,14 @@
 ---
 type: daily-notes
 tags: [daily-notes, <%tp.date.now("YYYY")%>-quarter-<%tp.date.now("Q")%>]
-date: <% tp.file.title %>
+date: <% tp.config.target_file.basename %>
 created: <% tp.date.now("YYYY-MM-DD") %>
 aliases:
   - <%tp.date.now("dddd Do MMMM YYYY")%>
   - <%tp.date.now("ddd Do MMM YYYY")%>
 ---
 ---
-# <% tp.file.title %>  Notes
+# <% tp.config.target_file.basename %>  Notes
  << [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
 
 --vod 
@@ -45,22 +45,19 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 ```
 ---
 # Standups
-## [[OMS Core Daily Standup]]
-
-| Person                          | Status |
-| ------------------------------- | :----- |
-| [[Travis Stocker\|Travis]]      |        |
-| [[Charlie Dobson\|Charlie]]     |        |
-| [[John Urban]]                  |        |
-| [[Justin Hahn]]                 |        |
-| [[James Ferro\|James]]          |        |
-| [[Ian McBee]]                   |        |
-| [[Kareem Salem\|Kareem]]        |        |
-| [[Issac Peterson]]              |        |
-| [[Arielle Griffin]]             |        |
-| [[Patton Nelson]]               |        |
-| [[Dillion McLaughlin\|Dillion]] |        |
-| [[Tarek Shah]]                  |        |
+## [[OMS Core Daily Standup]] [[API-TEAM-2]]
+[[John Urban|John]]:
+- 
+[[James Ferro|James]]:
+- 
+[[Dillion McLaughlin|Dillion]]:
+- 
+[[Patton Nelson]]:
+- 
+[[Tarek Shah]]:
+- 
+[[Ian McBee]]:
+- 
 
 ### Round 2s
 - 

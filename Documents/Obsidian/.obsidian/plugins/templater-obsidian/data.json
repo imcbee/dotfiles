@@ -15,8 +15,16 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "OMS/People",
+      "template": "Templates/Person Template.md"
+    },
+    {
+      "folder": "OMS/Meetings",
+      "template": "Templates/Meeting Template.md"
+    },
+    {
+      "folder": "OMS/Tasks",
+      "template": "Templates/Task Template.md"
     }
   ],
   "enable_file_templates": false,
@@ -34,5 +42,10 @@
   "startup_templates": [
     ""
   ],
-  "intellisense_render": 1
+  "intellisense_render": 1,
+  "ignore_folders_on_creation": [
+    {
+      "folder": ""
+    }
+  ]
 }

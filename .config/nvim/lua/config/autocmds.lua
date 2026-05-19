@@ -24,3 +24,16 @@ local set_autoformat = function(pattern, bool_val)
 end
 
 set_autoformat({ "typescript", "html", "java", "python", "markdown", "yaml", "bash", "dockerfile" }, false)
+
+vim.api.nvim_create_autocmd("CmdlineChanged", {
+  callback = function()
+    local cmdline = vim.fn.getcmdline()
+    if vim.fn.getcmdtype() ~= ":" then
+      return
+    end
+    if not cmdline:match("^Obsidian[A-Za-z0-9]*$") then
+      return
+    end
+    vim.fn.wildtrigger()
+  end,
+})

@@ -2,6 +2,15 @@
 "nmap j gj
 "nmap k gk
 
+" Space leader, matching Neovim muscle memory where Obsidian supports it.
+" This plugin build does not support let mapleader, so use literal <Space> chords.
+unmap <Space>
+exmap quickSwitcher obcommand switcher:open
+nmap <Space>ff :quickSwitcher<CR>
+
+exmap globalSearch obcommand global-search:open
+nmap <Space>fw :globalSearch<CR>
+
 " I like using H and L for beginning/end of line
 nmap H ^
 nmap L $
