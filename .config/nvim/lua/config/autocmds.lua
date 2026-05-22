@@ -37,3 +37,6 @@ vim.api.nvim_create_autocmd("CmdlineChanged", {
     vim.fn.wildtrigger()
   end,
 })
+
+-- Makes current line number cyan
+vim.cmd("highlight CursorLineNr guifg=#00FFFF")

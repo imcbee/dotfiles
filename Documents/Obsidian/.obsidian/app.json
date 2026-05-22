@@ -2,7 +2,7 @@
   "readableLineLength": false,
   "strictLineBreaks": false,
   "spellcheck": true,
-  "attachmentFolderPath": "Attachments",
+  "attachmentFolderPath": "assets",
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "showUnsupportedFiles": true,
@@ -21,5 +21,7 @@
   "newFileFolderPath": "pages",
   "rightToLeft": false,
   "showIndentGuide": true,
-  "openBehavior": "daily"
+  "openBehavior": "daily",
+  "focusNewTab": false,
+  "useMarkdownLinks": true
 }

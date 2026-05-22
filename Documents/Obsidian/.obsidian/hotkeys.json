@@ -120,5 +120,14 @@
       ],
       "key": "ArrowRight"
     }
+  ],
+  "workspace:close-others": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
   ]
 }

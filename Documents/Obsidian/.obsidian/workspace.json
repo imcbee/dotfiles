@@ -25,18 +25,18 @@
             }
           },
           {
-            "id": "1b87885b6ce3f966",
+            "id": "ac010ba4c82daf75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026/05 - May/2026-05-19.md",
+                "file": "Daily Notes/2026/05 - May/2026-05-21.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-19"
+              "title": "2026-05-21"
             }
           }
         ],
@@ -81,13 +81,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2026-05-15.md",
+                "file": "Daily Notes/2026/05 - May/2026-05-21.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-05-15"
+              "title": "Outline of 2026-05-21"
             }
           },
           {
@@ -139,7 +139,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2026/05 - May/2026-05-19.md",
+                "file": "Daily Notes/2026/05 - May/2026-05-21.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -224,7 +224,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2026-05-19"
+              "title": "Graph of 2026-05-21"
             }
           }
         ]
@@ -251,54 +251,54 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1b87885b6ce3f966",
+  "active": "ac010ba4c82daf75",
   "lastOpenFiles": [
+    "assets/test4.png",
+    "assets/Pasted image 20260521232202.png",
+    "assets/Pasted image 20260521232135.png",
+    "assets/Pasted image 20260521232003.png",
+    "Attachments",
     "Backlinks/Home Page/Home Page.md",
+    "Daily Notes/2026/05 - May/2026-05-21.md",
+    "assets/2026-05-21-23-17-51.png",
+    "assets/Pasted image 20260521230942.png",
+    "Daily Notes/2026/05 - May/2026-05-20.md",
+    "assets/test3.png",
+    "OMS/Tasks/Configure the custody status service queue and consumer.md",
+    "assets/2026-05-21-22-45-23.png",
+    "assets/team goals break out 2.png",
+    "assets/test.png",
+    "assets/test2.png",
+    "Backlinks/Black Cape/Black Cape People/Mike Santamaria.md",
+    "Daily Notes/2026/01 - Jan/2026-01-14.md",
+    "Backlinks/ReadItLater Inbox/terminal/Kitty Keybinding CheatSheet.md",
+    "assets",
+    "Templates/Task Template.md",
+    "Templates/Daily Notes.md",
+    "OMS/Meetings/MARS OMS Integration - Sprint Review.md",
     "Daily Notes/2026/05 - May/2026-05-19.md",
+    "Backlinks/ReadItLater Inbox/Transactional outbox pattern - AWS Prescriptive Guidance.md",
+    "Backlinks/ReadItLater Inbox/Instrumentation  GraphQL Java.md",
+    "OMS/Task List.md",
+    "Untitled.md",
+    "OMS/Tasks/Migrate all remaining repositories to JOOQ.md",
+    "Daily Notes/2026/05 - May/2026-05-19.md~",
     "Templates/snippets/fast color.md",
     "Daily Notes/2026-05-18.md",
     "Templates/snippets",
     "Templates/Project Template.md",
     "Daily Notes/2026/05 - May/2026-05-18.md",
     "Ian McBee.md",
-    "Templates/Daily Notes.md",
     "Templates/Person Template.md",
     "OMS/People/archive",
     "OMS/People/CORE/Untitled.md",
-    "Templates/Task Template.md",
     "Daily Notes/2026/05 - May/2026-05-10.md",
     "Daily Notes/2026/05 - May/2026-05-15.md",
-    "Backlinks/Task List.md",
-    "Daily Notes/2026/05 - May/2026-05-17.md",
-    "Daily Notes/2026/05 - May/2026-05-01.md",
-    "Daily Notes/2026/05 - May/2026-05-14.md",
-    "Daily Notes/2026/05 - May/2026-05-13.md",
-    "Attachments/Pasted image 20260515113611.png",
-    "OMS/Meetings/ATOMS \"Standup of Standups\".md",
-    "OMS/People/MISSION/John Urban.md",
-    "Daily Notes/2026/05 - May/2026-05-08.md",
-    "Daily Notes/2026/05 - May/2026-05-11.md",
-    "Daily Notes/2026/05 - May/2026-05-12.md",
-    "Backlinks/ReadItLater Inbox/Instrumentation  GraphQL Java.md",
-    "Backlinks/ReadItLater Inbox/Handling the N+1 Problem.md",
-    "Backlinks/ReadItLater Inbox/Vault QA (Basic).md",
-    "Attachments/Pasted image 20260511120615.png",
-    "Attachments/Pasted image 20260508110310.png",
-    "Attachments/Pasted image 20260508110241.png",
-    "Attachments/Pasted image 20260508104546.png",
-    "Attachments/Pasted image 20260508104440.png",
-    "Attachments/Pasted image 20260508103910.png",
-    "Attachments/Pasted image 20260508103853.png",
-    "Attachments/Pasted image 20260508103639.png",
-    "Attachments/Pasted image 20260508103508.png",
     "Daily Notes/2026/05 - May",
     "Daily Notes/2026/04 - Apr",
     "Daily Notes/2026/03 - Mar",
     "User Metrics Aggregation Query Planning.pdf",
     "Daily Notes/2026/02 - Feb",
-    "Backlinks/Resources/Epomaker_Tide65_manual.pdf",
-    "Backlinks/Resources",
-    "Backlinks/Resources/A Principled Approach to GraphQL Query Cost Analysis.pdf",
     "Untitled.canvas"
   ]
 }

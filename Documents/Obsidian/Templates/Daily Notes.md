@@ -14,14 +14,14 @@ aliases:
 --vod 
 
 ---
-# Today's Task
-## General Tasks
+## Tasks
+### General Tasks
 ```tasks
 not done
 tags do not include #OMS-TASK
 path does not include OMS/
 ```
-## ATOMS-Tasks
+### ATOMS-Tasks
 ```dataview
 table state, priority, start_date, url
 where type = "task" and file.name != "Task Template" and completed = false
@@ -44,8 +44,8 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 })
 ```
 ---
-# Standups
-## [[OMS Core Daily Standup]] [[API-TEAM-2]]
+## Standups
+### [[OMS Core Daily Standup]] [[API-TEAM-2]]
 [[John Urban|John]]:
 - 
 [[James Ferro|James]]:

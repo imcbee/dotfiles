@@ -7,12 +7,15 @@ created: <% tp.date.now() %>
 project: OMS
 tags:
   - OMS-TASK
-  - <% tp.frontmatter['project'] %>
-  - <% tp.frontmatter['project'] %>-CORE
+  - OMS
+  - OMS-CORE
 ---
 # <% tp.file.title %>
 ## Description
-*Project:* [[<% tp.frontmatter['project'] %>]]/[[<% tp.frontmatter['project'] %>-CORE]]. This task was created on [[<% tp.date.now() %>]].
+*Project:* [[OMS]]/[[OMS-CORE]]. This task was created on [[<% tp.date.now() %>]].
+*Issue:* 
+
+
 
 ### Sub-tasks
 -

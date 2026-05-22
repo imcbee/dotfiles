@@ -35,7 +35,7 @@ return {
   ---@module 'obsidian'
   ---@type obsidian.config
   opts = {
-    -- legacy_commands = false,
+    legacy_commands = false,
     workspaces = {
       {
         name = "work",
@@ -55,34 +55,12 @@ return {
       -- Optional, if you want to automatically insert a template from your template directory like 'daily.md'
       template = "Templates/Daily Notes",
     },
-    completion = {
-      -- Enables completion using nvim_cmp
-      nvim_cmp = false,
-      -- Enables completion using blink.cmp
-      blink = true,
-      -- Trigger completion at 2 chars.
-      min_chars = 2,
-      -- Set to false to disable new note creation in the picker
-      create_new = true,
-    },
     templates = {
       folder = "Templates",
       date_format = "%Y-%m-%d",
       time_format = "%H:%M",
       -- A map for custom variables, the key should be the variable and the value a function
       substitutions = {},
-    },
-
-    ---@class obsidian.config.OpenOpts
-    ---
-    ---Opens the file with current line number
-    ---@field use_advanced_uri? boolean
-    ---
-    ---Function to do the opening, default to vim.ui.open
-    ---@field func? fun(uri: string)
-    open = {
-      use_advanced_uri = false,
-      func = vim.ui.open,
     },
     -- see below for full list of options 👇
     picker = {
@@ -118,49 +96,16 @@ return {
     -- 5. "hsplit_force" - always open a new horizontal split if the file is not in the adjacent hsplit.
     open_notes_in = "current",
 
-    ---@class obsidian.config.AttachmentsOpts
-    ---
-    ---Default folder to save images to, relative to the vault root.
-    ---@field img_folder? string
-    ---
-    ---Default name for pasted images
-    ---@field img_name_func? fun(): string
-    ---
-    ---Default text to insert for pasted images, for customizing, see: https://github.com/obsidian-nvim/obsidian.nvim/wiki/Images
-    ---@field img_text_func? fun(path: obsidian.Path): string
-    ---
-    ---Whether to confirm the paste or not. Defaults to true.
-    ---@field confirm_img_paste? boolean
     attachments = {
-      folder = "assets/imgs",
-      img_name = function()
-        return string.format("Pasted image %s", os.date("%Y%m%d%H%M%S"))
-      end,
-      confirm_img_paste = true,
+      folder = "Attachments",
+      confirm_img_paste = false,
     },
-
-    -- ---@deprecated in favor of the footer option below
-    -- statusline = {
-    --   enabled = true,
-    --   format = "{{properties}} properties {{backlinks}} backlinks {{words}} words {{chars}} chars",
-    -- },
-
-    ---@class obsidian.config.FooterOpts
-    ---
-    ---@field enabled? boolean
-    ---@field format? string
-    ---@field hl_group? string
-    ---@field separator? string|false Set false to disable separator; set an empty string to insert a blank line separator.
     footer = {
       enabled = true,
       format = "{{backlinks}} backlinks  {{properties}} properties  {{words}} words  {{chars}} chars",
       hl_group = "Comment",
       separator = string.rep("-", 80),
     },
-    ---@class obsidian.config.CheckboxOpts
-    ---
-    ---Order of checkbox state chars, e.g. { " ", "x" }
-    ---@field order? string[]
     checkbox = {
       order = { " ", "~", "!", ">", "x" },
     },
