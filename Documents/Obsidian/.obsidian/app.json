@@ -23,5 +23,5 @@
   "showIndentGuide": true,
   "openBehavior": "daily",
   "focusNewTab": false,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": false
 }

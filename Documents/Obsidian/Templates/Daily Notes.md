@@ -50,7 +50,7 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 - 
 [[James Ferro|James]]:
 - 
-[[Dillion McLaughlin|Dillion]]:
+[[Dillon McLaughlin|Dillion]]:
 - 
 [[Patton Nelson]]:
 - 

@@ -1,4 +1,4 @@
-if [ -z "$FASTFETCH_RUN" ]; then
+if [ -z "$FASTFETCH_RUN" ] && [ "$TERMINAL_EMULATOR" != "JetBrains-JediTerm" ]; then
     export FASTFETCH_RUN=1
     fastfetch
 fi
