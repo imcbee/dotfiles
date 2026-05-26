@@ -37,9 +37,6 @@ let g:WhichKeyDesc_crperiod= "cr. to dot.case"
 let g:WhichKeyDesc_crspace= "cr<Space> to space case"
 let g:WhichKeyDesc_crt= "crt to title"
 
-" highlightedyank: Highlights the yanked region
-set highlightedyank
-
 " classtextobj: Provides a text object for class definitions
 set classtextobj
 
