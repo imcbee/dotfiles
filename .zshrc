@@ -134,7 +134,7 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 # . ~/.asdf/plugins/java/set-java-home.zsh
 
 # Maven
-export PATH=/Users/ianmcbee/.sdkman/candidates/maven/current/bin:$PATH
+export PATH=$HOME/.sdkman/candidates/maven/current/bin:$PATH
 
 # Golang
 . ~/.asdf/plugins/golang/set-env.zsh

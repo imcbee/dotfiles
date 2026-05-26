@@ -68,6 +68,8 @@ alias idea='open -na "/Applications/IntelliJ IDEA.app" --args "$@"'
 # -------------------------------------------------------------------
 dotfiles='~/dotfiles'
 alias dotfiles='cd '$dotfiles''
+# Add this to your .zshrc
+alias brewup="brew bundle dump --describe --force --file=~/dotfiles/Brewfile"
 
 # -------------------------------------------------------------------
 # air (go)
