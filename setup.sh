@@ -65,5 +65,5 @@ done
 
 echo "========================================="
 echo "       Bootstrapping Complete!           "
-echo "  Restart your terminal to see changes.   "
+echo "  Restart your terminal to see changes.  "
 echo "========================================="
