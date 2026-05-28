@@ -24,7 +24,7 @@ if ! command -v brew &>/dev/null; then
     eval "$(/usr/local/bin/brew shellenv)"
   fi
 else
-  echo "✔ Homebrew is already installed."
+  echo "✅ Homebrew is already installed."
 fi
 
 # 2. Update Homebrew and install dependencies from the Brewfile
@@ -36,13 +36,21 @@ else
   echo "⚠️ Warning: No Brewfile found at $DOTFILES_DIR/Brewfile. Skipping bundle install."
 fi
 
-# 3. Create target directories to prevent GNU Stow conflicts
+# 3. Check if the .lazy-idea directory does NOT exist
+if [ ! -d "$HOME/.lazy-idea" ]; then
+  echo "Installing lazy-idea..."
+  git clone https://github.com/cufarvid/lazy-idea.git "$HOME/.lazy-idea"
+else
+  echo "✅ lazy-idea is already installed, skipping."
+fi
+
+# 4. Create target directories to prevent GNU Stow conflicts
 # CRITICAL STOW TIP: If ~/.config doesn't exist as a real folder, Stow will symlink
 # the entire folder to your first package, breaking subsequent packages trying to use it.
 echo "▶ Preparing target directories..."
 mkdir -p "$HOME/.config"
 
-# 4. Create Symlinks using GNU Stow
+# 5. Create Symlinks using GNU Stow
 echo "▶ Creating symlinks with GNU Stow..."
 
 # Define the stow packages you want to symlink to $HOME

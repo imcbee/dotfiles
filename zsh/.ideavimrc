@@ -71,6 +71,14 @@ nmap <leader>ib <Action>(ActivateBuildToolWindow)
 let g:WhichKeyDesc_services = "<leader>is Services Dashboard"
 nmap <leader>is <Action>(ActivateServicesToolWindow)
 
+" Move selected lines down
+vnoremap J :m '>+1<CR>gv=gv
+
+" Move selected lines up
+vnoremap K :m '<-2<CR>gv=gv
+
+
+
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "" LazyVim key mappings for Jetbrains IDEs.
 "

@@ -123,7 +123,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Backlinks/Home Page/Home Page.md",
+                "file": "Daily Notes/2026/05 - May/2026-05-27.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -208,7 +208,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Home Page"
+              "title": "Graph of 2026-05-27"
             }
           }
         ]
@@ -238,11 +238,20 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Daily Notes/2026/05 - May/2026-05-25.md",
+    "Daily Notes/2026/05 - May/2026-05-27.md",
+    "OMS/Task List.md",
     "Backlinks/Home Page/Home Page.md",
-    "Daily Notes/2026/05 - May/2026-05-22.md",
-    "OMS/People/CORE/Dillon McLaughlin.md",
+    "OMS/Tasks/Configure the custody status service queue and consumer.md",
+    "Daily Notes/2026/05 - May/2026-05-26.md",
     "Daily Notes/2026/05 - May/2026-05-21.md",
+    "assets/Pasted image 20260526104542.png",
+    "assets/Pasted image 20260526104354.png",
+    "assets/Pasted image 20260526103940.png",
+    "Daily Notes/2026/05 - May/2026-05-19.md",
+    "Daily Notes/2026/05 - May/2026-05-20.md",
+    "Daily Notes/2026/05 - May/2026-05-22.md",
+    "Daily Notes/2026/05 - May/2026-05-25.md",
+    "OMS/People/CORE/Dillon McLaughlin.md",
     "assets/test4.png",
     "assets/Pasted image 20260521232202.png",
     "assets/Pasted image 20260521232135.png",
@@ -250,12 +259,7 @@
     "Attachments",
     "assets/2026-05-21-23-17-51.png",
     "assets/Pasted image 20260521230942.png",
-    "Daily Notes/2026/05 - May/2026-05-20.md",
     "assets/test3.png",
-    "OMS/Tasks/Configure the custody status service queue and consumer.md",
-    "assets/2026-05-21-22-45-23.png",
-    "assets/team goals break out 2.png",
-    "assets/test.png",
     "Backlinks/Black Cape/Black Cape People/Mike Santamaria.md",
     "Daily Notes/2026/01 - Jan/2026-01-14.md",
     "Backlinks/ReadItLater Inbox/terminal/Kitty Keybinding CheatSheet.md",
@@ -263,10 +267,8 @@
     "Templates/Task Template.md",
     "Templates/Daily Notes.md",
     "OMS/Meetings/MARS OMS Integration - Sprint Review.md",
-    "Daily Notes/2026/05 - May/2026-05-19.md",
     "Backlinks/ReadItLater Inbox/Transactional outbox pattern - AWS Prescriptive Guidance.md",
     "Backlinks/ReadItLater Inbox/Instrumentation  GraphQL Java.md",
-    "OMS/Task List.md",
     "Untitled.md",
     "OMS/Tasks/Migrate all remaining repositories to JOOQ.md",
     "Daily Notes/2026/05 - May/2026-05-19.md~",
@@ -276,9 +278,7 @@
     "Templates/Project Template.md",
     "Daily Notes/2026/05 - May/2026-05-18.md",
     "Ian McBee.md",
-    "Templates/Person Template.md",
     "OMS/People/archive",
-    "OMS/People/CORE/Untitled.md",
     "Daily Notes/2026/05 - May",
     "Daily Notes/2026/04 - Apr",
     "Daily Notes/2026/03 - Mar",
