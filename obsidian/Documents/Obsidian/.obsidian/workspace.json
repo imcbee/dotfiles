@@ -37,8 +37,7 @@
               "title": "2026-05-29"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +136,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Daily Notes/2026/05 - May/2026-05-29.md",
+                "file": "Daily Notes/2026/05 - May/2026-05-28.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -222,15 +221,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2026-05-29"
+              "title": "Graph of 2026-05-28"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 252.5,
-    "collapsed": true
+    "width": 252.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,10 +248,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "cfc7fd1708749416",
+  "active": "16475e57fc39fcce",
   "lastOpenFiles": [
-    "Backlinks/Black Cape/Black Cape People/Eric Mahoney.md",
     "Daily Notes/2026/05 - May/2026-05-29.md",
+    "Backlinks/Black Cape/Black Cape People/Eric Mahoney.md",
     "assets/Pasted image 20260529113007.png",
     "assets/Pasted image 20260529112853.png",
     "assets/Pasted image 20260529112456.png",
