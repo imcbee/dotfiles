@@ -45,7 +45,24 @@ automatically-unhide-macos-hidden-apps = false
 # even when they are invisible.
 # This config version is only available since 'config-version = 2'
 # Fallback value (if you omit the key): persistent-workspaces = []
-persistent-workspaces = ["1", "2", "3", "Q", "W", "E", "A", "S", "D", "Z"]
+persistent-workspaces = ["1", "2", "3", "Q", "W", "E", "A", "S", "D"]
+
+[workspace-to-monitor-force-assignment]
+# 1, 2, 3 always stay on your laptop/main screen
+1 = 'main'
+2 = 'main'
+3 = 'main'
+
+# Q, W, E prefer Monitor 2 (your first external display)
+Q = [2, 'secondary']
+W = [2, 'secondary']
+E = [2, 'secondary']
+
+# A, S, D prefer Monitor 3. 
+# If monitor 3 isn't plugged in (like at work), they fall back to Monitor 2!
+A = [3, 2, 'secondary']
+S = [3, 2, 'secondary']
+D = [3, 2, 'secondary']
 
 # A callback that runs every time binding mode changes
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
