@@ -9,7 +9,6 @@ alias d="kitten diff"
 alias icat="kitten icat"
 alias rg="rg --hyperlink-format=kitty"
 alias awrit="cd ~/awrit; ./awrit"
-alias gd="git difftool --no-symlinks --dir-diff"
 
 # -------------------------------------------------------------------
 # Obsidian Aliases
