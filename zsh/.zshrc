@@ -1,3 +1,6 @@
+# ==============================================================================
+# 1. INSTANT PROMPT & FASTFETCH
+# ==============================================================================
 if [ -z "$FASTFETCH_RUN" ] && [ "$TERMINAL_EMULATOR" != "JetBrains-JediTerm" ]; then
     export FASTFETCH_RUN=1
     fastfetch
@@ -10,7 +13,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-### Added by Zinit's installer
+# ==============================================================================
+# 2. PLUGIN MANAGER (ZINIT) INITIALIZATION
+# ==============================================================================
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
     command mkdir -p "$HOME/.local/share/zinit" && command chmod g-rwX "$HOME/.local/share/zinit"
@@ -33,48 +38,47 @@ zinit light-mode for \
 
 ### End of Zinit's installer chunk
 
-autoload -Uz compinit; compinit
+autoload -Uz compinit; compinit -C
 
-# Add in zsh plugins
+# ==============================================================================
+# 3. ZSH PLUGINS (Optimized with Turbo Mode)
+# ==============================================================================
+# Load immediately for immediate UI styling
 zinit ice depth=1; zinit light romkatv/powerlevel10k
-zinit light zdharma-continuum/fast-syntax-highlighting
-# zinit ice as"program" from"gh-r" pick"zsh-patina-*/zsh-patina" atload'eval "$(zsh-patina activate)"'
-# zinit light michel-kraemer/zsh-patina
-zinit light zsh-users/zsh-completions
-zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
-zinit snippet OMZ::plugins/git/git.plugin.zsh
-zinit load zsh-users/zsh-history-substring-search
-zinit ice wait atload '_history_substring_search_config'
-zinit load agkozak/zsh-z
-zinit snippet OMZ::plugins/alias-finder
-zinit snippet OMZ::plugins/kitty
-zinit snippet OMZ::plugins/mvn
-zinit light 22peacemaker/zsh-make-complete
-zinit load asdf-vm/asdf
 
+# Lazy-load everything else asynchronously using Turbo Mode (wait"0")
+zinit ice wait"0" lucid; zinit light zsh-users/zsh-completions
+zinit ice wait"0" lucid; zinit snippet OMZ::plugins/git/git.plugin.zsh
+zinit ice wait"0" lucid; zinit load zsh-users/zsh-history-substring-search
+zinit ice wait"0" lucid; zinit load agkozak/zsh-z
+zinit ice wait"0" lucid; zinit snippet OMZ::plugins/alias-finder
+zinit ice wait"0" lucid; zinit snippet OMZ::plugins/kitty
+zinit ice wait"0" lucid; zinit snippet OMZ::plugins/mvn
+zinit ice wait"0" lucid; zinit light 22peacemaker/zsh-make-complete
+zinit ice wait"0" lucid; zinit load asdf-vm/asdf
 
-# zstyles
-zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
-zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
-zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
-zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
+# Note: Autosuggestions and Syntax Highlighting are placed last intentionally 
+# to prevent breaking syntax coloring on text inputs.
+zinit ice wait"0" lucid; zinit light zsh-users/zsh-autosuggestions
+zinit ice wait"0" lucid; zinit light zdharma-continuum/fast-syntax-highlighting
 
-zstyle ':fzf-tab:complete:*:*' fzf-preview '
-  if [ -d $realpath ]; then
-    eza -1 --color=always --group-directories-first --icons=always $realpath
-  else
-    bat --color=always --style=numbers --line-range=:500 $realpath
-  fi'
-# disable sort when completing `git checkout`
+# ==============================================================================
+# 4. PLUGIN CONFIGURATIONS (zstyles)
+# ==============================================================================
+zstyle ':omz:plugins:alias-finder' autoload yes
+zstyle ':omz:plugins:alias-finder' longer yes
+zstyle ':omz:plugins:alias-finder' exact yes
+zstyle ':omz:plugins:alias-finder' cheaper yes
+
+zstyle ':fzf-tab:*' use-fzf-default-opts yes
+zstyle ':fzf-tab:*' switch-group '<' '>'
 zstyle ':completion:*:git-checkout:*' sort false
-# set descriptions format to enable group support
-# NOTE: don't use escape sequences (like '%F{red}%d%f') here, fzf-tab will ignore them
 zstyle ':completion:*:descriptions' format '[%d]'
-# set list-colors to enable filename colorizing
-# force zsh not to show completion menu, which allows fzf-tab to capture the unambiguous prefix
 zstyle ':completion:*' menu no
-# preview directory's content with eza when completing cd
+
+# FZF Interactive Previews
+zstyle ':fzf-tab:complete:*:*' fzf-preview 'if [ -d $realpath ]; then eza -1 --color=always --group-directories-first --icons=always $realpath; else bat --color=always --style=numbers --line-range=:500 $realpath; fi'
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza --tree --level=2 --color=always --icons=always $realpath'
 zstyle ':fzf-tab:complete:make:*' fzf-preview 'make help'
 zstyle ':fzf-tab:complete:git-checkout:*' fzf-preview 'git diff --color=always HEAD..$word | head -200'
@@ -83,76 +87,36 @@ zstyle ':fzf-tab:complete:docker:*' fzf-preview 'docker inspect $word'
 zstyle ':fzf-tab:complete:docker-rmi:*' fzf-preview 'docker image inspect $word'
 zstyle ':fzf-tab:complete:export:*' fzf-preview 'printenv $word'
 zstyle ':fzf-tab:complete:mvn:*' fzf-preview 'mvn help:describe -Dcmd=$word'
+zstyle ':fzf-tab:complete:mvn-dependency:*' fzf-preview 'grep -A2 "<$word" pom.xml | bat --color=always --style=plain'
 
-# When completing Maven artifacts, show groupId/artifactId info
-zstyle ':fzf-tab:complete:mvn-dependency:*' fzf-preview '
-  grep -A2 "<$word" pom.xml | bat --color=always --style=plain'
-
-# custom fzf flags
-# NOTE: fzf-tab does not follow FZF_DEFAULT_OPTS by default
-# zstyle ':fzf-tab:*' fzf-flags --color=fg:1,fg+:2 --bind=tab:accept
-# To make fzf-tab follow FZF_DEFAULT_OPTS.
-# NOTE: This may lead to unexpected behavior since some flags break this plugin. See Aloxaf/fzf-tab#455.
-zstyle ':fzf-tab:*' use-fzf-default-opts yes
-# switch group using `<` and `>`
-zstyle ':fzf-tab:*' switch-group '<' '>'
-
-# History
+# ==============================================================================
+# 5. HISTORY SETTINGS
+# ==============================================================================
 HISTSIZE=10000
 HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
 HISTDUP=erase
-setopt appendhistory
-setopt sharehistory
-setopt hist_ignore_space
-setopt hist_ignore_all_dups
-setopt hist_save_no_dups
-setopt hist_ignore_dups
-setopt hist_find_no_dups
+setopt appendhistory sharehistory hist_ignore_space hist_ignore_all_dups hist_save_no_dups hist_ignore_dups hist_find_no_dups
 
-# Aliases.zsh
+# ==============================================================================
+# 6. EXTERNAL FILE SOURCING & ENVIRONMENT PATHS
+# ==============================================================================
 [[ -f ~/.config/zsh/aliases.zsh ]] && source ~/.config/zsh/aliases.zsh
-# Functions.zsh
 [[ -f ~/.config/zsh/functions.zsh ]] && source ~/.config/zsh/functions.zsh
-# blackcape_aliases.zsh
 [[ -f ~/.config/zsh/blackcape_aliases.zsh ]] && source ~/.config/zsh/blackcape_aliases.zsh
 
-# Homebrew
-export PATH="/opt/homebrew/bin:$PATH"
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
-# ASDF
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
-
-# awrit 
-# export PATH="~/awrit/.bun" #todo broken need to figure out
-
-# poetry
-#export PATH="/Users/ianmcbee/.local/bin"
-
-# Java
-# . ~/.asdf/plugins/java/set-java-home.zsh
-
-# Maven
-export PATH=$HOME/.sdkman/candidates/maven/current/bin:$PATH
-
-# Golang
-. ~/.asdf/plugins/golang/set-env.zsh
-
-# Add scripts to PATH 
-export PATH="$HOME/scripts:$PATH"
-
-# fuck command
-eval $(thefuck --alias fuck)
-zinit snippet OMZ::plugins/thefuck
-
-# fzf settings
+# ==============================================================================
+# 7. BINARY OPTIMIZATIONS
+# ==============================================================================
+# Optimized FZF (Caches the code to a file so it doesn't execute dynamically on launch)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source <(fzf --zsh)
+if [[ ! -f ~/.cache/fzf-zsh.zsh ]]; then
+    mkdir -p ~/.cache
+    fzf --zsh > ~/.cache/fzf-zsh.zsh 2>/dev/null
+fi
+[[ -f ~/.cache/fzf-zsh.zsh ]] && source ~/.cache/fzf-zsh.zsh
 
-# grc
-[[ -s "/etc/grc.zsh" ]] && source /etc/grc.zsh
-
+# Keybindings
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 

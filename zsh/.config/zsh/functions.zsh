@@ -1,3 +1,9 @@
+# Optimized 'thefuck' (avoids spawning Python on startup)
+fuck () {
+    TF_PYTHONIOENCODING=$PYTHONIOENCODING
+    export TF_PYTHONIOENCODING="utf-8"
+    TF_CMD=$(thefuck THEFUCK_ARGUMENT_PLACEHOLDER $@) && eval "$TF_CMD" && unset TF_CMD
+}
 
 # this command tests your shell load time
 timezsh() {
@@ -22,5 +28,4 @@ updatep10k() {
   cd ~/.local/share/zinit/plugins/romkatv---powerlevel10k;
   git pull;
   cd ~;
-
 }
