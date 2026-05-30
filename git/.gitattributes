@@ -1,0 +1,4 @@
+*.png diff=kitty-image
+*.jpg diff=kitty-image
+*.jpeg diff=kitty-image
+*.gif diff=kitty-image

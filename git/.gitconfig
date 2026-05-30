@@ -5,7 +5,10 @@
   path = ~/.gitconfig-local
 
 [init]
-  defaultBranch = develop
+  defaultBranch = main
+
+[fetch]
+	prune = true
 
 [color]
   branch = auto
@@ -27,16 +30,26 @@
 [difftool "kitty.gui"]
   cmd = kitten diff $LOCAL $REMOTE
 
+[diff "kitty-image"]
+	textconv = kitty +kitten icat --transfer-mode=file --dump-bytes
+	binary = true
+
 [merge]
-    conflictstyle = zdiff3
+  tool = kitty
+  conflictstyle = zdiff3
+
+[mergetool "kitty"]
+	cmd = kitten diff $LOCAL $REMOTE $BASE $MERGED
+	trustExitCode = true
 
 [push]
   default = current
 
 [alias]
-  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-  ll = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
-  l = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'
+  #ll = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+	l = "log --graph --abbrev-commit --decorate --format=format:\"%x1b]8;;git://.#%h%x1b%x5c%C(bold blue)%h%x1b]8;;%x1b%x5c - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)\""
+  #l = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'
+  ll = "log --graph --abbrev-commit --decorate --format=format:\"%x1b]8;;git://.#%h%x1b%x5c%C(bold blue)%h%x1b]8;;%x1b%x5c - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset)\""
   main = !git checkout main && git pull origin main
   develop = !git checkout develop && git pull origin develop 
   rp = rev-parse --abbrev-ref HEAD
