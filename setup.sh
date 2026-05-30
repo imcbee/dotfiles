@@ -53,22 +53,20 @@ mkdir -p "$HOME/.config"
 # 5. Create Symlinks using GNU Stow
 echo "▶ Creating symlinks with GNU Stow..."
 
-# Define the stow packages you want to symlink to $HOME
-STOW_PACKAGES=(
-  zsh
-  obsidian
-)
+# Automatically discover all directories, ignoring hidden ones and specific files
+for package in */; do
+  # Remove trailing slash for cleaner text output
+  package="${package%/}"
 
-for package in "${STOW_PACKAGES[@]}"; do
-  if [ -d "$package" ]; then
-    echo "  Stowing: $package"
-    # -R : Restow (removes old/broken links and applies new ones)
-    # -v : Verbose output so you can see exactly what links are made
-    # -t : Target directory (your user home folder)
-    stow -R -v -t "$HOME" "$package"
-  else
-    echo "  ❌ Skipped: '$package' directory not found in dotfiles."
+  # Skip specific directories you don't want GNU Stow to touch
+  if [[ "$package" == "logs" || "$package" == "documentation" ]]; then
+    continue
   fi
+
+  echo "  Stowing: $package"
+  # -R : Restow (removes old/broken links and applies new ones)
+  # -t : Target directory (your user home folder)
+  stow -R -v -t "$HOME" "$package"
 done
 
 echo "========================================="
