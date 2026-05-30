@@ -5,6 +5,13 @@ return {
       picker = {
         hidden = true,
         sources = {
+          explorer = {
+            layout = {
+              layout = {
+                position = "right",
+              },
+            },
+          },
           files = {
             hidden = true, -- Show hidden/dotfiles
           },
