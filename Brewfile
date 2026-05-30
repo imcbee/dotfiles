@@ -188,4 +188,6 @@ cask "via"
 cask "visualvm"
 # Connect to Windows
 cask "windows-app"
+# Gecko based web browser
+cask "zen"
 npm "@usebruno/cli"
