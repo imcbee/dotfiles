@@ -36,7 +36,45 @@ else
   echo "⚠️ Warning: No Brewfile found at $DOTFILES_DIR/Brewfile. Skipping bundle install."
 fi
 
-# 3. Check if the .lazy-idea directory does NOT exist
+# 3. Setup asdf plugins and runtime languages (Node.js & Python)
+echo "▶ Setting up asdf version manager..."
+
+# Since this script runs in a fresh shell instance, we must manually
+# locate and source asdf so its commands work immediately.
+if [ -f "$HOME/.asdf/asdf.sh" ]; then
+  source "$HOME/.asdf/asdf.sh"
+elif command -v brew &>/dev/null && [ -f "$(brew --prefix)/opt/asdf/libexec/asdf.sh" ]; then
+  source "$(brew --prefix)/opt/asdf/libexec/asdf.sh"
+fi
+
+if command -v asdf &>/dev/null; then
+  # CRITICAL: If 'asdf plugin list' is empty, it returns exit code 1.
+  # We append '|| true' so 'set -e' doesn't crash our script.
+  CURRENT_PLUGINS=$(asdf plugin list 2>/dev/null || true)
+
+  # --- Node.js Setup ---
+  if ! echo "$CURRENT_PLUGINS" | grep -q "^nodejs$"; then
+    echo "  Adding asdf nodejs plugin..."
+    asdf plugin add nodejs
+  fi
+  echo "  Installing/Updating Node.js (latest)..."
+  asdf install nodejs latest
+  asdf global nodejs latest
+
+  # --- Python Setup ---
+  if ! echo "$CURRENT_PLUGINS" | grep -q "^python$"; then
+    echo "  Adding asdf python plugin..."
+    asdf plugin add python
+  fi
+  echo "  Installing/Updating Python (latest)..."
+  asdf install python latest
+  asdf global python latest
+else
+  echo "⚠️ Warning: 'asdf' command not found. Skipping language runtime setup."
+  echo "   (Ensure 'asdf' is added to your Brewfile or installed manually)"
+fi
+
+# 4. Check if the .lazy-idea directory does NOT exist
 if [ ! -d "$HOME/.lazy-idea" ]; then
   echo "Installing lazy-idea..."
   git clone https://github.com/cufarvid/lazy-idea.git "$HOME/.lazy-idea"
@@ -44,13 +82,11 @@ else
   echo "✅ lazy-idea is already installed, skipping."
 fi
 
-# 4. Create target directories to prevent GNU Stow conflicts
-# CRITICAL STOW TIP: If ~/.config doesn't exist as a real folder, Stow will symlink
-# the entire folder to your first package, breaking subsequent packages trying to use it.
+# 5. Create target directories to prevent GNU Stow conflicts
 echo "▶ Preparing target directories..."
 mkdir -p "$HOME/.config"
 
-# 5. Create Symlinks using GNU Stow
+# 6. Create Symlinks using GNU Stow
 echo "▶ Creating symlinks with GNU Stow..."
 
 # Automatically discover all directories, ignoring hidden ones and specific files
