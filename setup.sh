@@ -105,6 +105,12 @@ for package in */; do
   stow -R -v -t "$HOME" "$package"
 done
 
+# 7. Import macOS App Preferences (Stats)
+if [ -f "$DOTFILES_DIR/stats/eu.exelban.Stats.plist" ]; then
+  echo "▶ Importing Stats app preferences..."
+  defaults import eu.exelban.Stats "$DOTFILES_DIR/stats/eu.exelban.Stats.plist"
+fi
+
 echo "========================================="
 echo "       Bootstrapping Complete!           "
 echo "  Restart your terminal to see changes.  "
