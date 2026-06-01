@@ -8,6 +8,9 @@ set -euo pipefail
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$DOTFILES_DIR"
 
+# The list of strings (directories to ignore)
+SKIP_LIST=("logs" "documentation" "stats")
+
 echo "========================================="
 echo "  Starting Dotfiles Bootstrap Script     "
 echo "========================================="
@@ -89,13 +92,27 @@ mkdir -p "$HOME/.config"
 # 6. Create Symlinks using GNU Stow
 echo "▶ Creating symlinks with GNU Stow..."
 
+# Check if
+should_skip() {
+  local target="$1"
+  for item in "${SKIP_LIST[@]}"; do
+    if [[ "$target" == "$item" ]]; then
+      # True: Package found in the skip list
+      return 0
+    fi
+  done
+
+  # False: Package should not be skipped
+  return 1
+}
+
 # Automatically discover all directories, ignoring hidden ones and specific files
 for package in */; do
   # Remove trailing slash for cleaner text output
   package="${package%/}"
 
   # Skip specific directories you don't want GNU Stow to touch
-  if [[ "$package" == "logs" || "$package" == "documentation" ]]; then
+  if should_skip "$package"; then
     continue
   fi
 
