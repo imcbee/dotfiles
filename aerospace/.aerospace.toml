@@ -54,15 +54,15 @@ persistent-workspaces = ["1", "2", "3", "Q", "W", "E", "A", "S", "D"]
 3 = 'main'
 
 # Q, W, E prefer Monitor 2 (your first external display)
-Q = [2, 'main', 'secondary']
-W = [2, 'main', 'secondary']
-E = [2, 'main', 'secondary']
+Q = [3, 'main', 'secondary']
+W = [3, 'main', 'secondary']
+E = [3, 'main', 'secondary']
 
 # A, S, D prefer Monitor 3. 
 # If monitor 3 isn't plugged in (like at work), they fall back to Monitor 2!
-A = [3, 2, 'secondary']
-S = [3, 2, 'secondary']
-D = [3, 2, 'secondary']
+A = ['Built-in Retina Display', 'secondary']
+S = ['Built-in Retina Display', 'secondary']
+D = ['Built-in Retina Display', 'secondary']
 
 # A callback that runs every time binding mode changes
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -205,10 +205,3 @@ alt-shift-h = ['join-with left', 'mode main']
 alt-shift-j = ['join-with down', 'mode main']
 alt-shift-k = ['join-with up', 'mode main']
 alt-shift-l = ['join-with right', 'mode main']
-
-#[[on-window-detected]]
-#if.app-id = 'net.kovidgoyal.kitty'
-#run = 'move-node-to-workspace T'
-#
-[[on-window-detected]]
-run = 'move-node-to-workspace 1'
