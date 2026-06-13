@@ -107,7 +107,7 @@
   "obsidian-read-it-later:save-clipboard-to-notice": [
     {
       "modifiers": [
-        "Ctrl"
+        "Alt"
       ],
       "key": "R"
     }

@@ -1,9 +1,7 @@
-tap "adoptopenjdk/openjdk"
 tap "buo/cask-upgrade"
 tap "dldash/core"
 tap "jesseduffield/lazydocker"
 tap "nikitabobko/tap"
-tap "pungrumpy/formulas"
 tap "rigellute/tap"
 tap "samtay/tui"
 # Display directories as trees (with optional color/HTML output)
@@ -26,6 +24,10 @@ brew "berkeley-db"
 brew "black"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# C/C++ and Java libraries for Unicode and globalization
+brew "icu4c@78"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # Console Matrix
 brew "cmatrix"
 # GNU File, Shell, and Text utilities
@@ -38,10 +40,6 @@ brew "curl"
 brew "dark-mode"
 # Modern, maintained replacement for ls
 brew "eza"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c@78"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # PDF reader for terminal emulators using the Kitty image protocol
 brew "fancy-cat"
 # Like neofetch, but much faster because written mostly in C
@@ -94,6 +92,8 @@ brew "luarocks"
 brew "mactop"
 # Terminal image, video, directory, and Markdown viewer
 brew "mcat"
+# Terminal markdown viewer
+brew "mdfried"
 # FTP client with an advanced user interface
 brew "ncftp"
 # E-mail reader with support for Notmuch, NNTP and much more
@@ -115,7 +115,7 @@ brew "putty"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
-brew "ruby"
+brew "ruby", link: false
 # Spotify daemon
 brew "spotifyd"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
@@ -148,14 +148,10 @@ brew "zsh-autosuggestions"
 brew "zsh-history-substring-search"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# A simple terminal UI for docker, written in Go
-brew "jesseduffield/lazydocker/lazydocker"
-# A terminal user interface for Spotify
-brew "rigellute/tap/spotify-tui"
-# Tetris in your terminal
-brew "samtay/tui/tetris"
 # AeroSpace is an i3-like tiling window manager for macOS
-cask "nikitabobko/tap/aerospace"
+cask "nikitabobko/tap/aerospace", trusted: true
+# Chromium based browser
+cask "arc"
 # Compact TeX distribution as alternative to the full TeX Live / MacTeX
 cask "basictex"
 # Utility to synchronise the brightness of LG UltraFine display(s)
