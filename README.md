@@ -16,7 +16,7 @@ Hey! This is my `dotfiles` repository.
 
 ## Table of Contents
 * [1. Description](#1-description)
-* [2. Setup from a blank slate](#2-core-configuration)
+* [2. Setup from a blank slate](#2-setup-from-a-blank-slate)
 * [3. Take what you need](#3-take-what-you-need)
 * [4. Conclusion](#4-conclusion)
 

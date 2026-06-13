@@ -56,10 +56,6 @@ brew "gawk"
 brew "ghostscript"
 # Distributed revision control system
 brew "git"
-# Syntax-highlighting pager for git and diff output
-brew "git-delta"
-# Render markdown on the CLI
-brew "glow"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Task is a task runner/build tool that aims to be simpler and easier to use
@@ -88,8 +84,6 @@ brew "libressl"
 brew "luajit"
 # Package manager for the Lua programming language
 brew "luarocks"
-# Apple Silicon Monitor Top written in Go Lang
-brew "mactop"
 # Terminal image, video, directory, and Markdown viewer
 brew "mcat"
 # Terminal markdown viewer
@@ -176,8 +170,6 @@ cask "kitty@nightly"
 cask "libreoffice"
 # Smooths scrolling and set mouse scroll directions independently
 cask "mos"
-# Administration and development platform for PostgreSQL
-cask "pgadmin4"
 # Keyboard configurator
 cask "via"
 # All-in-One Java Troubleshooting Tool
