@@ -77,7 +77,7 @@ vnoremap J :m '>+1<CR>gv=gv
 " Move selected lines up
 vnoremap K :m '<-2<CR>gv=gv
 
-
+set VimEverywhere
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "" LazyVim key mappings for Jetbrains IDEs.
