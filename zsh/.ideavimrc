@@ -37,6 +37,9 @@ let g:WhichKeyDesc_crperiod= "cr. to dot.case"
 let g:WhichKeyDesc_crspace= "cr<Space> to space case"
 let g:WhichKeyDesc_crt= "crt to title"
 
+" Enabled VimEverywhere
+set VimEverywhere
+
 " classtextobj: Provides a text object for class definitions
 set classtextobj
 
@@ -76,8 +79,6 @@ vnoremap J :m '>+1<CR>gv=gv
 
 " Move selected lines up
 vnoremap K :m '<-2<CR>gv=gv
-
-set VimEverywhere
 
 " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 "" LazyVim key mappings for Jetbrains IDEs.

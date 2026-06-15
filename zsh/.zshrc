@@ -46,51 +46,34 @@ autoload -Uz compinit; compinit -C
 # Load immediately for immediate UI styling
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 zinit light Aloxaf/fzf-tab
+zinit light asdf-vm/asdf
 
 # Lazy-load everything else asynchronously using Turbo Mode (wait"0")
-zinit ice wait"0" lucid; zinit light zsh-users/zsh-completions
 zinit ice wait"0" lucid; zinit snippet OMZ::plugins/git/git.plugin.zsh
-zinit ice wait"0" lucid; zinit load zsh-users/zsh-history-substring-search
 zinit ice wait"0" lucid; zinit load agkozak/zsh-z
 zinit ice wait"0" lucid; zinit snippet OMZ::plugins/alias-finder
 zinit ice wait"0" lucid; zinit snippet OMZ::plugins/kitty
 zinit ice wait"0" lucid; zinit snippet OMZ::plugins/mvn
 zinit ice wait"0" lucid; zinit light 22peacemaker/zsh-make-complete
-zinit ice wait"0" lucid; zinit load asdf-vm/asdf
+
+zinit ice wait"0" lucid atload"
+    bindkey '^[[A' history-substring-search-up
+    bindkey '^[[B' history-substring-search-down
+"
+zinit load zsh-users/zsh-history-substring-search
 
 # Note: Autosuggestions and Syntax Highlighting are placed last intentionally 
 # to prevent breaking syntax coloring on text inputs.
-zinit ice wait"0" lucid; zinit light zsh-users/zsh-autosuggestions
-zinit ice wait"0" lucid; zinit light zdharma-continuum/fast-syntax-highlighting
+zinit wait lucid for \
+ atinit"ZINIT[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \
+    zdharma-continuum/fast-syntax-highlighting \
+ blockf \
+    zsh-users/zsh-completions \
+ atload"!_zsh_autosuggest_start" \
+    zsh-users/zsh-autosuggestions
 
 # ==============================================================================
-# 4. PLUGIN CONFIGURATIONS (zstyles)
-# ==============================================================================
-zstyle ':omz:plugins:alias-finder' autoload yes
-zstyle ':omz:plugins:alias-finder' longer yes
-zstyle ':omz:plugins:alias-finder' exact yes
-zstyle ':omz:plugins:alias-finder' cheaper yes
-
-zstyle ':fzf-tab:*' use-fzf-default-opts yes
-zstyle ':fzf-tab:*' switch-group '<' '>'
-zstyle ':completion:*:git-checkout:*' sort false
-zstyle ':completion:*:descriptions' format '[%d]'
-zstyle ':completion:*' menu no
-
-# FZF Interactive Previews
-zstyle ':fzf-tab:complete:*:*' fzf-preview 'if [ -d $realpath ]; then eza -1 --color=always --group-directories-first --icons=always $realpath; else bat --color=always --style=numbers --line-range=:500 $realpath; fi'
-zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza --tree --level=2 --color=always --icons=always $realpath'
-zstyle ':fzf-tab:complete:make:*' fzf-preview 'make help'
-zstyle ':fzf-tab:complete:git-checkout:*' fzf-preview 'git diff --color=always HEAD..$word | head -200'
-zstyle ':fzf-tab:complete:git-switch:*' fzf-preview 'git log --oneline --graph --decorate --color=always $word | head -200'
-zstyle ':fzf-tab:complete:docker:*' fzf-preview 'docker inspect $word'
-zstyle ':fzf-tab:complete:docker-rmi:*' fzf-preview 'docker image inspect $word'
-zstyle ':fzf-tab:complete:export:*' fzf-preview 'printenv $word'
-zstyle ':fzf-tab:complete:mvn:*' fzf-preview 'mvn help:describe -Dcmd=$word'
-zstyle ':fzf-tab:complete:mvn-dependency:*' fzf-preview 'grep -A2 "<$word" pom.xml | bat --color=always --style=plain'
-
-# ==============================================================================
-# 5. HISTORY SETTINGS
+# 4. HISTORY SETTINGS
 # ==============================================================================
 HISTSIZE=10000
 HISTFILE=~/.zsh_history
@@ -99,14 +82,20 @@ HISTDUP=erase
 setopt appendhistory sharehistory hist_ignore_space hist_ignore_all_dups hist_save_no_dups hist_ignore_dups hist_find_no_dups
 
 # ==============================================================================
-# 6. EXTERNAL FILE SOURCING & ENVIRONMENT PATHS
+# 5. EXTERNAL FILE SOURCING & ENVIRONMENT PATHS
 # ==============================================================================
-[[ -f ~/.config/zsh/aliases.zsh ]] && source ~/.config/zsh/aliases.zsh
-[[ -f ~/.config/zsh/functions.zsh ]] && source ~/.config/zsh/functions.zsh
-[[ -f ~/.config/zsh/blackcape_aliases.zsh ]] && source ~/.config/zsh/blackcape_aliases.zsh
+# Define where your custom Zsh modules live
+ZSH_CONFIG_DIR="$HOME/.config/zsh"
+
+# Automatically source all .zsh files inside that directory
+if [[ -d "$ZSH_CONFIG_DIR" ]]; then
+  for config_file in "$ZSH_CONFIG_DIR"/*.zsh; do
+    source "$config_file"
+  done
+fi
 
 # ==============================================================================
-# 7. BINARY OPTIMIZATIONS
+# 6. BINARY OPTIMIZATIONS
 # ==============================================================================
 # Optimized FZF (Caches the code to a file so it doesn't execute dynamically on launch)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -115,10 +104,6 @@ if [[ ! -f ~/.cache/fzf-zsh.zsh ]]; then
     fzf --zsh > ~/.cache/fzf-zsh.zsh 2>/dev/null
 fi
 [[ -f ~/.cache/fzf-zsh.zsh ]] && source ~/.cache/fzf-zsh.zsh
-
-# Keybindings
-bindkey "^[[A" history-substring-search-up
-bindkey "^[[B" history-substring-search-down
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
