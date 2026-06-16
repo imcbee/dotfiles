@@ -1,5 +1,5 @@
-tap "buo/cask-upgrade"
-tap "dldash/core"
+tap "buo/cask-upgrade", trusted: true
+tap "dldash/core", trusted: true
 tap "jesseduffield/lazydocker"
 tap "nikitabobko/tap"
 tap "rigellute/tap"
@@ -109,7 +109,7 @@ brew "putty"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
-brew "ruby", link: false
+brew "ruby"
 # Spotify daemon
 brew "spotifyd"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
@@ -142,6 +142,12 @@ brew "zsh-autosuggestions"
 brew "zsh-history-substring-search"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# A simple terminal UI for docker, written in Go
+brew "jesseduffield/lazydocker/lazydocker", trusted: true
+# A terminal user interface for Spotify
+brew "rigellute/tap/spotify-tui", trusted: true
+# Tetris in your terminal
+brew "samtay/tui/tetris", trusted: true
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace", trusted: true
 # Chromium based browser

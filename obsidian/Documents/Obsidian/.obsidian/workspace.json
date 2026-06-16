@@ -23,22 +23,22 @@
             }
           },
           {
-            "id": "8275ded1cdb9df59",
+            "id": "c402d51d3544d385",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026/06 - Jun/2026-06-11.md",
+                "file": "Daily Notes/2026/06 - Jun/2026-06-15.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-11"
+              "title": "2026-06-15"
             }
           },
           {
-            "id": "0cba8f15b46bc79d",
+            "id": "c31972294e676f90",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -244,8 +244,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,8 +264,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0cba8f15b46bc79d",
+  "active": "c31972294e676f90",
   "lastOpenFiles": [
+    "Backlinks/Excalidraw/John Urban's Explanation of Baseball Cards.md",
+    "Backlinks/Home Page/Home Page.md",
+    "Daily Notes/2026/06 - Jun/2026-06-15.md",
+    "Daily Notes/2026/06 - Jun/2026-06-12.md",
     "assets/Pasted image 20260612121012.png",
     "assets/Pasted image 20260612120748.png",
     "assets/Pasted image 20260612120423.png",
@@ -277,14 +280,11 @@
     "assets/Pasted image 20260612115057.png",
     "assets/Pasted image 20260612114848.png",
     "assets/Pasted image 20260612114600.png",
-    "assets/Pasted image 20260612114414.png",
     "Daily Notes/2026/06 - Jun/2026-06-11.md",
-    "Daily Notes/2026/06 - Jun/2026-06-12.md",
     "Daily Notes/2026/06 - Jun/2026-06-10.md",
     "Backlinks/ReadItLater Inbox/Note 2026-06-11 14-34-30.md",
     "Daily Notes/2026/06 - Jun/2026-06-05.md",
     "Daily Notes/2026/06 - Jun/2026-06-02.md",
-    "Backlinks/Home Page/Home Page.md",
     "Daily Notes/2026/06 - Jun/2026-06-09.md",
     "Backlinks/Excalidraw/Drawing 2026-06-10 13.48.38.excalidraw.md",
     "Daily Notes/2026/06 - Jun/2026-06-08.md",
@@ -303,7 +303,6 @@
     "Backlinks/ReadItLater Inbox/Note 2026-05-28 09-33-57.md",
     "Backlinks/ReadItLater Inbox/Note 2026-05-28 09-34-18.md",
     "OMS/Tasks/Configure the custody status service queue and consumer.md",
-    "Daily Notes/2026/05 - May/2026-05-26.md",
     "Attachments",
     "assets",
     "Daily Notes/2026/05 - May/2026-05-19.md~",
