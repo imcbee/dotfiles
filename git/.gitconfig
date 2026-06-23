@@ -10,6 +10,9 @@
 [fetch]
 	prune = true
 
+[core]
+  autocrlf = input
+
 [color]
   branch = auto
   interactive = auto
@@ -55,4 +58,4 @@
   rp = rev-parse --abbrev-ref HEAD
   ta = tag -a -m
   unstage = reset --soft HEAD^
-  gd = difftool --no-symlinks --dir-diff
+  d = difftool --no-symlinks --dir-diff
