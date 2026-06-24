@@ -13,18 +13,23 @@ tags:
   - <% tp.frontmatter['project'] %>
 ---
 ---
+
 # <% tp.file.title %>
+
 ## Purpose
+
 *Project:* [[<% tp.frontmatter['project'] %>]]
 *Date:* [[<% tp.date.now() %>]]
 
 ## Attendees
+
 ```dataview
 list
 where type="person"
 ```
 
 ## Reference Links
+
 ```dataview
 table without id file.inlinks
 where file.name = this.file.name

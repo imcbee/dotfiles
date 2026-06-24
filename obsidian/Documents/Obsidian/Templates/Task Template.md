@@ -11,23 +11,28 @@ tags:
   - OMS-CORE
 ---
 # <% tp.file.title %>
+
 ## Description
+
 *Project:* [[OMS]]/[[OMS-CORE]]. This task was created on [[<% tp.date.now() %>]].
-*Issue:* 
-
-
+*Issue:*
 
 ### Sub-tasks
+
 -
 
 ### Updates
-- 
+
+-
 
 ## Resources
-- 
+
+-
 
 ---
+
 ## Reference Links
+
 ```dataview
 table without id file.inlinks
 where file.name = this.file.name
