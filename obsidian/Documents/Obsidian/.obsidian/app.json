@@ -1,6 +1,6 @@
 {
   "readableLineLength": false,
-  "strictLineBreaks": false,
+  "strictLineBreaks": true,
   "spellcheck": true,
   "attachmentFolderPath": "assets",
   "alwaysUpdateLinks": true,

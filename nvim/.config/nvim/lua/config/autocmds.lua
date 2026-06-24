@@ -25,6 +25,22 @@ end
 
 set_autoformat({ "typescript", "html", "java", "python", "markdown", "yaml", "bash", "dockerfile" }, false)
 
+vim.api.nvim_create_autocmd({ "FileType" }, {
+  pattern = "markdown",
+  callback = function()
+    local buf_name = vim.api.nvim_buf_get_name(0)
+    -- Expand your exact vault path to its absolute system path
+    local vault_path = vim.fn.expand("~/Documents/Obsidian")
+
+    -- Check if the current file is inside your Obsidian directory
+    if buf_name:find(vault_path, 1, true) then
+      vim.b.autoformat = true -- Enable formatting for vault files
+    else
+      vim.b.autoformat = false -- Disable formatting for all other markdown files
+    end
+  end,
+})
+
 vim.api.nvim_create_autocmd("CmdlineChanged", {
   callback = function()
     local cmdline = vim.fn.getcmdline()

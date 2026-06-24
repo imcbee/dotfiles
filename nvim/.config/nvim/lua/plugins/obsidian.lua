@@ -12,7 +12,11 @@ return {
     "ObsidianTomorrow",
     "ObsidianYesterday",
   },
-  ft = "markdown",
+  -- ft = "markdown",
+  event = {
+    "BufReadPre " .. vim.fn.expand("~") .. "/Documents/Obsidian/**/*.md",
+    "BufNewFile " .. vim.fn.expand("~") .. "/Documents/Obsidian/**/*.md",
+  },
   -- Replace the above line with this if you only want to load obsidian.nvim for markdown files in your vault:
   -- event = {
   --   -- If you want to use the home shortcut '~' here you need to call 'vim.fn.expand'.
@@ -24,7 +28,7 @@ return {
   dependencies = {
     -- Required.
     "nvim-lua/plenary.nvim",
-    "hrsh7th/nvim-cmp",
+    -- "hrsh7th/nvim-cmp",
     -- "nvim-telescope/telescope.nvim",
     "nvim-treesitter/nvim-treesitter",
     -- "ibhagwan/fzf-lua",
@@ -65,7 +69,7 @@ return {
     -- see below for full list of options 👇
     picker = {
       -- Set your preferred picker. Can be one of 'telescope.nvim', 'fzf-lua', or 'mini.pick'.
-      name = "snacks.pick",
+      name = "snacks.picker",
       -- Optional, configure key mappings for the picker. These are the defaults.
       -- Not all pickers support all mappings.
       note_mappings = {
@@ -97,7 +101,7 @@ return {
     open_notes_in = "current",
 
     attachments = {
-      folder = "Attachments",
+      folder = "assets",
       confirm_img_paste = false,
     },
     footer = {
