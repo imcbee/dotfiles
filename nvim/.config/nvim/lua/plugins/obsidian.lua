@@ -15,24 +15,17 @@ local function get_ordinal_alias(format_str)
     end
   end
 
-  -- Coerce the os.date result explicitly to a string
-  return tostring(os.date(format_str:gsub("Do", day .. suffix)))
+  -- ✅ Fix: Wrap the gsub in parentheses to discard the substitution count integer
+  local clean_format = (format_str:gsub("Do", day .. suffix))
+
+  -- Now os.date() only receives 1 argument and correctly uses the current time
+  return tostring(os.date(clean_format))
 end
 
 return {
   "obsidian-nvim/obsidian.nvim",
   version = "*", -- recommended, use latest release instead of latest commit
   lazy = true,
-  cmd = {
-    "ObsidianOpen",
-    "ObsidianQuickSwitch",
-    "ObsidianNew",
-    "ObsidianSearch",
-    "ObsidianTemplate",
-    "ObsidianToday",
-    "ObsidianTomorrow",
-    "ObsidianYesterday",
-  },
   -- ft = "markdown",
   event = {
     "BufReadPre " .. vim.fn.expand("~") .. "/Documents/Obsidian/**/*.md",
@@ -148,12 +141,12 @@ return {
         end,
 
         yesterday = function()
-          return os.date("%Y-%m-%d", os.time() - 86400)
+          return tostring(os.date("%Y-%m-%d", os.time() - 86400))
         end,
 
         -- Replaces: <% tp.date.now("YYYY-MM-DD", 1) %>
         tomorrow = function()
-          return os.date("%Y-%m-%d", os.time() + 86400)
+          return tostring(os.date("%Y-%m-%d", os.time() + 86400))
         end,
       },
     },
