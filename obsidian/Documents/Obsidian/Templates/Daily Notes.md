@@ -1,19 +1,18 @@
 ---
 type: daily-notes
-tags: [daily-notes, <%tp.date.now("YYYY")%>-quarter-<%tp.date.now("Q")%>]
-date: <% tp.config.target_file.basename %>
-created: <% tp.date.now("YYYY-MM-DD") %>
+tags: [daily-notes, {{year}}-quarter-{{quarter}}]
+date: "{{title}}"
+created: {{date}}
 aliases:
-  - <%tp.date.now("dddd Do MMMM YYYY")%>
-  - <%tp.date.now("ddd Do MMM YYYY")%>
+  - "{{long_alias}}"
+  - "{{short_alias}}"
 ---
----
 
-# <% tp.config.target_file.basename %>  Notes
+# {{title}} Notes
 
- << [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
+<< [[{{yesterday}}]] | [[{{tomorrow}}]] >>
 
---vod
+{{vod}}
 
 ---
 
@@ -44,16 +43,16 @@ where type="read" and read=false
 ## [[Reminders]]
 
 ```dataviewjs
-dv.pagePaths('"OMS/Reminders"').forEach( line => {  
- dv.paragraph("![["+line+"]]")  
+dv.pagePaths('"OMS/Reminders"').forEach( line => {
+ dv.paragraph("![["+line+"]]")
 })
 ```
 
 ## [[MARS-OMS Running Questions]]
 
 ```dataviewjs
-dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {  
- dv.paragraph("![["+line+"]]")  
+dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
+ dv.paragraph("![["+line+"]]")
 })
 ```
 
@@ -96,7 +95,5 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 -
 
 ### Second Rounds & Program Updates
-
--
 
 ---

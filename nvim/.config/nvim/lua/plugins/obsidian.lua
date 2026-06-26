@@ -1,3 +1,24 @@
+-- Define the helper function outside the return table.
+-- This satisfies the LSP scope rules and keeps the type strictly as a string.
+local function get_ordinal_alias(format_str)
+  local day = tonumber(os.date("%d")) or 1
+  local suffix = "th"
+
+  if day < 10 or day > 20 then
+    local remainder = day % 10
+    if remainder == 1 then
+      suffix = "st"
+    elseif remainder == 2 then
+      suffix = "nd"
+    elseif remainder == 3 then
+      suffix = "rd"
+    end
+  end
+
+  -- Coerce the os.date result explicitly to a string
+  return tostring(os.date(format_str:gsub("Do", day .. suffix)))
+end
+
 return {
   "obsidian-nvim/obsidian.nvim",
   version = "*", -- recommended, use latest release instead of latest commit
@@ -59,12 +80,82 @@ return {
       -- Optional, if you want to automatically insert a template from your template directory like 'daily.md'
       template = "Templates/Daily Notes",
     },
+    ui = { enable = false },
     templates = {
       folder = "Templates",
       date_format = "%Y-%m-%d",
       time_format = "%H:%M",
       -- A map for custom variables, the key should be the variable and the value a function
-      substitutions = {},
+      substitutions = {
+        vod = function()
+          -- 1. Sync-fetch the text payload via curl
+          local handle = io.popen("curl -s --max-time 3 'https://beta.ourmanna.com/api/v1/get?format=json&order=daily'")
+          if not handle then
+            return ""
+          end
+          local result = handle:read("*a")
+          handle:close()
+
+          -- 2. Safely parse JSON data using Neovim's native runtime
+          local ok, parsed = pcall(vim.json.decode, result)
+          if not ok or not parsed or not parsed.verse or not parsed.verse.details then
+            return "> [!warning] Verse of the Day\n> *Could not fetch scripture (Offline)*"
+          end
+
+          local details = parsed.verse.details
+          local text = details.text
+          local ref = details.reference
+
+          -- 3. Extract the verse number from the end of the reference string
+          -- Handles single verses (":1") and ranges (":1-3")
+          local verse_num = ref:match(":([%d%-]+)%s*$") or ""
+          local verse_prefix = verse_num ~= "" and ("<sup>**" .. verse_num .. "**</sup> ") or ""
+
+          -- 4. Extract book titles cleanly for your search index tag (e.g. "2 Corinthians" -> "2Corinthians")
+          local book_name = ref:match("^([%a%d%s]+)") or ""
+          local clean_tag = book_name:gsub("%s+", "")
+
+          -- 5. Reconstruct the layout with your exact superscript styling
+          local callout = {
+            "> [!bible]+ Verse of the Day ["
+              .. ref
+              .. "](https://beta.ourmanna.com/api/v1/get?format=json&order=daily)",
+            "> " .. verse_prefix .. text,
+            "> %% #" .. clean_tag .. " %%",
+          }
+
+          return table.concat(callout, "\n")
+        end,
+
+        -- Fixed: Coerced to string to satisfy string? annotation
+        year = function()
+          return tostring(os.date("%Y"))
+        end,
+
+        -- Fixed: Wrapped math operation in tostring() to fix integer mismatch
+        quarter = function()
+          local month = tonumber(os.date("%m")) or 1
+          return tostring(math.ceil(month / 3))
+        end,
+
+        -- Fixed: Now correctly calls the local scoped helper function
+        long_alias = function()
+          return get_ordinal_alias("%A Do %B %Y")
+        end,
+
+        short_alias = function()
+          return get_ordinal_alias("%a Do %b %Y")
+        end,
+
+        yesterday = function()
+          return os.date("%Y-%m-%d", os.time() - 86400)
+        end,
+
+        -- Replaces: <% tp.date.now("YYYY-MM-DD", 1) %>
+        tomorrow = function()
+          return os.date("%Y-%m-%d", os.time() + 86400)
+        end,
+      },
     },
     -- see below for full list of options 👇
     picker = {

@@ -1,15 +1,16 @@
 ---
 type: project
-created: <% tp.date.now() %>
-name: <% tp.file.title %>
+created: "{{date}}"
+name: "{{title}}"
 aliases: []
 tags:
-  - <% tp.file.title %>
+  - { { title } }
   - OMS
 ---
+
 ---
 
-# <% tp.file.title %>
+# {{title}}
 
 ## About
 

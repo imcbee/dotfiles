@@ -1,24 +1,22 @@
 ---
 type: person
-created: <% tp.date.now() %>
-name: <% tp.file.title %>
+created: "{{date}}"
+name: "{{title}}"
 company: Black Cape
 project: OMS
-team: <% tp.frontmatter['project'] %>-
+team: OMS-
 location:
 aliases: []
-tags:
-  - person
-  - <% tp.frontmatter['project'] %>
-  - <% tp.frontmatter['team'] %>
----
+tags: [person]
 ---
 
-# <% tp.file.title %>
+---
 
-Company: [[<% tp.frontmatter['company'] %>]]
-Project: [[<% tp.frontmatter['project'] %>]]
-Team: [[<% tp.frontmatter['team'] %>]]
+# {{title}}
+
+Company: Black Cape
+Project: OMS
+Team:
 
 ## About
 

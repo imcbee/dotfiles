@@ -1,21 +1,22 @@
 ---
 type: task
-name: <% tp.file.title %>
+name: "{{title}}"
 aliases: []
-start_date: <% tp.date.now() %>
-created: <% tp.date.now() %>
+start_date: "{{date}}"
+created: "{{date}}"
 project: OMS
 tags:
   - OMS-TASK
   - OMS
   - OMS-CORE
 ---
-# <% tp.file.title %>
+
+# {{title}}
 
 ## Description
 
-*Project:* [[OMS]]/[[OMS-CORE]]. This task was created on [[<% tp.date.now() %>]].
-*Issue:*
+_Project:_ [[OMS]]/[[OMS-CORE]]. This task was created on [[{{date}}]].
+_Issue:_
 
 ### Sub-tasks
 
@@ -26,8 +27,6 @@ tags:
 -
 
 ## Resources
-
--
 
 ---
 

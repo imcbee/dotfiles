@@ -23,5 +23,6 @@
   "showIndentGuide": true,
   "openBehavior": "daily",
   "focusNewTab": false,
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "defaultViewMode": "preview"
 }
