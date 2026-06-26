@@ -26,6 +26,8 @@ brew "black"
 brew "btop"
 # C/C++ and Java libraries for Unicode and globalization
 brew "icu4c@78"
+# Library to render SVG files using Cairo
+brew "librsvg"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
 # Console Matrix
@@ -88,6 +90,8 @@ brew "luarocks"
 brew "mcat"
 # Terminal markdown viewer
 brew "mdfried"
+# Polyglot runtime manager (asdf rust clone)
+brew "mise"
 # FTP client with an advanced user interface
 brew "ncftp"
 # E-mail reader with support for Notmuch, NNTP and much more
@@ -184,4 +188,9 @@ cask "visualvm"
 cask "windows-app"
 # Gecko based web browser
 cask "zen"
-npm "@usebruno/cli"
+npm "@mermaid-js/mermaid-cli"
+npm "corepack"
+npm "jsonlint"
+npm "neovim"
+npm "prettier"
+npm "spectaql"
