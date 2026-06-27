@@ -2,9 +2,9 @@
 type: project
 created: "{{date}}"
 name: "{{title}}"
-aliases: []
+aliases: ["{{title}}"]
 tags:
-  - { { title } }
+  - "{{title}}"
   - OMS
 ---
 

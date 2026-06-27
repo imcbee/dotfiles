@@ -6,7 +6,7 @@ company: Black Cape
 project: OMS
 team: OMS-
 location:
-aliases: []
+aliases: ["{{title}}"]
 tags: [person]
 ---
 

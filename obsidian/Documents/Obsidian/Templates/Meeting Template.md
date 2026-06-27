@@ -3,7 +3,7 @@ type: meeting
 created: "{{date}}"
 date: "{{date}}"
 name: "{{title}}"
-aliases: []
+aliases: ["{{title}}"]
 project: OMS
 occurrence:
 optional:
@@ -12,7 +12,7 @@ tags:
   - meeting
 ---
 
-# <% tp.file.title %>
+# {{title}}
 
 ## Purpose
 

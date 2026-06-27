@@ -1,14 +1,12 @@
 ---
 type: task
 name: "{{title}}"
-aliases: []
+aliases: ["{{title}}"]
 start_date: "{{date}}"
 created: "{{date}}"
 project: OMS
 tags:
   - OMS-TASK
-  - OMS
-  - OMS-CORE
 ---
 
 # {{title}}
