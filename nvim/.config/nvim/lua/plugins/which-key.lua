@@ -5,6 +5,8 @@ return {
       -- { "<leader>a", group = "Angular", icon = { icon = " ", color = "red" } },
       { "<leader>j", group = "Java", icon = { icon = " ", color = "orange" } },
       { "<leader>J", group = "Spring", icon = { icon = " ", color = "orange" } },
+      { "<leader>o", group = "Obsidian", icon = { icon = " ", color = "purple" } },
+      { "<leader>or", group = "ReadItLater Clipper" },
     },
   },
 }
