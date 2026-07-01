@@ -50,18 +50,17 @@ return {
     },
   },
 
-  -- Lightweight, conflict-free file generator (replaces springboot-nvim)
+  -- Lightweight, conflict-free file generator
   {
     "alessio-vivaldelli/java-creator-nvim",
     ft = "java",
     opts = {
-      -- Default configuration
       keymaps = {
         java_new = "<leader>Jn",
         java_class = "<leader>Jc",
         java_interface = "<leader>Ji",
         java_enum = "<leader>Je",
-        java_record = "<leader>Jr",
+        java_record = "<leader>Jcx", -- Changed from <leader>Jr to avoid collision with Run Project
       },
       options = {
         auto_open = true, -- Open file after creation
@@ -71,15 +70,27 @@ return {
     },
   },
 
-  -- Custom Spring Boot runner keymaps & Multi-EnvFile Compound Automation
-  -- Custom Spring Boot runner keymaps & Clean Multi-EnvFile Compound Automation
+  -- Custom Runners, Testing Keymaps & Multi-EnvFile Compound Automation
   {
     "neovim/nvim-lspconfig",
-    opts = function()
-      -- Single-service runners (built into nvim-java)
+    -- Using 'init' ensures we declare keymaps safely without completely wiping out 'opts'
+    init = function()
+      -- SINGLE-SERVICE RUNNERS (built into nvim-java)
       vim.keymap.set("n", "<leader>Jr", "<cmd>JavaRunnerRunMain<cr>", { desc = "Spring Boot [R]un Project" })
       vim.keymap.set("n", "<leader>Js", "<cmd>JavaRunnerStopMain<cr>", { desc = "Spring Boot [S]top Project" })
       vim.keymap.set("n", "<leader>Jl", "<cmd>JavaRunnerToggleLogs<cr>", { desc = "Spring Boot Toggle [L]ogs" })
+
+      -- JUNIT TESTING KEYMAPS (Added to fix your issue)
+      vim.keymap.set("n", "<leader>Jtc", "<cmd>JavaTestRunCurrentClass<cr>", { desc = "Java Test Current [C]lass" })
+      vim.keymap.set("n", "<leader>Jtm", "<cmd>JavaTestRunCurrentMethod<cr>", { desc = "Java Test Current [M]ethod" })
+      vim.keymap.set("n", "<leader>Jta", "<cmd>JavaTestRunAllTests<cr>", { desc = "Java Run [A]ll Tests" })
+      vim.keymap.set(
+        "n",
+        "<leader>Jtd",
+        "<cmd>JavaTestDebugCurrentMethod<cr>",
+        { desc = "Java [D]ebug Current Method" }
+      )
+      vim.keymap.set("n", "<leader>Jtr", "<cmd>JavaTestViewLastReport<cr>", { desc = "Java Test View Last [R]eport" })
 
       -- COMPOUND RUNNER: Parses multiple .env files sequentially and runs microservices safely
       vim.keymap.set("n", "<leader>Jm", function()

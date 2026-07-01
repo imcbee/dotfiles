@@ -14,6 +14,7 @@ return {
           },
           files = {
             hidden = true, -- Show hidden/dotfiles
+            ignored = false, -- Show gitignored files
           },
         },
       },

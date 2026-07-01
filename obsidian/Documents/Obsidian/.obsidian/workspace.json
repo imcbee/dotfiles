@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,7 +227,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Backlinks/ReadItLater-Inbox/Ghostty Keybindings.md",
+                "file": "Daily Notes/2026/06 - Jun/2026-06-26.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -312,7 +312,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Ghostty Keybindings"
+              "title": "Graph of 2026-06-26"
             }
           }
         ]
@@ -340,7 +340,7 @@
       "print:Print note": false
     }
   },
-  "active": "b2a03330b53bc7ec",
+  "active": "aaf92ea931bab452",
   "lastOpenFiles": [
     "Backlinks/ReadItLater-Inbox/@Builder.md",
     "Backlinks/ReadItLater-Inbox/8.15. Arrays.md",
