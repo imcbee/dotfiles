@@ -22,6 +22,11 @@ return {
                         path = "/Users/ianmcbee/.sdkman/candidates/java/current",
                         default = true,
                       },
+                      -- {
+                      --   name = "JavaSE-25",
+                      --   path = "/Users/ianmcbee/.asdf/shims/java",
+                      --   default = true,
+                      -- },
                     },
                   },
                 },

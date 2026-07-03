@@ -101,11 +101,13 @@ local function git_sync()
       vim.schedule(function()
         -- Notify on failure
         if exit_code ~= 0 then
-          vim.notify(
-            "Git Sync Error! Output:\n" .. table.concat(stdout_lines, "\n"),
-            vim.log.levels.ERROR,
-            { title = "Obsidian Git Fail" }
-          )
+          if vim.fn.isdirectory(vault_path) ~= 1 then
+            vim.notify(
+              "Git Sync Error! Output:\n" .. table.concat(stdout_lines, "\n"),
+              vim.log.levels.ERROR,
+              { title = "Obsidian Git Fail" }
+            )
+          end
         else
           -- Success notifications
           local output_text = table.concat(stdout_lines, "\n")
