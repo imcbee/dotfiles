@@ -5,26 +5,16 @@ aliases: ["{{title}}"]
 start_date: "{{date}}"
 created: "{{date}}"
 project: OMS
+completed: false
 tags:
   - OMS-TASK
 ---
 
 # {{title}}
 
-## Description
-
 _Project:_ [[OMS]]/[[OMS-CORE]]. This task was created on [[{{date}}]].
-_Issue:_
 
-### Sub-tasks
-
--
-
-### Updates
-
--
-
-## Resources
+## Notes
 
 ---
 

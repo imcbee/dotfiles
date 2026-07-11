@@ -8,8 +8,6 @@ tags:
   - OMS
 ---
 
----
-
 # {{title}}
 
 ## About

@@ -61,6 +61,12 @@ return {
       },
     },
     log_level = vim.log.levels.INFO,
+    search = { -- TODO templates do not work currently with rg
+      sort_by = false,
+      extra_args = { "-L" },
+      sort_reversed = false,
+      max_lines = 100,
+    },
     daily_notes = {
       -- Optional, if you keep daily notes in a separate directory.
       folder = "Daily Notes",

@@ -57,18 +57,16 @@ let g:WhichKeyDesc_test_profile = "<leader>tp Profile File"
 nmap <leader>tp <Action>(DefaultProfilerExecutorGroupContextActionId)
 if g:is_ide_rider | nmap <leader>tp <Action>(RiderUnitTestProfileContextAction) | endif
 
+" Hide Code Coverage
+nmap <leader>th <Action>(HideCoverage)
+let g:WhichKeyDesc_test_hide = "<leader>th Hide Coverage"
+
+" Intellij
 let g:WhichKeyDesc_leader_i = "<leader>i +intellij"
+
 " Toggle open Database
 let g:WhichKeyDesc_database = "<leader>id Database Explorer"
 nmap <leader>id <Action>(ActivateDatabaseToolWindow)
-
-" Toggle open Maven
-let g:WhichKeyDesc_maven = "<leader>im Maven Tool"
-nmap <leader>im <Action>(ActivateMavenToolWindow)
-
-" --- Build Tool Window ---
-let g:WhichKeyDesc_build = "<leader>ib Build Output"
-nmap <leader>ib <Action>(ActivateBuildToolWindow)
 
 " --- Services Tool Window (Docker, App Servers, Run Dashboard) ---
 let g:WhichKeyDesc_services = "<leader>is Services Dashboard"
@@ -85,3 +83,39 @@ nmap <C-A-Right> <Action>(StretchSplitToRight)
 nmap <C-A-Left> <Action>(StretchSplitToLeft)
 nmap <C-A-Up> <Action>(StretchSplitToTop)
 nmap <C-A-Down> <Action>(StretchSplitToBottom)
+
+" Code Actions
+" Override methods from a superclass
+let g:WhichKeyDesc_code_override  = "<leader>co Override Methods"
+nmap <leader>co <Action>(OverrideMethods)
+
+" Bonus: Implement methods from an interface/abstract class
+let g:WhichKeyDesc_code_implement = "<leader>ci Implement Methods"
+nmap <leader>ci <Action>(ImplementMethods)
+
+" Java Build
+" 1. Define the Mappings
+nmap <leader>jb <Action>(CompileDirty)
+nmap <leader>jr <Action>(CompileProject)
+
+" Toggle open Maven
+let g:WhichKeyDesc_maven = "<leader>jm Maven Tool"
+nmap <leader>jm <Action>(ActivateMavenToolWindow)
+
+" --- Build Tool Window ---
+let g:WhichKeyDesc_build = "<leader>jo Build Output"
+nmap <leader>jo <Action>(ActivateBuildToolWindow)
+
+" 2. Define the Which-Key Descriptions
+let g:WhichKeyDesc_build_project   = "<leader>jb Build Project"
+let g:WhichKeyDesc_rebuild_project = "<leader>jr Rebuild Project"
+
+" 3. Label the Menu Group
+let g:WhichKeyDesc_build_group     = "<leader>j +java"
+
+" UI
+" 1. Define the Mapping
+nmap <leader>uz <Action>(ToggleZenMode)
+
+" 2. Define the Which-Key Description
+let g:WhichKeyDesc_ui_zen = "<leader>uz Toggle Zen Mode"

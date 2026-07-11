@@ -10,8 +10,6 @@ aliases: ["{{title}}"]
 tags: [person]
 ---
 
----
-
 # {{title}}
 
 Company: Black Cape
@@ -20,7 +18,7 @@ Team:
 
 ## About
 
--
+---
 
 ## Reference Links
 

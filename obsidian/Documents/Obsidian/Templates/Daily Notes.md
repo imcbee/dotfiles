@@ -1,8 +1,8 @@
 ---
 type: daily-notes
-tags: [daily-notes, {{year}}-quarter-{{quarter}}]
+tags: [daily-notes, "{{year}}-quarter-{{quarter}}"]
 date: "{{title}}"
-created: {{date}}
+created: "{{date}}"
 aliases:
   - "{{long_alias}}"
   - "{{short_alias}}"
@@ -29,7 +29,7 @@ path does not include OMS/
 ### ATOMS-Tasks
 
 ```dataview
-table state, priority, start_date, url
+table start_date
 where type = "task" and file.name != "Task Template" and completed = false
 ```
 
@@ -64,27 +64,17 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 
 [[John Urban|John]]:
 
--
-
-[[James Ferro|James]]
-
--
+[[James Ferro|James]]:
 
 [[Dillon McLaughlin|Dillion]]:
 
--
-
 [[Patton Nelson]]:
-
--
 
 [[Tarek Shah]]:
 
--
+[[James Ayres]]:
 
 [[Ian McBee]]:
-
--
 
 ### Round 2s
 

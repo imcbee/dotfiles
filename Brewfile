@@ -48,6 +48,8 @@ brew "fancy-cat"
 brew "fastfetch"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
+# Play, record, convert, and stream many audio and video codecs
+brew "ffmpeg-full", link: true
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # Fuzzy finder with preview window for various command runners including make
@@ -68,6 +70,8 @@ brew "helm"
 brew "htop"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick-full"
 # JSON diff and patch
 brew "jd"
 # Lightweight and flexible command-line JSON processor
@@ -106,14 +110,20 @@ brew "pandoc"
 brew "pkgconf"
 # Paste PNG into files
 brew "pngpaste"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
 # Service monitoring system and time series database
 brew "prometheus"
 # Implementation of Telnet and SSH
 brew "putty"
+# SVG rendering tool and library
+brew "resvg"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
+# 7-Zip is a file archiver with a high compression ratio
+brew "sevenzip"
 # Spotify daemon
 brew "spotifyd"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
@@ -136,8 +146,12 @@ brew "vim"
 brew "wget"
 # Linter for YAML files
 brew "yamllint"
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
 # Programming language designed for robustness, optimality, and clarity
 brew "zig"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # Real-time type-ahead completion for Zsh
 brew "zsh-autocomplete"
 # Fish-like fast/unobtrusive autosuggestions for zsh
@@ -168,6 +182,7 @@ cask "font-jetbrains-mono-nerd-font"
 cask "font-meslo-lg-nerd-font"
 cask "font-sauce-code-pro-nerd-font"
 cask "font-space-mono-nerd-font"
+cask "font-symbols-only-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Utility to hide menu bar items

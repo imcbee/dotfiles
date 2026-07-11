@@ -63,13 +63,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Daily Notes.md",
+                "file": "Backlinks/Home Page/Home Page.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Daily Notes"
+              "title": "Outline of Home Page"
             }
           },
           {
@@ -80,18 +80,6 @@
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
-            }
-          },
-          {
-            "id": "0d74c96b36952b1a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "pinned": true,
-              "icon": "git-pull-request",
-              "title": "Source Control"
             }
           },
           {
@@ -201,7 +189,7 @@
                   "repelStrength": 0,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.17666417868590317,
+                  "scale": 0.1683647547935807,
                   "close": true
                 }
               },
@@ -213,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 298.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,7 +215,6 @@
       "homepage:Open homepage": false,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
-      "obsidian-git:Open Git source control": true,
       "templater-obsidian:Templater": false,
       "obsidian-bible-reference:Bible Verse Lookup": true,
       "markdown-importer:Open format converter": false,
@@ -236,52 +223,51 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Daily Notes/2026/07 - Jul/2026-07-10.md",
+    "Daily Notes/2026/07 - Jul/2026-07-10.md~",
+    "assets/al-usage-survey.png",
+    "assets/side-kick.png",
+    "assets/al-working-group.png",
+    "assets/kendall-gould.png",
+    "assets/kevin-boyle.png",
+    "assets/kailee-sheehy.png",
+    "assets/james-carrol.png",
+    "assets/colin-ebneth.png",
+    "assets/james-ayres.png",
+    "assets/connor-valdesuso.png",
+    "Daily Notes/Task List.md",
+    "Daily Notes/2026/07 - Jul/2026-07-01.md",
+    "Daily Notes/2026/07 - Jul/2026-07-09.md",
+    "Daily Notes/2026/07 - Jul/2026-07-09.md~",
+    "Daily Notes/2026/07 - Jul/2026-07-06.md",
+    "Daily Notes/2026/07 - Jul/2026-07-07.md",
+    "Daily Notes/2026/07 - Jul/2026-07-08.md",
+    "Templates/Daily Notes.md",
+    "Backlinks/ReadItLater-Inbox/Instrumentation  GraphQL Java.md",
+    "202607082203.md",
+    "Backlinks/Home Page/Home Page.md",
+    "OMS/Tasks/Create a client implementation with stubbed out methods.md",
+    "OMS/Tasks/Configure the custody status service queue and consumer.md",
+    "OMS/Meetings/PI Planning.md",
+    "OMS/Reminders.md",
+    "OMS/Create a client implementation with stubbed out methods.md",
+    "Create a client implementation with stubbed out methods.md",
+    "1783476079-MAJX.md",
+    "1783475833-KFLD.md",
+    "OMS/People/DEVOPS/Ariana Hong.md",
+    "Daily Notes/2026/07 - Jul/2026-07-07.md~",
+    "Daily Notes/2026/06 - Jun/2026-06-10.md",
+    "Daily Notes/2026/06 - Jun/2026-06-09.md",
+    "Backlinks/ReadItLater-Inbox/Request Execution  Spring GraphQL.md",
     "Daily Notes/2026/06 - Jun/2026-06-26.md",
     "Backlinks/ReadItLater-Inbox/@Builder.md",
-    "Backlinks/ReadItLater-Inbox/8.15. Arrays.md",
-    "Backlinks/ReadItLater-Inbox/createProcedure.md",
-    "Backlinks/ReadItLater-Inbox/Default Methods In Java 8.md",
-    "Daily Notes/2026/06 - Jun/2026-06-25.md",
-    "Backlinks/Home Page/Home Page.md",
-    "Templates/Daily Notes.md",
     "Templates/Meeting Template.md~",
     "Daily Notes/2026/06 - Jun/2026-06-25.md~",
-    "assets/core-issue.png",
-    "assets/location.png",
-    "assets/concept.png",
-    "assets/conncurrency-bug.png",
-    "assets/getAcmId.png",
-    "assets/acm.png",
-    "OMS/Meetings/Vault: Project Overview.md",
-    "OMS/Meeting/Vault: Project Overview.md",
     "OMS/Meeting",
-    "Vault: Project Overview.md",
-    "1782391447-EQKS.md",
-    "Daily Notes/2026/06 - Jun/2026-06-24.md",
-    "assets/future UI.png",
-    "assets/ai continued.png",
-    "assets/ai example.png",
-    "assets/ai intergration.png",
-    "Migrate Grafana to use v2 dashboard format.md",
-    "OMS/Tasks/Migrate Grafana to use v2 dashboard format.md",
-    "1782310617-DIMT.md",
-    "Daily Notes/2026/06 - Jun/2026-06-23.md",
     "Templates/Person Template.md~",
-    "Daily Notes/2026/06 - Jun/2026-06-22.md",
-    "Templates/Meeting Template.md",
-    "OMS/Meetings/ATOMS EC26 AAR.md",
-    "Templates/fast color.md",
-    "Templates/Backlink Reference.md",
-    "Templates/Task Template.md",
-    "Templates/Table Line Chart Template.md",
-    "Templates/Project Template.md",
-    "Templates/Person Template.md",
     "Daily Notes/2026/06 - Jun",
     "Attachments",
     "assets",
-    "Daily Notes/2026/05 - May/2026-05-19.md~",
-    "Templates/snippets",
-    "OMS/People/archive",
     "Untitled.canvas"
   ]
 }
