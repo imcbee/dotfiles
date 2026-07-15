@@ -53,7 +53,6 @@ zinit ice wait"0" lucid; zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit ice wait"0" lucid; zinit load agkozak/zsh-z
 zinit ice wait"0" lucid; zinit snippet OMZ::plugins/alias-finder
 zinit ice wait"0" lucid; zinit snippet OMZ::plugins/kitty
-zinit ice wait"0" lucid; zinit snippet OMZP::mvn
 zinit ice wait"0" lucid; zinit light 22peacemaker/zsh-make-complete
 
 zinit ice wait"0" lucid atload"

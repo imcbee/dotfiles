@@ -201,7 +201,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 298.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,6 +224,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Templates/Daily Notes.md",
+    "Daily Notes/2026/07 - Jul/2026-07-13.md",
+    "Backlinks/ReadItLater-Inbox/Avoid UUID Version 4 Primary Keys (for Postgres).md",
+    "Backlinks/Home Page/Home Page.md",
     "Daily Notes/2026/07 - Jul/2026-07-10.md",
     "Daily Notes/2026/07 - Jul/2026-07-10.md~",
     "assets/al-usage-survey.png",
@@ -242,10 +247,8 @@
     "Daily Notes/2026/07 - Jul/2026-07-06.md",
     "Daily Notes/2026/07 - Jul/2026-07-07.md",
     "Daily Notes/2026/07 - Jul/2026-07-08.md",
-    "Templates/Daily Notes.md",
     "Backlinks/ReadItLater-Inbox/Instrumentation  GraphQL Java.md",
     "202607082203.md",
-    "Backlinks/Home Page/Home Page.md",
     "OMS/Tasks/Create a client implementation with stubbed out methods.md",
     "OMS/Tasks/Configure the custody status service queue and consumer.md",
     "OMS/Meetings/PI Planning.md",
@@ -260,7 +263,6 @@
     "Daily Notes/2026/06 - Jun/2026-06-09.md",
     "Backlinks/ReadItLater-Inbox/Request Execution  Spring GraphQL.md",
     "Daily Notes/2026/06 - Jun/2026-06-26.md",
-    "Backlinks/ReadItLater-Inbox/@Builder.md",
     "Templates/Meeting Template.md~",
     "Daily Notes/2026/06 - Jun/2026-06-25.md~",
     "OMS/Meeting",

@@ -22,11 +22,6 @@ return {
                         path = "/Users/ianmcbee/.sdkman/candidates/java/current",
                         default = true,
                       },
-                      -- {
-                      --   name = "JavaSE-25",
-                      --   path = "/Users/ianmcbee/.asdf/shims/java",
-                      --   default = true,
-                      -- },
                     },
                   },
                 },
@@ -46,6 +41,52 @@ return {
                   auto_install = false,
                 },
               })
+
+              -- =====================================================================
+              -- DYNAMIC ENV INJECTION FOR JUNIT TESTS & SINGLE RUNNERS
+              -- =====================================================================
+              local dap_ok, dap = pcall(require, "dap")
+              if dap_ok then
+                local original_run = dap.run
+                dap.run = function(config, opts)
+                  if config and config.type == "java" then
+                    config.env = config.env or {}
+
+                    -- Find your project's root directory dynamically
+                    local project_root = vim.fs.root(0, { ".git", "mvnw", "gradlew", "pom.xml", "build.gradle" })
+                      or vim.fn.getcwd()
+
+                    -- Define your local build environment files in order of application
+                    local env_files = {
+                      project_root .. "/local.build.env",
+                      project_root .. "/.env",
+                    }
+
+                    for _, file_path in ipairs(env_files) do
+                      local file = io.open(file_path, "r")
+                      if file then
+                        for line in file:lines() do
+                          -- Ignore comments and empty lines
+                          if not line:match("^%s*#") and not line:match("^%s*$") then
+                            local key, val = line:match("^%s*([^=]+)%s*=%s*(.*)%s*$")
+                            if key and val then
+                              -- Clean whitespace and outer quotes
+                              val = val:gsub("^[\"'](.*)[\"']$", "%1")
+                              config.env[key] = val
+                            end
+                          end
+                        end
+                        file:close()
+                      end
+                    end
+                  end
+
+                  -- Let DAP execute the run command with our newly injected variables
+                  original_run(config, opts)
+                end
+              end
+              -- =====================================================================
+
               -- CRITICAL: Do NOT return true here. Letting LazyVim fall through ensures
               -- it handles the final server ignition with our newly injected hooks intact.
             end,
