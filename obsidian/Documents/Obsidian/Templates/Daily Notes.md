@@ -62,25 +62,17 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 
 ### [[OMS Core Daily Standup]] [[API-TEAM-2]]
 
-[[John Urban|John]]:
+| Person                         | Round 1 | Round 2 |
+| ------------------------------ | ------- | ------- |
+| [[John Urban]]                 |         |         |
+| [[James Ferro\|James]]         |         |         |
+| [[Dillon McLaughlin\|Dillion]] |         |         |
+| [[Patton Nelson]]              |         |         |
+| [[Tarek Shah]]                 |         |         |
+| [[James Ayres]]                |         |         |
+| [[Ian McBee]]                  |         |         |
 
-[[James Ferro|James]]:
-
-[[Dillon McLaughlin|Dillion]]:
-
-[[Patton Nelson]]:
-
-[[Tarek Shah]]:
-
-[[James Ayres]]:
-
-[[Ian McBee]]:
-
-### Round 2s
-
--
-
-## [[ATOMS "Standup of Standups"]]
+### [[ATOMS "Standup of Standups"]]
 
 -
 
