@@ -26,10 +26,10 @@ brew "black"
 brew "btop"
 # C/C++ and Java libraries for Unicode and globalization
 brew "icu4c@78"
-# Library to render SVG files using Cairo
-brew "librsvg"
 # Image format providing lossless and lossy compression for web images
 brew "webp"
+# Library to render SVG files using Cairo
+brew "librsvg"
 # Console Matrix
 brew "cmatrix"
 # GNU File, Shell, and Text utilities
@@ -140,6 +140,8 @@ brew "transcrypt"
 brew "trash"
 # Parser generator tool
 brew "tree-sitter-cli"
+# Vulnerability scanner for container images, file systems, and Git repos
+brew "trivy"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Internet file retriever
@@ -168,6 +170,8 @@ brew "rigellute/tap/spotify-tui", trusted: true
 brew "samtay/tui/tetris", trusted: true
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace", trusted: true
+# Menu bar tool to limit maximum charging percentage
+cask "aldente"
 # Chromium based browser
 cask "arc"
 # Compact TeX distribution as alternative to the full TeX Live / MacTeX
@@ -195,6 +199,8 @@ cask "kitty@nightly"
 cask "libreoffice"
 # Smooths scrolling and set mouse scroll directions independently
 cask "mos"
+# Imaging utility to install operating systems to a microSD card
+cask "raspberry-pi-imager"
 # Keyboard configurator
 cask "via"
 # All-in-One Java Troubleshooting Tool

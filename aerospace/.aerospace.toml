@@ -60,9 +60,9 @@ E = [3, 'main', 'secondary']
 
 # A, S, D prefer Monitor 3. 
 # If monitor 3 isn't plugged in (like at work), they fall back to Monitor 2!
-A = ['Built-in Retina Display', 'secondary']
-S = ['Built-in Retina Display', 'secondary']
-D = ['Built-in Retina Display', 'secondary']
+A = ['Built-in Retina Display', 'secondary', 'ARZOPA']
+S = ['Built-in Retina Display', 'secondary', 'ARZOPA']
+D = ['Built-in Retina Display', 'secondary', 'ARZOPA']
 
 # A callback that runs every time binding mode changes
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
