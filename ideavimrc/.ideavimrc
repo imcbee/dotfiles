@@ -40,6 +40,9 @@ let g:WhichKeyDesc_crt= "crt to title"
 " Enabled VimEverywhere
 set VimEverywhere
 
+" Enabled showmode
+set showmode
+
 " classtextobj: Provides a text object for class definitions
 set classtextobj
 
