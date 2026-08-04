@@ -10,6 +10,9 @@ export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
 # Set editor to nvim
 export EDITOR="nvim"
 
+# Set vi-mode to 1 Esc
+export KEYTIMEOUT=1
+
 # ASDF
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
@@ -21,6 +24,10 @@ export PATH=$HOME/.sdkman/candidates/maven/current/bin:$PATH
 
 # Add scripts to PATH 
 export PATH="$HOME/scripts:$PATH"
+
+# terminal-browser
+export PATH="$HOME/.local/bin:$PATH"
+
 
 # SDK & Language Version Manager Environments
 [[ -f ~/.asdf/plugins/java/set-java-home.zsh ]] && . ~/.asdf/plugins/java/set-java-home.zsh
