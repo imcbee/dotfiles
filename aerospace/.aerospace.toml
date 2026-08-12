@@ -54,9 +54,9 @@ persistent-workspaces = ["1", "2", "3", "Q", "W", "E", "A", "S", "D"]
 3 = 'main'
 
 # Q, W, E prefer Monitor 2 (your first external display)
-Q = [3, 'main', 'secondary']
-W = [3, 'main', 'secondary']
-E = [3, 'main', 'secondary']
+Q = [3, 'main', 'secondary', 'ARZOPA']
+W = [3, 'main', 'secondary', 'ARZOPA']
+E = [3, 'main', 'secondary', 'ARZOPA']
 
 # A, S, D prefer Monitor 3. 
 # If monitor 3 isn't plugged in (like at work), they fall back to Monitor 2!

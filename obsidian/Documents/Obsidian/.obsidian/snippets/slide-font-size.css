@@ -1,0 +1,11 @@
+[data-callout="size-smaller"] { --my-font-size: 0.5em; }
+[data-callout="size-small"] { --my-font-size: 0.75em; }
+[data-callout="size-large"] { --my-font-size: 1.25em; }
+[data-callout="size-larger"] { --my-font-size: 1.5em; }
+
+[data-callout^="size-"] {
+	background-color: unset;
+	padding: 0;
+	.callout-title { display: none; }
+	font-size: var(--my-font-size);
+}

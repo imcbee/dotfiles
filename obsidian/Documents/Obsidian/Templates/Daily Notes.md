@@ -16,9 +16,11 @@ aliases:
 
 ---
 
-## Tasks
+## Tasks and Dataview
 
-### General Tasks
+### Tasks
+
+#### General Tasks
 
 ```tasks
 not done
@@ -26,21 +28,21 @@ tags do not include #OMS-TASK
 path does not include OMS/
 ```
 
-### ATOMS-Tasks
+#### ATOMS-Tasks
 
 ```dataview
 table start_date
 where type = "task" and file.name != "Task Template" and completed = false
 ```
 
-## Articles to Read
+### Articles to Read
 
 ```dataview
 table read
 where type="read" and read=false
 ```
 
-## [[Reminders]]
+### [[Reminders]]
 
 ```dataviewjs
 dv.pagePaths('"OMS/Reminders"').forEach( line => {
@@ -48,7 +50,7 @@ dv.pagePaths('"OMS/Reminders"').forEach( line => {
 })
 ```
 
-## [[MARS-OMS Running Questions]]
+### [[MARS-OMS Running Questions]]
 
 ```dataviewjs
 dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
@@ -62,12 +64,13 @@ dv.pagePaths('"OMS/MARS-OMS Running Questions"').forEach( line => {
 
 ### [[OMS Core Daily Standup]] [[API-TEAM-3]]
 
-| Person             | Round 1 | Round 2 |
-| ------------------ | ------- | ------- |
-| [[Ian McBee]]      |         |         |
-| [[Isaac Peterson]] |         |         |
-| [[Tarek Shah]]     |         |         |
-| [[Dayo Aworunse]]  |         |         |
+| Person             | Round 1 | Blockers | Round 2 |
+| ------------------ | ------- | -------- | ------- |
+| [[Ian McBee]]      |         |          |         |
+| [[Isaac Peterson]] |         |          |         |
+| [[Tarek Shah]]     |         |          |         |
+| [[Dayo Aworunse]]  |         |          |         |
+| [[Steven Glintz]]  |         |          |         |
 
 ### [[ATOMS "Standup of Standups"]]
 

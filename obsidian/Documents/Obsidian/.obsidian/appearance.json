@@ -17,7 +17,8 @@
     "MCL-gallery-cards",
     "MCL-multi-column",
     "MCL-wide-view",
-    "current-line-color"
+    "current-line-color",
+    "slide-font-size"
   ],
   "showRibbon": false,
   "baseFontSizeAction": true,
