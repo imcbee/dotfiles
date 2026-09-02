@@ -64,6 +64,8 @@ brew "git"
 brew "gnupg"
 # Task is a task runner/build tool that aims to be simpler and easier to use
 brew "go-task"
+# Interactive web UI for gRPC, along the lines of postman
+brew "grpcui"
 # Kubernetes package manager
 brew "helm"
 # Improved top (interactive process viewer)
@@ -180,6 +182,8 @@ cask "basictex"
 cask "brightness-sync"
 # Open source IDE for exploring and testing APIs
 cask "bruno"
+# Preference Pane for controlling cursor hiding
+cask "cursorcerer"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 cask "font-jetbrains-mono-nerd-font"
